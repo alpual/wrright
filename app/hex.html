@@ -1,0 +1,3 @@
+<li class='hex small' ng-init="bkColor = '#eef'" ng-mouseover="bkColor = x.color; x.source = x.imgHover" ng-mouseout="bkColor = '#fff'; x.source = x.img" style="background: {{bkColor}}" ng-init="x.source = x.img">
+	<div  style="background-image: url('{{x.hasOwnProperty('source') ? x.source : ''}}')"></div>
+</li>

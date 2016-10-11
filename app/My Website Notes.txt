@@ -1,0 +1,3 @@
+Preload images.  Otherwise they load super slow and you don't get the transitions you want.  
+
+Also, make a cool loading gif or something.

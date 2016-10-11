@@ -1,0 +1,16 @@
+{
+	"entries": [{
+		"title": "Alchemy Integrative Wellness",
+		"imageHex": "img/LargeHexLogo.png",
+		"highlights": "WordPress, PHP, graphic design, HTML5, CSS3, Responsive, Mobile First Design, newsletter",
+		"content": "<p>Chrysta Faye wanted a modern website that she could manage.  A top priority, of course, was that her new site be responsive and stramlined for mobile use.</p>   <p>Since Chrysta has experience managing a WordPress website, we chose the ubiquitous content management system(CMS) upon which to build the site.Another priority was a call to action for newsletter subscriptions.We decided on a two - column design, with a large header to feature artwork to complement her alchemical aesthetic. </p> <p> Initial wireframing was done with ultra - high - tech pencil and graph paper. <img src=\"img/alchemyLayout1.jpg\"></img>  In my process, an eraser (and Ctrl + Z) is essential.  I also like how it presents the wireframe as a sketch that can be easily edited.</p> <p>Once the design was approved, I took the twenty - sixteen starter theme and massaged it into shape. In my opinion, we might as well have the folks at WordPress.org performin security updates for us, so Chrysta's site is a child-theme of the current default WordPress theme.  It might be a bit more work than using pre-built themes more similar to our goal, but, since WordPress is the most commonly-used CMS on the web it gets targeted by all sorts of nefarious actors. </p> <p>The mandala background image and logo was created by <a href=\"katvlwright.com\" target = \"_blank\">Kat V.L.Wright</a>, who is an incredible designer and illustrator, and also happens to be my wife. <img src=\"img/alchemyMandala.jpg \"></img> </p>",
+		"testimonial": "What an amazing job Paul did!  - Presumably what Chrysta will say when she writes me a testimonial.",
+		"link": "http://alpual.fatcow.com/alchemyaz"
+	}, {
+		"title": "Susan Weeks Watercolors",
+		"imageHex": "img/LargeHexLogo.png",
+		"highlights": "WordPress, PHP, HTML, CSS, Responsive, Mobile First Design, blog",
+		"content": "<p>more text here, eventually</p>",
+		"link": "http://susanweeks.com"
+	}]
+}

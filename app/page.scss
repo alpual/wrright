@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+}
+html, body, .view-container, header, section, div{
+	vertical-align: top;
+	display:block;
+	color: #343444;
+}
+body{
+	overflow:auto;
+}
+header, section {
+	clear: both;
+}
+.view-container{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	position: absolute;
+}
+.clear {
+	clear:both;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}

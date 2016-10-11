@@ -1,0 +1,130 @@
+/* line 1, page-bak.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 4, page-bak.scss */
+html, body, .view-container, header, section, div {
+  vertical-align: top;
+  display: block;
+}
+
+/* line 8, page-bak.scss */
+body {
+  overflow: auto;
+}
+
+/* line 11, page-bak.scss */
+header, section {
+  clear: both;
+}
+
+/* line 14, page-bak.scss */
+.view-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+  /*background-image:url("https://hd.unsplash.com/photo-1466784828399-9a9921e8bdfd");
+  background-size:cover;
+  background-attachment:fixed;*/
+}
+
+/* line 23, page-bak.scss */
+.clear {
+  clear: both;
+}
+
+/* line 26, page-bak.scss */
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/******************** Header **************/
+/* line 34, page-bak.scss */
+#top-bar {
+  background-color: #333;
+  opacity: .6;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+/* line 40, page-bak.scss */
+#top-bar #logo {
+  max-height: 2.5em;
+  margin: .5em;
+  float: left;
+  margin-left: 1.25em;
+}
+
+/* line 48, page-bak.scss */
+nav {
+  float: right;
+  margin: 1em;
+}
+/* line 51, page-bak.scss */
+nav a {
+  padding: .75em;
+  color: #fff;
+}
+
+/*********************** Intro ************************/
+/* line 57, page-bak.scss */
+.intro {
+  position: relative;
+}
+/* line 59, page-bak.scss */
+.intro h1 {
+  margin-top: 0;
+}
+
+/* line 63, page-bak.scss */
+.hex.large.heroHex {
+  position: absolute;
+  transform: translate(-50%, -100%);
+}
+
+/*********************** Content **********************/
+/* line 68, page-bak.scss */
+.hero {
+  height: 100%;
+}
+
+/* line 71, page-bak.scss */
+.page-content {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: table;
+  background-color: white;
+  opacity: .9;
+}
+
+/* line 78, page-bak.scss */
+.col1, .col2, .col3 {
+  width: 29.5%;
+  float: left;
+  margin: 1.5%;
+  font-family: helvetica, sans-serif;
+  font-size: 14pt;
+  line-height: 24pt;
+  clear: none;
+}
+/* line 86, page-bak.scss */
+.col1 img, .col2 img, .col3 img {
+  width: 100%;
+}
+
+/* line 90, page-bak.scss */
+.col1 {
+  margin-left: 3%;
+}
+
+/* line 93, page-bak.scss */
+.overlay {
+  opacity: .7;
+  display: block;
+}

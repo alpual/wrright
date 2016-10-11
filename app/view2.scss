@@ -1,0 +1,111 @@
+@import 'base';
+
+#about-content {
+	text-align: center;
+	margin: 80px 40px 40px 40px;
+	h1, h2{
+		margin: 0;
+		padding: 0;
+	}
+	p {
+		margin: 4px 0 0 0;
+	}
+}
+#hex-float {
+	/*margin-top: 10%;*/
+	min-height: 200px;
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+/********************* Lower Container **********************/
+
+.side-content {
+	width: 30%;
+	display: inline-block;
+	padding: 40px;
+	max-width: 400px;
+	position: absolute;
+	
+	background:  url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right;
+	background-repeat-x: no-repeat;
+
+	@include setAllTransitions(180ms);
+
+}
+.column {
+	text-align: justify;
+}
+.left-side {
+	margin-right: 50%;
+	right: 0;
+	padding-right: 120px;	
+
+	h1 {
+		text-align: right;
+	}
+
+	@include flipItHorizontal();
+
+	& * {
+		@include flipItHorizontal();  /* flip the innards back the right way */
+	}
+}
+.right-side {
+	margin-left: 50%;
+	left: 0;
+	padding-right: 120px; /* right is left because we're flipping this */
+}
+@media screen and (max-width: 1024px){
+	.side-content {
+		width: 35%;
+		padding-right: 80px;
+		padding-left: 40px;
+
+	}	
+}
+@media screen and (max-width: 768px){
+	.side-content {
+		max-width: 100%;
+		width: auto;
+		float: none;
+		position: static;
+		padding: 40px 80px 40px 40px;
+		margin: 0 40px 0 40px;
+	}
+	.left-side {
+		h1{
+			text-align: left;
+		}
+	}
+}
+@media screen and (max-width: 480px){
+
+	.side-content{
+		padding: 40px;
+		margin: 0;
+		background-image: none;
+	}
+
+}
+@media screen and (min-width: 480px){
+	#about-content {
+		width: 300px;
+		
+		margin: 80px auto 40px auto;
+	}
+	/*#hex-float {
+		height: 300px;
+	}*/
+}
+/*************** Animations *************/
+.flip-it {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+}

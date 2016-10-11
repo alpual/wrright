@@ -1,0 +1,375 @@
+/* 
+white:        #FFFFFF
+all cs:       #CCCCCC
+cool easy gray:   #4B5B6E
+Old Wrench Steel: #343444
+Cure:       #F1F2DF
+Perfection:     #8A6A6A
+Cream Vintage   #C99E89
+*/
+/*($container-width / 13) * (6 / 10.2) * (14/15); //41px;*/
+/*$small-hex-margin: ($hex-size * (1.732)) / (1.732 * 2) + ($hex-gutter);*/
+/*1 * ($hex-size / 2 * 1.732) + ($hex-gutter / 4 * 1.732) - 1px;*/
+/* line 85, _base.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* line 91, _base.scss */
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  /**/
+  font-size: 30pt;
+  font-weight: bold;
+  color: #4b5b6e;
+  /*lighten(#400A19, 5%); /*darken(#8A6A6A, 10%);/* #4B5B6E;/**/
+}
+
+/* line 98, _base.scss */
+h2, h3 {
+  font-weight: 100;
+  font-size: 18pt;
+  font-family: 'Quicksand', sans-serif;
+  color: #4B5B6E;
+}
+
+/* line 104, _base.scss */
+h3 {
+  font-size: 16pt;
+}
+
+/* line 108, _base.scss */
+.centered-content {
+  margin: 0 auto;
+  height: auto;
+  /*margin-top: 80px;*/
+  margin-bottom: 80px;
+  /*overflow: hidden;*/
+}
+
+@media screen and (min-width: 480px) {
+  /* line 117, _base.scss */
+  .centered-content {
+    max-width: 1180px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin: 80px auto;
+  }
+}
+/* line 2, entries.scss */
+.freeHex {
+  margin: 40px auto 80px auto;
+  padding-top: 80px;
+}
+@media screen and (min-width: 1110px) {
+  /* line 2, entries.scss */
+  .freeHex {
+    margin: 80px 80px 103.46018px 80px;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 2, entries.scss */
+  .freeHex {
+    margin: 80px auto 103.46018px auto;
+  }
+}
+
+/* line 12, entries.scss */
+.works-entry, .header-entry {
+  width: 100%;
+  margin: 40px 0;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+/* line 21, entries.scss */
+.works-entry img, .header-entry img {
+  padding: 0;
+  margin: 40 auto;
+  clear: both;
+  width: 100%;
+}
+/* line 27, entries.scss */
+.works-entry .entry-header, .works-entry .entry-content, .header-entry .entry-header, .header-entry .entry-content {
+  padding: 0 40px;
+}
+/* line 30, entries.scss */
+.works-entry .entry-header, .header-entry .entry-header {
+  text-align: center;
+  margin-top: 80px;
+}
+/* line 33, entries.scss */
+.works-entry .entry-header h1, .header-entry .entry-header h1 {
+  margin: 0;
+}
+/* line 37, entries.scss */
+.works-entry .left-column, .header-entry .left-column {
+  min-height: 258.65046px;
+  text-align: center;
+}
+/* line 43, entries.scss */
+.works-entry .entry-content img:nth-child(1), .header-entry .entry-content img:nth-child(1) {
+  margin-top: 30px;
+}
+/* line 46, entries.scss */
+.works-entry .entry-content a, .header-entry .entry-content a {
+  color: #8A6A6A;
+}
+/* line 49, entries.scss */
+.works-entry .entry-content .site-link, .header-entry .entry-content .site-link {
+  font-size: 14pt;
+  float: right;
+  margin-bottom: 80px;
+  letter-spacing: 2px;
+  margin-right: 40px;
+}
+/* line 58, entries.scss */
+.works-entry .highlights, .header-entry .highlights {
+  line-height: 30pt;
+  position: static;
+  display: inline-block;
+  margin: 40px auto 40px auto;
+  text-align: left;
+}
+@media screen and (min-width: 1110px) {
+  /* line 66, entries.scss */
+  .works-entry .entry-header, .works-entry .entry-content, .header-entry .entry-header, .header-entry .entry-content {
+    width: 56%;
+    left: 40%;
+  }
+  /* line 70, entries.scss */
+  .works-entry .left-column, .header-entry .left-column {
+    width: 38%;
+    right: 60%;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 12, entries.scss */
+  .works-entry, .header-entry {
+    /*max-width: 1020px;*/
+    width: 100%;
+  }
+  /* line 78, entries.scss */
+  .works-entry .entry-header, .works-entry .entry-content, .header-entry .entry-header, .header-entry .entry-content {
+    padding: 0;
+    position: relative;
+    pointer-events: all;
+    left: 44%;
+    width: 46%;
+    float: left;
+    /*margin-left: 30px;/**/
+    max-width: 550px;
+  }
+  /* line 88, entries.scss */
+  .works-entry .entry-content, .header-entry .entry-content {
+    margin-top: 16pt;
+    /* $h1-font-size; */
+  }
+  /* line 91, entries.scss */
+  .works-entry .entry-header, .header-entry .entry-header {
+    margin-top: 234.65046px;
+    text-align: left;
+  }
+  /* line 95, entries.scss */
+  .works-entry .left-column, .header-entry .left-column {
+    float: left;
+    max-width: 400px;
+    left: 40px;
+    width: 34%;
+    position: absolute;
+    right: 64%;
+    top: 0;
+    height: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 959px) {
+  /* line 109, entries.scss */
+  .works-entry .entry-header, .works-entry .entry-content, .header-entry .entry-header, .header-entry .entry-content {
+    padding: 0 120px;
+  }
+  /* line 112, entries.scss */
+  .works-entry .entry-header, .header-entry .entry-header {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 759px) {
+  /* line 120, entries.scss */
+  .works-entry .entry-header, .works-entry .entry-content, .header-entry .entry-header, .header-entry .entry-content {
+    padding: 0 80px;
+  }
+}
+
+/* line 126, entries.scss */
+.header-entry {
+  /* 
+   * This will make a pencil line on the far right side of the left column for the header entry
+   */
+}
+@media screen and (min-width: 960px) {
+  /* line 126, entries.scss */
+  .header-entry {
+    /**/
+  }
+  /* line 132, entries.scss */
+  .header-entry .left-column:after {
+    content: '';
+    z-index: 10;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    right: -40px;
+    background: url(img/pencil_vertical_repeat_small2.jpg) right;
+    background-repeat-x: no-repeat;
+  }
+}
+/* line 145, entries.scss */
+.header-entry:after {
+  content: '';
+  position: absolute;
+  left: 80px;
+  bottom: -60px;
+  right: 80px;
+  height: 80px;
+  z-index: -10;
+  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom;
+  background-repeat-y: no-repeat;
+  transiton: all 1s slide;
+}
+/* line 158, entries.scss */
+.header-entry .entry-header {
+  text-align: left;
+}
+/* line 162, entries.scss */
+.header-entry .entry-content h2 {
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+/* line 166, entries.scss */
+.header-entry .entry-content h3 {
+  margin-top: 8px;
+}
+/* line 168, entries.scss */
+.header-entry .entry-content h3 a {
+  text-decoration: none;
+  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom;
+  background-repeat-y: no-repeat;
+  padding-bottom: 6px;
+}
+
+/* Background pencil lines that form brackets around each entry.  */
+@media screen and (min-width: 760px) {
+  /* line 180, entries.scss */
+  .works-entry {
+    /* large screen background textures and shadows for the left-column, which contains the hex image and the highlights
+     * Includes texture in header for mid-width screens
+     */
+  }
+  /* line 181, entries.scss */
+  .works-entry:after {
+    content: '';
+    height: auto;
+    float: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-repeat-x: no-repeat;
+    background: url(img/pencil_top_angle_small2.png) top right no-repeat, url(img/pencil_bottom_angle_small2.png) bottom right no-repeat, url(img/pencil_vertical_repeat_small2.jpg) center right repeat-y;
+    pointer-events: none;
+  }
+  /* line 192, entries.scss */
+  .works-entry:before {
+    content: '';
+    height: auto;
+    float: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-repeat-x: no-repeat;
+    background: url(img/pencil_top_angle_small2.png) top right no-repeat, url(img/pencil_bottom_angle_small2.png) bottom right no-repeat, url(img/pencil_vertical_repeat_small2.jpg) center right repeat-y;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    filter: FlipH;
+    pointer-events: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 959px) {
+  /* line 209, entries.scss */
+  .works-entry .entry-header {
+    background: url(img/brillant.png) repeat;
+    /* background texture for left-column. */
+    background-blend-mode: multiply;
+    position: relative;
+    right: 40px;
+    padding-left: 40px;
+    text-align: center;
+  }
+  /* line 217, entries.scss */
+  .works-entry .left-column {
+    position: relative;
+    right: 40px;
+    padding-left: 40px;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 760px) {
+  /* line 225, entries.scss */
+  .works-entry .left-column {
+    background: url(img/brillant.png) repeat;
+    /* background texture for left-column. */
+    background-blend-mode: multiply;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 760px) and (min-width: 960px) {
+  /* line 225, entries.scss */
+  .works-entry .left-column {
+    -webkit-box-shadow: 3px 0 8px -6px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 3px 0 8px -6px rgba(0, 0, 0, 0.8);
+    box-shadow: 3px 0 8px -6px rgba(0, 0, 0, 0.8);
+  }
+  /* line 63, _base.scss */
+  .works-entry .left-column:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 8px;
+    right: -10px;
+    left: auto;
+    width: 80%;
+    top: 80%;
+    -webkit-box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.16);
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+  /* line 231, entries.scss */
+  .works-entry .left-column:after {
+    border-radius: 10px;
+  }
+}

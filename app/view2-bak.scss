@@ -1,0 +1,55 @@
+#about-intro {
+	height: 90%;
+}
+.intro-overlay {
+	background-color: #fff;
+	position: relative;
+}
+#intro-overlay-title {
+	width: 30%;
+	top: 25%;
+	left: 10%;
+	h1{
+		margin-top: 0!important;
+	}
+}
+#intro-overlay-content{
+	width: 30%;
+	top: 25%;
+	left: 60%;
+}
+.hero {
+	background-image: url('img/books-hero.jpg');
+	background-size: cover;
+}
+.col2 {
+	max-width: 300px;
+}
+.full-width {
+	width: 100%;
+	background-image:url("https://hd.unsplash.com/photo-1468528885091-58bab38a6632");
+	background-attachment:fixed;
+	background-size:cover;
+	border-top: 1px solid #1d363a;
+}
+.content-header-overlay {
+	background-color: #245462;
+	opacity:.65;
+}
+.hex-bottom-header {
+	height: 70px;
+	position:relative;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+span.col1, span.col2, span.col3{
+	text-align: center;
+	font-size: 36pt;
+	color: #fff;
+}
+#Creative {
+	font-family: 'Cormorant Upright', serif;
+}
+#Logical {
+	font-family: 'Cormorant SC', serif;
+}

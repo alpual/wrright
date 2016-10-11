@@ -1,0 +1,79 @@
+/* line 1, view2-bak.scss */
+#about-intro {
+  height: 90%;
+}
+
+/* line 4, view2-bak.scss */
+.intro-overlay {
+  background-color: #fff;
+  position: relative;
+}
+
+/* line 8, view2-bak.scss */
+#intro-overlay-title {
+  width: 30%;
+  top: 25%;
+  left: 10%;
+}
+/* line 12, view2-bak.scss */
+#intro-overlay-title h1 {
+  margin-top: 0 !important;
+}
+
+/* line 16, view2-bak.scss */
+#intro-overlay-content {
+  width: 30%;
+  top: 25%;
+  left: 60%;
+}
+
+/* line 21, view2-bak.scss */
+.hero {
+  background-image: url("img/books-hero.jpg");
+  background-size: cover;
+}
+
+/* line 25, view2-bak.scss */
+.col2 {
+  max-width: 300px;
+}
+
+/* line 28, view2-bak.scss */
+.full-width {
+  width: 100%;
+  background-image: url("https://hd.unsplash.com/photo-1468528885091-58bab38a6632");
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: 1px solid #1d363a;
+}
+
+/* line 35, view2-bak.scss */
+.content-header-overlay {
+  background-color: #245462;
+  opacity: .65;
+}
+
+/* line 39, view2-bak.scss */
+.hex-bottom-header {
+  height: 70px;
+  position: relative;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* line 45, view2-bak.scss */
+span.col1, span.col2, span.col3 {
+  text-align: center;
+  font-size: 36pt;
+  color: #fff;
+}
+
+/* line 50, view2-bak.scss */
+#Creative {
+  font-family: 'Cormorant Upright', serif;
+}
+
+/* line 53, view2-bak.scss */
+#Logical {
+  font-family: 'Cormorant SC', serif;
+}

@@ -1,0 +1,171 @@
+/* line 9, hexTest.scss */
+.small img {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+}
+
+/* line 14, hexTest.scss */
+.container {
+  width: 1024px;
+  line-height: 1.0;
+  overflow: hidden;
+  padding-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 23, hexTest.scss */
+.hexGrid {
+  position: absolute;
+  top: 0px;
+  width: inherit;
+}
+
+/* line 29, hexTest.scss */
+.visible {
+  display: visible;
+}
+
+/* line 33, hexTest.scss */
+.invisible {
+  display: hidden;
+  height: 0px;
+}
+
+/* line 38, hexTest.scss */
+.logoHex {
+  top: 189.1072px;
+}
+
+/* line 46, hexTest.scss */
+.logoHex {
+  pointer-events: all;
+  position: absolute;
+  left: 50%;
+  transform: translate(-49%, 0);
+  height: 141.65333px;
+  width: 240.81067px;
+  border-radius: 7.08267px;
+  display: inline-block;
+  z-index: 1;
+  transition: all 600ms ease-in-out;
+}
+
+/* line 63, hexTest.scss */
+.logoHex:before, .logoHex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+}
+
+/* line 71, hexTest.scss */
+.logoHex:before {
+  transform: rotate(60deg);
+}
+
+/* line 75, hexTest.scss */
+.logoHex:after {
+  position: absolute;
+  transform: rotate(-60deg);
+  left: 0;
+  top: 0;
+}
+
+/* line 82, hexTest.scss */
+.logoHex img {
+  width: 240.81067px;
+  position: relative;
+  top: -67.81277px;
+  pointer-events: none;
+}
+
+/* line 89, hexTest.scss */
+ol {
+  pointer-events: none;
+  -webkit-margin-before: 0px;
+  -webkit-padding-start: 16.9984px;
+  -webkit-margin-after: 0px;
+}
+
+/* line 96, hexTest.scss */
+ol.even {
+  position: relative;
+  left: 40.34287px;
+}
+
+/* line 101, hexTest.scss */
+ol.odd {
+  position: relative;
+  left: 0px;
+  margin-top: -34.73474px;
+  margin-bottom: -34.73474px;
+}
+
+/* line 108, hexTest.scss */
+ol {
+  white-space: nowrap;
+}
+
+/* line 112, hexTest.scss */
+.hex {
+  pointer-events: all;
+  position: relative;
+  margin: 28.33067px;
+  height: 42.496px;
+  width: 72.2432px;
+  border-radius: 1.69984px;
+  background: #fff;
+  display: inline-block;
+  margin-right: 7.08267px;
+  margin-left: 0px;
+  transition: all 500ms ease-in-out;
+  z-index: 0;
+}
+
+/* line 128, hexTest.scss */
+.hex:before, .hex:after {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: inherit;
+  content: '';
+}
+
+/* line 137, hexTest.scss */
+.hex:before {
+  transform: rotate(60deg);
+}
+
+/* line 141, hexTest.scss */
+.hex:after {
+  transform: rotate(-60deg);
+  left: 0;
+  top: 0;
+}
+
+/* line 147, hexTest.scss */
+.hex:hover {
+  background: #F8baba;
+  cursor: pointer;
+}
+
+/* line 151, hexTest.scss */
+.hex div {
+  width: 72.2432px;
+  height: 200%;
+  position: relative;
+  top: -20.34383px;
+  pointer-events: none;
+  z-index: 1;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-transition: background-image 1s ease-in-out;
+  -moz-transition: background-image 1s ease-in-out;
+  transition: background-image 1s ease-in-out;
+}

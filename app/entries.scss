@@ -1,0 +1,238 @@
+@import "_base";
+.freeHex {
+  margin: 40px auto 80px auto;
+  padding-top: 80px;
+  @media screen and (min-width: 1110px){
+    margin: 80px  80px ($large-hex-size / 1.25) 80px;
+  }
+  @media screen and (min-width: 960px){
+    margin: 80px  auto ($large-hex-size / 1.25) auto;
+  }
+}
+.works-entry, .header-entry {
+	width: 100%;
+	margin: 40px 0;
+	height:auto;
+	position: relative;
+    display: inline-block;
+
+    max-width: 100%;
+    
+    img {
+    	padding: 0;
+    	margin: 40 auto;
+    	clear: both;
+    	width: 100%;
+    }
+    .entry-header, .entry-content {
+    	padding: 0 40px;
+    }
+	.entry-header {
+		text-align: center;
+		margin-top:	80px;
+		h1{
+			margin: 0;
+		}
+	}
+	.left-column {
+		min-height: $large-hex-size * 2;
+		text-align: center;
+	}
+
+	.entry-content {
+		img:nth-child(1){
+			margin-top: 30px;
+		}
+		a {
+			color: #8A6A6A;
+		}
+		.site-link{
+			font-size: 14pt;
+			float:right;
+			margin-bottom: 80px;
+			letter-spacing: 2px;
+			margin-right: 40px;
+		}
+
+	}
+	.highlights {
+		line-height: 30pt;
+		position: static;
+		display: inline-block;
+		margin: 40px auto 40px auto;
+		text-align: left;
+	}
+	@media screen and (min-width: 1110px){
+		.entry-header, .entry-content {
+			width: 56%;
+			left: 40%;
+		}
+		.left-column {
+			width: 38%;
+			right: 60%;
+		}
+	}
+	@media screen and (min-width: 960px){
+		/*max-width: 1020px;*/
+		width: 100%;
+		.entry-header, .entry-content {
+			padding: 0;
+			position: relative;
+			pointer-events: all;
+			left: 44%;
+			width: 46%;		
+			float: left;
+			/*margin-left: 30px;/**/
+			max-width: 550px;
+		}
+		.entry-content {
+			margin-top:  16pt;/* $h1-font-size; */
+		}
+		.entry-header {
+			margin-top: ($large-hex-size * 2 ) - $h1-font-size + 8;
+			text-align: left;
+		}
+		.left-column {
+			float: left;
+			max-width: 400px;
+			left: 40px;
+			width: 34%;
+			position: absolute;
+			right: 64%;
+			top: 0;
+			height: 100%; 
+			text-align: center;
+		}
+
+	}
+	@media screen and (min-width: 760px) and (max-width: 959px){
+		.entry-header, .entry-content {
+			padding: 0 120px;
+		}
+		.entry-header {
+			padding-top: 80px;
+			padding-bottom: 40px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+	@media screen and (min-width: 480px) and (max-width: 759px){
+		.entry-header, .entry-content {
+			padding: 0 80px;
+		}
+	}
+} 
+
+.header-entry {
+	/* 
+	 * This will make a pencil line on the far right side of the left column for the header entry
+	 */
+	@media screen and (min-width: 960px){
+		.left-column {
+			&:after{
+				content: '';
+				z-index: 10;
+				pointer-events: none;
+				position: absolute;
+				@include stretchAbsolute(0);
+				right: -40px;
+				background: url(img/pencil_vertical_repeat_small2.jpg) right;
+
+				background-repeat-x: no-repeat;
+			}
+		}/**/
+	}
+	&:after{
+		content: '';
+		position: absolute;
+		left: 80px;
+		bottom: -60px;
+		right:80px;
+		height: 80px;
+		z-index:-10;
+		
+		background: url(img/pencil_horizontal_repeat_small2.jpg) bottom;
+		background-repeat-y: no-repeat;
+		transiton: all 1s slide;
+	}
+	.entry-header {
+		text-align: left;
+	}
+	.entry-content {
+		h2 {
+			margin-top: 40px;
+			margin-bottom: 2px;
+		}
+		h3 {
+			margin-top: 8px;
+			a {
+				text-decoration: none;
+				background: url(img/pencil_horizontal_repeat_small2.jpg) bottom ;
+				background-repeat-y: no-repeat;
+				padding-bottom: 6px;
+			}
+		}
+	}
+}
+
+/* Background pencil lines that form brackets around each entry.  */
+@media screen and (min-width: 760px){
+	.works-entry {
+		&:after {
+			content: '';
+			height:auto;
+			float: none;
+			position:absolute;
+			@include stretchAbsolute(0);
+			z-index: 1;
+	   	    background-repeat-x: no-repeat;
+		    background: url(img/pencil_top_angle_small2.png) top right no-repeat, url(img/pencil_bottom_angle_small2.png) bottom right no-repeat, url(img/pencil_vertical_repeat_small2.jpg) center right repeat-y;
+			pointer-events: none;
+		}
+	    &:before{
+			content: '';
+			height:auto;
+			float: none;
+			position:absolute;
+			@include stretchAbsolute(0);
+			z-index: 1;
+	   	    background-repeat-x: no-repeat;
+		    background: url(img/pencil_top_angle_small2.png) top right no-repeat, url(img/pencil_bottom_angle_small2.png) bottom right no-repeat, url(img/pencil_vertical_repeat_small2.jpg) center right repeat-y;
+			@include flipItHorizontal();
+			pointer-events: none;
+		}
+
+		/* large screen background textures and shadows for the left-column, which contains the hex image and the highlights
+		 * Includes texture in header for mid-width screens
+		 */
+		@media screen and (max-width: 959px) {
+			.entry-header{
+				background: url(img/brillant.png) repeat; /* background texture for left-column. */
+				background-blend-mode: multiply;
+				position:relative;
+				right: 40px;
+				padding-left: 40px;
+				text-align:center;
+			}
+			.left-column{
+				position:relative;
+				right: 40px;
+				padding-left: 40px;
+				margin-top: 0;
+			}
+		}
+
+		.left-column {
+			background: url(img/brillant.png) repeat; /* background texture for left-column. */
+			background-blend-mode: multiply;
+			border-radius: 10px;
+			@media screen and (min-width: 960px){
+				@include bottomRightShadow();
+				&:after{
+					border-radius: 10px;
+				}
+			}
+		}
+
+	}
+}

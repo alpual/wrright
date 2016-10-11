@@ -1,0 +1,122 @@
+/* animations SCSS */
+
+/*ol li.ng-enter-stagger,
+ol li.ng-leave-stagger {
+    -webkit-transition-delay: 0.2s;
+    -moz-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+
+    -webkit-transition-duration: 0;
+    -moz-transition-duration: 0;
+    -ms-transition-duration: 0;
+    -o-transition-duration: 0;
+    transition-duration: 0;
+}
+
+ol li.ng-enter {
+    -webkit-transition:0.2s linear all;
+    -moz-transition:0.2s linear all;
+    -ms-transition:0.2s linear all;
+    -o-transition:0.2s linear all;
+    transition:0.2s linear all;
+
+    -ms-opacity: 0;
+    opacity: 0;
+}
+
+
+ol li.ng-enter.ng-enter-active {
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+ol li.ng-leave {
+    -webkit-transition:0.2s linear all;
+    -moz-transition:0.2s linear all;
+    -ms-transition:0.2s linear all;
+    -o-transition:0.2s linear all;
+    transition:0.2s linear all;
+
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+ol li.ng-leave.ng-leave-active {
+    -ms-opacity: 0;
+    opacity: 0;
+}*/
+
+/* BASE STYLES
+============================================================================= */
+
+
+/* ANIMATIONS
+============================================================================= */
+
+.page.ng-leave  { z-index:9999; }
+.page.ng-enter  { z-index:8888; }
+
+/* page specific animations ------------------------ */
+
+/* home -------------------------- */
+
+/*.page-home,  {
+    transition: all .5s ease-in-out;
+}
+.page-home.ng-enter,        {
+    opacity: 0;
+}
+.page-home.ng-enter-active, {  
+    opacity: 1;
+}*/
+
+.hex-fade-in {
+    opacity: 0;
+    transition: all 700ms ease-in;
+}
+.hex-fade-in-active {
+    opacity: 1;
+    transition: all 700ms ease-in;
+}
+
+
+
+.fade 
+{  /*opacity: 0;*/
+  transition: all 120ms ease-in;
+}
+.second-fade, 
+.pseudo-fade:before, 
+.pseudo-fade:after {
+  transition: all 240ms ease-in;
+}
+.third-fade {
+  transition: all 360ms ease-in;
+}
+.fourth-fade {
+  transition: all 580ms ease-in;
+}
+.slow-fade.pseudo-fade:before, 
+.slow-fade.pseudo-fade:after {
+  transition: all 1000ms ease-in;
+}
+
+.view-container.ng-enter .fade, 
+.view-container.ng-enter .second-fade,
+.view-container.ng-enter .third-fade,
+.view-container.ng-enter .fourth-fade,
+.view-container.ng-enter .pseudo-fade:before,
+.view-container.ng-enter .pseudo-fade::after{
+  opacity: 0;
+}
+.view-container.ng-enter-active .fade, 
+.view-container.ng-enter-active .second-fade,
+.view-container.ng-enter-active .third-fade,
+.view-container.ng-enter-active .fourth-fade,
+.view-container.ng-enter-active .pseudo-fade:before, 
+.view-container.ng-enter-active .pseudo-fade::after{
+  opacity: 1;
+}
+

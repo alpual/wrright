@@ -1,0 +1,89 @@
+/* 
+white: 				#FFFFFF
+all cs: 			#CCCCCC
+cool easy gray: 	#4B5B6E
+Old Wrench Steel:	#343444
+Cure:				#F1F2DF
+Perfection:			#8A6A6A
+Cream Vintage		#C99E89
+
+Thanks to subtlepatterns.com for the cool cork wallet pattern
+*/
+/******************** Header **************/
+#top-bar {
+	width: 100%;
+	position:absolute;
+	z-index: 1;
+	/*background-color: #F1F2DF;
+	border-bottom: solid 1px #C99E89;*/
+	background-image: url("img/merely_cubed.jpg");
+	
+	#logo {
+		max-height: 2.5em;
+		margin: .5em;
+		float: left;
+		margin-left: 1.25em;
+	}
+}
+nav {
+	float: right;
+	margin: 1em;
+}
+
+.menu-large {
+	display: none;
+	a {
+		color: #8A6A6A;
+		padding: .75em 1em;
+		&:hover{
+			color: #F1F2DF;
+			background-color: #4B5B6E;
+			text-decoration: none;
+			opacity: .9;
+			background-image: url("img/merely_cubed.jpg");
+			background-blend-mode: multiply;
+		}
+	}
+}
+.topMenu {
+	background-color: #4B5B6E;
+	opacity: .97;
+	.menu-small{
+		margin: 0;
+		width: 100%;
+	}
+	a {
+		color: #F1F2DF;
+		height: 39px;
+		display: block;
+		width: 100%;
+		margin: auto 0;
+		border-bottom: 1px solid #343444;
+		padding: 0;
+		text-align: center;
+		line-height: 40px;
+		text-decoration: none;
+	}
+}
+header button {
+	float: right;
+	background-color: transparent;
+	font-size: 20px;
+	width: 40px;
+	line-height: 40px;
+	margin-top: 8px;
+	
+	color:  #8A6A6A;
+	border: none;
+	padding: 0 48px 0 40px;
+}
+@media screen and (max-width: 768px){
+}
+@media screen and (min-width: 768px){
+	.menu-large {
+		display: block;
+	}
+	header button {
+		display: none;
+	}
+}

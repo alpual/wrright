@@ -1,0 +1,260 @@
+@import 'base';
+@import 'menu';
+@import 'ref';
+@import 'view2';
+@import 'page';
+
+
+@import 'entries';
+@import 'animations';
+
+@function getWidth($h){
+  @return $h * (1.732);
+}
+
+@mixin setDimensions($h){
+  height: $h;
+  width: getWidth($h);
+  border-radius: $h * (1/20);
+}
+
+@function yPos($yHex){
+  @return $yHex * ($hex-size + $row-margin + 3) +$hex-size / 2 + $row-margin - 2;
+}
+
+@function rowFloatOffset($hexSize, $row){
+  @return ($hexSize / 1.732) * ($row - 1);
+}
+
+@mixin hexSize($h){
+  @include setDimensions($h);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1; 
+
+  img {
+    width: getWidth($h);
+    position: relative;
+    top: -1 * ( $h / 2);
+    pointer-events: none;
+    @include setAllTransitions(300ms);
+  }
+  &.northHex{
+    top: ( $h / 2);
+  }
+  &.southHex{
+    top: (( $hex-gutter / 1.732 ) * 2)+ ( $h / 2) + 0;
+    transform: translate(-50%, 303%);
+  }
+  &.westHex{
+    top: ( $hex-gutter / 1.732 ) + ( $h / 2);
+    transform: translate(-102.8%, 150%);
+  }
+  &.eastHex{
+    top: ( $hex-gutter / 1.732 ) + ( $h / 2);
+    transform: translate(2.5%, 150%);
+  }
+  &.freeHex{
+      position: static;
+      left: auto;
+      transform: none;
+      float: none;
+      display: block;
+      img{
+        top: $h * -.8;
+      }
+    }
+}
+
+
+.hex {
+  pointer-events: all;
+  @include setTransitions(100ms);
+  display: inline-block;
+
+  &.bgcolor, &.bgcolor:before, &.bgcolor:after {
+    background-color: #9e9e9e;
+  }
+
+  &:before, &:after{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+  }
+  &:before {
+    transform: rotate(60deg);
+  }
+  &:after {
+    transform: rotate(-60deg);
+    left: 0;
+    top: 0;
+  }
+
+
+  &.small{
+    @include setDimensions($hex-size);
+    position: relative;
+    background: #fff;
+    margin: 0;//$small-hex-margin;
+    margin-right: $hex-gutter; 
+    margin-left: 0px;
+    z-index: 0;
+
+    &:hover{
+      background: #F8baba;
+      cursor: pointer;
+    }
+
+    div {
+      width: getWidth($hex-size);
+      height: 200%;
+      position: relative;
+      top: $hex-size * (-90 / 188);
+      pointer-events: none;
+      z-index: 1;
+      border:none;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; 
+      @include setTransitions(500ms);
+    }
+  } // small
+  
+  &.medium {
+    @include hexSize($medium-hex-size)
+  } 
+
+  &.medium-large {
+    @include hexSize( ($large-hex-size + $medium-hex-size) / 2 )
+  }
+
+  &.large {
+    /* these shrink for smaller screens so that the homepage looks good on mobile */
+    @media screen and (max-width: 379px){
+     @include hexSize($medium-hex-size);
+    }
+    @media screen and (max-width: 479px) and (min-width: 380px){
+     @include hexSize(($large-hex-size + $medium-hex-size) / 2 );
+    }
+    @media screen and (min-width: 480px){
+     @include hexSize($large-hex-size);
+    }
+  } // large
+
+}
+
+
+.container {
+  maxwidth: $container-width;
+  line-height: 1.0;
+  overflow: hidden;
+  padding-left: $container-left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hexGrid {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0px;
+  width: inherit;
+  background: #FFFFFF;
+  padding-top: $row-margin;
+}
+
+.over480{
+  display: none;
+}
+@media screen and (min-width: 480px){
+  .over480 {
+    display:inherit;
+  }
+}
+
+.visible {
+  display: inherit;
+  opacity: 1;
+}
+
+.invisible {
+  display: hidden;
+  height: 0px;
+}
+.opacityZ{
+  opacity: 0;
+  position: absolute;
+  top:0;
+}
+.opacityA{
+  opacity: 1;
+  position: absolute;
+  top:0;
+}
+.gone {
+  opacity: 0!important;
+  height: 0!important;
+  /*width: 0!important;*/
+}
+
+ol {
+  pointer-events:none;
+  -webkit-margin-before: 0px;
+  -webkit-padding-start: 0px; //16 / 40 * $hex-size; //+ 2 * $hex-gutter;
+  -webkit-margin-after: 0px;
+}
+
+ol.even {
+  position: relative;
+  left: $hex-size / 2 * (1.732) + ($hex-gutter / 2);
+}
+
+ol.odd {
+  position: relative;
+  left: 0px;
+  margin-top: $row-margin;
+  margin-bottom: $row-margin;
+}
+
+ol {
+  white-space: nowrap;
+}
+
+#frontPageMenu {
+  margin: ( yPos(1) ) auto 0 auto;
+  max-width: 480px;
+  height: 100%;
+  position: relative;
+  pointer-events: none;
+  @media screen and (min-width: 960px){
+    left: -2px;
+  }
+}
+
+@media screen and (min-width: 480px){
+  #hex-float {
+    min-height: $large-hex-size * 3;
+    margin-bottom: 80px;
+  }
+}
+
+.repeat-animation {
+
+}
+.hex.small.ng-enter-stagger {
+  -webkit-transition-delay: .08s;
+  transition-delay: .08s;
+}
+
+.hex.small.ng-enter {
+  -webkit-transition:0.08s ease-in all;
+  transition:0.08s ease-in all;
+
+  opacity: 0;
+}
+.hex.small.ng-enter-active {
+  opacity: 1;
+}

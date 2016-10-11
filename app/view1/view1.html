@@ -1,1 +1,50 @@
-<p>This is the partial for view 1.</p>
+<div ng-controller="preloadController" ng-switch="isLoading">
+  <!-- BEGIN: Loading View. -->
+  <p ng-switch-when="true">
+    Your images are being loaded... {{ percentLoaded }}%
+  </p>
+  <!-- END: Loading View. -->
+
+  <!-- BEGIN: Results View. -->
+  <div class="container" ng-switch-when="false">
+    <!-- BEGIN: Background hexGrid -->
+    <div class="hexGrid">
+      <div ng-repeat="row in hexRow">
+        <ol class="{{row.rowClass}}">
+          <grid-hex ng-repeat="x in row.hexes" ></grid-hex>
+        </ol>
+      </div>  
+    </div>
+    <!-- END: Background hexGrid -->
+   
+    <!-- BEGIN: Large Hex Menu -->
+
+    <section id="frontPageMenu" class="clearfix" ng-controller="tilehexCtrl">
+      <div class="fade">
+        <a tilehex cardinality="north" hex-size="large" hex-class="fade" screen-size="max-width: 480" hover-src="img/LargeHexLogoHover.png" >
+          <img src="img/LargeHexLogo.png"></img>
+        </a>
+      </div>
+      
+      <div class="second-fade">
+        <a tilehex cardinality="west" hex-size="large" hex-class="second-fade" hover-src="img/LargeHexAboutHover7.png" href="index.html#/view2" >
+          <img src="img/largeHexAbout.png"></img>
+        </a>
+      </div>
+
+      <div class="third-fade">
+        <a tilehex cardinality="east" hex-size="large" hex-class="third-fade" hover-src="img/LargeHexWorksHover.png" href="index.html#/works" >
+          <img src="img/largeHexWorks.png"></img>
+        </a>
+      </div>
+      <div class="fourth-fade">
+        <a tilehex cardinality="south" hex-size="large" hex-class="fourth-fade" hover-src="img/LargeHexContactHover2.png" href="index.html#/contact" >
+          <img src="img/LargeHexContact.png"></img>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- END: Large Hex Menu -->
+  </div> <!-- END: container - Results View -->
+</div> <!-- END: ng-switch isLoading -->
