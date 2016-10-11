@@ -46,18 +46,20 @@
                     el.addClass(param.hexSize);
 
                     el.addClass("hex-fade-in");
+                    el.addClass("hex-fade-in-enter");
                     
                     setTimeout(function(){
                         /* Fade in animation */
                     // cause a reflow
-                    el[0].offsetHeight; // ???
-                   
-                    el.addClass("hex-fade-in-active");
+                        //el[0].offsetHeight; // ???
+                        
+                        el.removeClass("hex-fade-in-enter");
+                        /*el.addClass("hex-fade-in-enter-active");
                         //el.addClass("hex-fade-in-active");
                         //el[0].offsetHeight; // ???
                         /*el.removeClass("hex-fade-in");
                         el.removeClass("hex-fade-in-active");/**/
-                    }, 2000);
+                    }, 20);
 
                     console.log(el);
                     /* DOM manipulation */

@@ -73,46 +73,49 @@ ol li.ng-leave.ng-leave-active {
 }*/
 /* line 75, animations.scss */
 .hex-fade-in {
+  transition: all 700ms ease-in;
+}
+
+/* line 78, animations.scss */
+.hex-fade-in-enter {
   opacity: 0;
-  transition: all 700ms ease-in;
 }
 
-/* line 79, animations.scss */
-.hex-fade-in-active {
+/* line 81, animations.scss */
+.hex-fade-in-enter-active {
   opacity: 1;
-  transition: all 700ms ease-in;
 }
 
-/* line 86, animations.scss */
+/* line 87, animations.scss */
 .fade {
   /*opacity: 0;*/
   transition: all 120ms ease-in;
 }
 
-/* line 90, animations.scss */
+/* line 91, animations.scss */
 .second-fade,
 .pseudo-fade:before,
 .pseudo-fade:after {
   transition: all 240ms ease-in;
 }
 
-/* line 95, animations.scss */
+/* line 96, animations.scss */
 .third-fade {
   transition: all 360ms ease-in;
 }
 
-/* line 98, animations.scss */
+/* line 99, animations.scss */
 .fourth-fade {
   transition: all 580ms ease-in;
 }
 
-/* line 101, animations.scss */
+/* line 102, animations.scss */
 .slow-fade.pseudo-fade:before,
 .slow-fade.pseudo-fade:after {
   transition: all 1000ms ease-in;
 }
 
-/* line 106, animations.scss */
+/* line 107, animations.scss */
 .view-container.ng-enter .fade,
 .view-container.ng-enter .second-fade,
 .view-container.ng-enter .third-fade,
@@ -122,7 +125,7 @@ ol li.ng-leave.ng-leave-active {
   opacity: 0;
 }
 
-/* line 114, animations.scss */
+/* line 115, animations.scss */
 .view-container.ng-enter-active .fade,
 .view-container.ng-enter-active .second-fade,
 .view-container.ng-enter-active .third-fade,

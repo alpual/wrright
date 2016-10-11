@@ -1,12 +1,3 @@
-@import 'base';
-@import 'menu';
-@import 'ref';
-@import 'view2';
-@import 'page';
-
-
-@import 'entries';
-@import 'animations';
 
 @function getWidth($h){
   @return $h * (1.732);

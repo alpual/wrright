@@ -1,198 +1,74 @@
-/* 
-white:        #FFFFFF
-all cs:       #CCCCCC
-cool easy gray:   #4B5B6E
-Old Wrench Steel: #343444
-Cure:       #F1F2DF
-Perfection:     #8A6A6A
-Cream Vintage   #C99E89
+/*
+Error: Undefined mixin 'setAllTransitions'.
+        on line 34 of E:/Documents/Code/wrright/app/view2.scss, in `setAllTransitions'
+        from line 34 of E:/Documents/Code/wrright/app/view2.scss
+
+29: 	position: absolute;
+30: 	
+31: 	background:  url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right;
+32: 	background-repeat-x: no-repeat;
+33: 
+34: 	@include setAllTransitions(180ms);
+35: 
+36: }
+37: .column {
+38: 	text-align: justify;
+39: }
+
+Backtrace:
+E:/Documents/Code/wrright/app/view2.scss:34:in `setAllTransitions'
+E:/Documents/Code/wrright/app/view2.scss:34
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
-/*($container-width / 13) * (6 / 10.2) * (14/15); //41px;*/
-/*$small-hex-margin: ($hex-size * (1.732)) / (1.732 * 2) + ($hex-gutter);*/
-/*1 * ($hex-size / 2 * 1.732) + ($hex-gutter / 4 * 1.732) - 1px;*/
-/* line 85, _base.scss */
-body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
-  font-size: 16px;
-  font-weight: 100;
-}
-
-/* line 91, _base.scss */
-h1 {
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Josefin Sans', sans-serif;
-  /**/
-  font-size: 30pt;
-  font-weight: bold;
-  color: #4b5b6e;
-  /*lighten(#400A19, 5%); /*darken(#8A6A6A, 10%);/* #4B5B6E;/**/
-}
-
-/* line 98, _base.scss */
-h2, h3 {
-  font-weight: 100;
-  font-size: 18pt;
-  font-family: 'Quicksand', sans-serif;
-  color: #4B5B6E;
-}
-
-/* line 104, _base.scss */
-h3 {
-  font-size: 16pt;
-}
-
-/* line 108, _base.scss */
-.centered-content {
-  margin: 0 auto;
-  height: auto;
-  /*margin-top: 80px;*/
-  margin-bottom: 80px;
-  /*overflow: hidden;*/
-}
-
-@media screen and (min-width: 480px) {
-  /* line 117, _base.scss */
-  .centered-content {
-    max-width: 1180px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin: 80px auto;
-  }
-}
-/* line 3, view2.scss */
-#about-content {
-  text-align: center;
-  margin: 80px 40px 40px 40px;
-}
-/* line 6, view2.scss */
-#about-content h1, #about-content h2 {
-  margin: 0;
-  padding: 0;
-}
-/* line 10, view2.scss */
-#about-content p {
-  margin: 4px 0 0 0;
-}
-
-/* line 14, view2.scss */
-#hex-float {
-  /*margin-top: 10%;*/
-  min-height: 200px;
-  position: relative;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-/********************* Lower Container **********************/
-/* line 24, view2.scss */
-.side-content {
-  width: 30%;
-  display: inline-block;
-  padding: 40px;
-  max-width: 400px;
-  position: absolute;
-  background: url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right;
-  background-repeat-x: no-repeat;
-  -webkit-transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  -moz-transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-/* line 37, view2.scss */
-.column {
-  text-align: justify;
-}
-
-/* line 40, view2.scss */
-.left-side {
-  margin-right: 50%;
-  right: 0;
-  padding-right: 120px;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  transform: scaleX(-1);
-  -ms-filter: "FlipH";
-  filter: FlipH;
-}
-/* line 45, view2.scss */
-.left-side h1 {
-  text-align: right;
-}
-/* line 51, view2.scss */
-.left-side * {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  transform: scaleX(-1);
-  -ms-filter: "FlipH";
-  filter: FlipH;
-  /* flip the innards back the right way */
-}
-
-/* line 55, view2.scss */
-.right-side {
-  margin-left: 50%;
-  left: 0;
-  padding-right: 120px;
-  /* right is left because we're flipping this */
-}
-
-@media screen and (max-width: 1024px) {
-  /* line 61, view2.scss */
-  .side-content {
-    width: 35%;
-    padding-right: 80px;
-    padding-left: 40px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 69, view2.scss */
-  .side-content {
-    max-width: 100%;
-    width: auto;
-    float: none;
-    position: static;
-    padding: 40px 80px 40px 40px;
-    margin: 0 40px 0 40px;
-  }
-
-  /* line 78, view2.scss */
-  .left-side h1 {
-    text-align: left;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* line 85, view2.scss */
-  .side-content {
-    padding: 40px;
-    margin: 0;
-    background-image: none;
-  }
-}
-@media screen and (min-width: 480px) {
-  /* line 93, view2.scss */
-  #about-content {
-    width: 300px;
-    margin: 80px auto 40px auto;
-  }
-
-  /*#hex-float {
-  	height: 300px;
-  }*/
-}
-/*************** Animations *************/
-/* line 103, view2.scss */
-.flip-it {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  transform: scaleX(-1);
-  -ms-filter: "FlipH";
-  filter: FlipH;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'setAllTransitions'.\A         on line 34 of E:/Documents/Code/wrright/app/view2.scss, in `setAllTransitions'\A         from line 34 of E:/Documents/Code/wrright/app/view2.scss\A \A 29: 	position: absolute;\A 30: 	\A 31: 	background:  url(\"img/pencil_top_angle_small2.jpg\") top right no-repeat, url(\"img/pencil_bottom_angle_small2.jpg\") bottom right no-repeat, url(\"img/pencil_vertical_repeat_small2.jpg\") center right;\A 32: 	background-repeat-x: no-repeat;\A 33: \A 34: 	@include setAllTransitions(180ms);\A 35: \A 36: }\A 37: .column {\A 38: 	text-align: justify;\A 39: }"; }

@@ -73,12 +73,13 @@ ol li.ng-leave.ng-leave-active {
 }*/
 
 .hex-fade-in {
-    opacity: 0;
-    transition: all 700ms ease-in;
+    transition: all 700ms ease-in ;//!important;
 }
-.hex-fade-in-active {
+.hex-fade-in-enter {
+    opacity: 0;
+}
+.hex-fade-in-enter-active {
     opacity: 1;
-    transition: all 700ms ease-in;
 }
 
 
