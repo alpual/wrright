@@ -81,6 +81,11 @@ ol li.ng-leave.ng-leave-active {
 .hex-fade-in-enter-active {
     opacity: 1;
 }
+.hex img.inPlace {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
 
 

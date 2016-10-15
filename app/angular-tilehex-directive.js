@@ -40,7 +40,9 @@
                     param.className = $scope.hexClass || 'tilehex';
                     param.rotateTime = $scope.rotateTime || 3000;
                     param.screenSize = $scope.screenSize || 'all'; // format "min-width x" "max-width x" or "all" inclusive
-                    
+                    param.imageFlash = $scope.imageFlash || false;
+
+
                     el.addClass(param.className);
                     el.addClass('hex');
                     el.addClass(param.hexSize);
@@ -49,17 +51,11 @@
                     el.addClass("hex-fade-in-enter");
                     
                     setTimeout(function(){
-                        /* Fade in animation */
-                    // cause a reflow
-                        //el[0].offsetHeight; // ???
-                        
+                        /* Fade in animation */                        
                         el.removeClass("hex-fade-in-enter");
-                        /*el.addClass("hex-fade-in-enter-active");
-                        //el.addClass("hex-fade-in-active");
-                        //el[0].offsetHeight; // ???
-                        /*el.removeClass("hex-fade-in");
-                        el.removeClass("hex-fade-in-active");/**/
                     }, 20);
+
+
 
                     console.log(el);
                     /* DOM manipulation */
@@ -155,12 +151,19 @@
                     {
                         var childList = [el[0].children[0]];
                         var theChildren = el[0].children;
-                        for(var i = 1; i < theChildren.length; i++) { /* hide everybody but the first child , index 0, which remains visible */
-                            var theChild = theChildren[i];
-                            theChild.className = "hidden";
-                            childList.push(theChild); // add the new children to the childList
-                        }  
-                        setInterval(function(){ return rotate(); }, param.rotateTime); // switch images periodically.                          
+                        if (param.imageFlash) {
+                             for(var i = 1; i < theChildren.length; i++) { 
+                                var theChild = theChildren[i];
+                                theChild.className = "inPlace";
+                             }
+                        } else {
+                            for(var i = 1; i < theChildren.length; i++) { /* hide everybody but the first child , index 0, which remains visible */
+                                var theChild = theChildren[i];
+                                theChild.className = "hidden";
+                                childList.push(theChild); // add the new children to the childList
+                            }  
+                            setInterval(function(){ return rotate(); }, param.rotateTime); // switch images periodically.                          
+                        }
                     }
 
                     /*

@@ -86,36 +86,43 @@ ol li.ng-leave.ng-leave-active {
   opacity: 1;
 }
 
-/* line 87, animations.scss */
+/* line 84, animations.scss */
+.hex img.inPlace {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+/* line 92, animations.scss */
 .fade {
   /*opacity: 0;*/
   transition: all 120ms ease-in;
 }
 
-/* line 91, animations.scss */
+/* line 96, animations.scss */
 .second-fade,
 .pseudo-fade:before,
 .pseudo-fade:after {
   transition: all 240ms ease-in;
 }
 
-/* line 96, animations.scss */
+/* line 101, animations.scss */
 .third-fade {
   transition: all 360ms ease-in;
 }
 
-/* line 99, animations.scss */
+/* line 104, animations.scss */
 .fourth-fade {
   transition: all 580ms ease-in;
 }
 
-/* line 102, animations.scss */
+/* line 107, animations.scss */
 .slow-fade.pseudo-fade:before,
 .slow-fade.pseudo-fade:after {
   transition: all 1000ms ease-in;
 }
 
-/* line 107, animations.scss */
+/* line 112, animations.scss */
 .view-container.ng-enter .fade,
 .view-container.ng-enter .second-fade,
 .view-container.ng-enter .third-fade,
@@ -125,7 +132,7 @@ ol li.ng-leave.ng-leave-active {
   opacity: 0;
 }
 
-/* line 115, animations.scss */
+/* line 120, animations.scss */
 .view-container.ng-enter-active .fade,
 .view-container.ng-enter-active .second-fade,
 .view-container.ng-enter-active .third-fade,
