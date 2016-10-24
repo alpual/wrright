@@ -196,19 +196,19 @@ header button {
   padding: 40px;
   max-width: 400px;
   position: absolute;
-  background: url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right;
+  background: url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right no-repeat repeat;
   background-repeat-x: no-repeat;
   -webkit-transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
   -moz-transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* line 37, view2.scss */
+/* line 39, view2.scss */
 .column {
   text-align: justify;
 }
 
-/* line 40, view2.scss */
+/* line 42, view2.scss */
 .left-side {
   margin-right: 50%;
   right: 0;
@@ -221,11 +221,11 @@ header button {
   -ms-filter: "FlipH";
   filter: FlipH;
 }
-/* line 45, view2.scss */
+/* line 47, view2.scss */
 .left-side h1 {
   text-align: right;
 }
-/* line 51, view2.scss */
+/* line 53, view2.scss */
 .left-side * {
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -237,7 +237,7 @@ header button {
   /* flip the innards back the right way */
 }
 
-/* line 55, view2.scss */
+/* line 57, view2.scss */
 .right-side {
   margin-left: 50%;
   left: 0;
@@ -246,7 +246,7 @@ header button {
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 61, view2.scss */
+  /* line 63, view2.scss */
   .side-content {
     width: 35%;
     padding-right: 80px;
@@ -254,7 +254,7 @@ header button {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 69, view2.scss */
+  /* line 71, view2.scss */
   .side-content {
     max-width: 100%;
     width: auto;
@@ -264,13 +264,13 @@ header button {
     margin: 0 40px 0 40px;
   }
 
-  /* line 78, view2.scss */
+  /* line 80, view2.scss */
   .left-side h1 {
     text-align: left;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 85, view2.scss */
+  /* line 87, view2.scss */
   .side-content {
     padding: 40px;
     margin: 0;
@@ -278,7 +278,7 @@ header button {
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 93, view2.scss */
+  /* line 95, view2.scss */
   #about-content {
     width: 300px;
     margin: 80px auto 40px auto;
@@ -289,7 +289,7 @@ header button {
   }*/
 }
 /*************** Animations *************/
-/* line 103, view2.scss */
+/* line 105, view2.scss */
 .flip-it {
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -514,7 +514,7 @@ header, section {
     left: 0;
     right: 0;
     right: -40px;
-    background: url(img/pencil_vertical_repeat_small2.jpg) right;
+    background: url(img/pencil_vertical_repeat_small2.jpg) right no-repeat repeat;
     background-repeat-x: no-repeat;
   }
 }
@@ -527,7 +527,7 @@ header, section {
   right: 80px;
   height: 80px;
   z-index: -10;
-  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom;
+  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom repeat no-repeat;
   background-repeat-y: no-repeat;
   transiton: all 1s slide;
 }
@@ -658,7 +658,7 @@ header, section {
   }
 }
 
-/* line 62, hex.scss */
+/* line 61, hex.scss */
 .hex {
   pointer-events: all;
   -webkit-transition: background-image 100ms ease-in-out;
@@ -666,11 +666,11 @@ header, section {
   transition: background-image 100ms ease-in-out;
   display: inline-block;
 }
-/* line 67, hex.scss */
+/* line 66, hex.scss */
 .hex.bgcolor, .hex.bgcolor:before, .hex.bgcolor:after {
   background-color: #9e9e9e;
 }
-/* line 71, hex.scss */
+/* line 70, hex.scss */
 .hex:before, .hex:after {
   position: absolute;
   width: inherit;
@@ -679,17 +679,17 @@ header, section {
   background: inherit;
   content: '';
 }
-/* line 79, hex.scss */
+/* line 78, hex.scss */
 .hex:before {
   transform: rotate(60deg);
 }
-/* line 82, hex.scss */
+/* line 81, hex.scss */
 .hex:after {
   transform: rotate(-60deg);
   left: 0;
   top: 0;
 }
-/* line 89, hex.scss */
+/* line 88, hex.scss */
 .hex.small {
   height: 41.76864px;
   width: 72.34329px;
@@ -701,12 +701,12 @@ header, section {
   margin-left: 0px;
   z-index: 0;
 }
-/* line 98, hex.scss */
+/* line 97, hex.scss */
 .hex.small:hover {
   background: #F8baba;
   cursor: pointer;
 }
-/* line 103, hex.scss */
+/* line 102, hex.scss */
 .hex.small div {
   width: 72.34329px;
   height: 200%;
@@ -721,7 +721,7 @@ header, section {
   -moz-transition: background-image 500ms ease-in-out;
   transition: background-image 500ms ease-in-out;
 }
-/* line 117, hex.scss */
+/* line 116, hex.scss */
 .hex.medium {
   height: 86.21682px;
   width: 149.32753px;
@@ -772,7 +772,7 @@ header, section {
 .hex.medium.freeHex img {
   top: -68.97346px;
 }
-/* line 121, hex.scss */
+/* line 120, hex.scss */
 .hex.medium-large {
   height: 107.77102px;
   width: 186.65942px;
@@ -823,12 +823,12 @@ header, section {
 .hex.medium-large.freeHex img {
   top: -86.21682px;
 }
-/* line 125, hex.scss */
+/* line 124, hex.scss */
 .hex.large {
   /* these shrink for smaller screens so that the homepage looks good on mobile */
 }
 @media screen and (max-width: 379px) {
-  /* line 125, hex.scss */
+  /* line 124, hex.scss */
   .hex.large {
     height: 86.21682px;
     width: 149.32753px;
@@ -881,7 +881,7 @@ header, section {
   }
 }
 @media screen and (max-width: 479px) and (min-width: 380px) {
-  /* line 125, hex.scss */
+  /* line 124, hex.scss */
   .hex.large {
     height: 107.77102px;
     width: 186.65942px;
@@ -934,7 +934,7 @@ header, section {
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 125, hex.scss */
+  /* line 124, hex.scss */
   .hex.large {
     height: 129.32523px;
     width: 223.9913px;
@@ -987,7 +987,7 @@ header, section {
   }
 }
 
-/* line 141, hex.scss */
+/* line 140, hex.scss */
 .container {
   maxwidth: 1024px;
   line-height: 1.0;
@@ -997,7 +997,7 @@ header, section {
   margin-right: auto;
 }
 
-/* line 150, hex.scss */
+/* line 149, hex.scss */
 .hexGrid {
   position: absolute;
   left: 50%;
@@ -1008,51 +1008,51 @@ header, section {
   padding-top: 22.89397px;
 }
 
-/* line 160, hex.scss */
+/* line 159, hex.scss */
 .over480 {
   display: none;
 }
 
 @media screen and (min-width: 480px) {
-  /* line 164, hex.scss */
+  /* line 163, hex.scss */
   .over480 {
     display: inherit;
   }
 }
-/* line 169, hex.scss */
+/* line 168, hex.scss */
 .visible {
   display: inherit;
   opacity: 1;
 }
 
-/* line 174, hex.scss */
+/* line 173, hex.scss */
 .invisible {
   display: hidden;
   height: 0px;
 }
 
-/* line 178, hex.scss */
+/* line 177, hex.scss */
 .opacityZ {
   opacity: 0;
   position: absolute;
   top: 0;
 }
 
-/* line 183, hex.scss */
+/* line 182, hex.scss */
 .opacityA {
   opacity: 1;
   position: absolute;
   top: 0;
 }
 
-/* line 188, hex.scss */
+/* line 187, hex.scss */
 .gone {
   opacity: 0 !important;
   height: 0 !important;
   /*width: 0!important;*/
 }
 
-/* line 194, hex.scss */
+/* line 193, hex.scss */
 ol {
   pointer-events: none;
   -webkit-margin-before: 0px;
@@ -1060,13 +1060,13 @@ ol {
   -webkit-margin-after: 0px;
 }
 
-/* line 201, hex.scss */
+/* line 200, hex.scss */
 ol.even {
   position: relative;
   left: 39.65236px;
 }
 
-/* line 206, hex.scss */
+/* line 205, hex.scss */
 ol.odd {
   position: relative;
   left: 0px;
@@ -1074,12 +1074,12 @@ ol.odd {
   margin-bottom: 22.89397px;
 }
 
-/* line 213, hex.scss */
+/* line 212, hex.scss */
 ol {
   white-space: nowrap;
 }
 
-/* line 217, hex.scss */
+/* line 216, hex.scss */
 #frontPageMenu {
   margin: 109.44091px auto 0 auto;
   max-width: 480px;
@@ -1088,33 +1088,33 @@ ol {
   pointer-events: none;
 }
 @media screen and (min-width: 960px) {
-  /* line 217, hex.scss */
+  /* line 216, hex.scss */
   #frontPageMenu {
     left: -2px;
   }
 }
 
 @media screen and (min-width: 480px) {
-  /* line 229, hex.scss */
+  /* line 228, hex.scss */
   #hex-float {
     min-height: 387.97569px;
     margin-bottom: 80px;
   }
 }
-/* line 238, hex.scss */
+/* line 237, hex.scss */
 .hex.small.ng-enter-stagger {
   -webkit-transition-delay: .08s;
   transition-delay: .08s;
 }
 
-/* line 243, hex.scss */
+/* line 242, hex.scss */
 .hex.small.ng-enter {
   -webkit-transition: 0.08s ease-in all;
   transition: 0.08s ease-in all;
   opacity: 0;
 }
 
-/* line 249, hex.scss */
+/* line 248, hex.scss */
 .hex.small.ng-enter-active {
   opacity: 1;
 }

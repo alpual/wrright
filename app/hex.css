@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'setTransitions'.
-        on line 64 of E:/Documents/Code/wrright/app/hex.scss, in `setTransitions'
-        from line 64 of E:/Documents/Code/wrright/app/hex.scss
+        on line 63 of E:/Documents/Code/wrright/app/hex.scss, in `setTransitions'
+        from line 63 of E:/Documents/Code/wrright/app/hex.scss
 
+58:     }
 59: }
 60: 
-61: 
-62: .hex {
-63:   pointer-events: all;
-64:   @include setTransitions(100ms);
-65:   display: inline-block;
-66: 
-67:   &.bgcolor, &.bgcolor:before, &.bgcolor:after {
-68:     background-color: #9e9e9e;
-69:   }
+61: .hex {
+62:   pointer-events: all;
+63:   @include setTransitions(100ms);
+64:   display: inline-block;
+65: 
+66:   &.bgcolor, &.bgcolor:before, &.bgcolor:after {
+67:     background-color: #9e9e9e;
+68:   }
 
 Backtrace:
-E:/Documents/Code/wrright/app/hex.scss:64:in `setTransitions'
-E:/Documents/Code/wrright/app/hex.scss:64
+E:/Documents/Code/wrright/app/hex.scss:63:in `setTransitions'
+E:/Documents/Code/wrright/app/hex.scss:63
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -61,19 +61,14 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:4
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-C:/Ruby23-x64/bin/compass:22:in `load'
-C:/Ruby23-x64/bin/compass:22:in `<main>'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'setTransitions'.\A         on line 64 of E:/Documents/Code/wrright/app/hex.scss, in `setTransitions'\A         from line 64 of E:/Documents/Code/wrright/app/hex.scss\A \A 59: }\A 60: \A 61: \A 62: .hex {\A 63:   pointer-events: all;\A 64:   @include setTransitions(100ms);\A 65:   display: inline-block;\A 66: \A 67:   &.bgcolor, &.bgcolor:before, &.bgcolor:after {\A 68:     background-color: #9e9e9e;\A 69:   }"; }
+  content: "Error: Undefined mixin 'setTransitions'.\A         on line 63 of E:/Documents/Code/wrright/app/hex.scss, in `setTransitions'\A         from line 63 of E:/Documents/Code/wrright/app/hex.scss\A \A 58:     }\A 59: }\A 60: \A 61: .hex {\A 62:   pointer-events: all;\A 63:   @include setTransitions(100ms);\A 64:   display: inline-block;\A 65: \A 66:   &.bgcolor, &.bgcolor:before, &.bgcolor:after {\A 67:     background-color: #9e9e9e;\A 68:   }"; }

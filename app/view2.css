@@ -43,19 +43,19 @@ Cream Vintage   #C99E89
   padding: 40px;
   max-width: 400px;
   position: absolute;
-  background: url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right;
+  background: url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right no-repeat repeat;
   background-repeat-x: no-repeat;
   -webkit-transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
   -moz-transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 180ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* line 37, view2.scss */
+/* line 39, view2.scss */
 .column {
   text-align: justify;
 }
 
-/* line 40, view2.scss */
+/* line 42, view2.scss */
 .left-side {
   margin-right: 50%;
   right: 0;
@@ -68,11 +68,11 @@ Cream Vintage   #C99E89
   -ms-filter: "FlipH";
   filter: FlipH;
 }
-/* line 45, view2.scss */
+/* line 47, view2.scss */
 .left-side h1 {
   text-align: right;
 }
-/* line 51, view2.scss */
+/* line 53, view2.scss */
 .left-side * {
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
@@ -84,7 +84,7 @@ Cream Vintage   #C99E89
   /* flip the innards back the right way */
 }
 
-/* line 55, view2.scss */
+/* line 57, view2.scss */
 .right-side {
   margin-left: 50%;
   left: 0;
@@ -93,7 +93,7 @@ Cream Vintage   #C99E89
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 61, view2.scss */
+  /* line 63, view2.scss */
   .side-content {
     width: 35%;
     padding-right: 80px;
@@ -101,7 +101,7 @@ Cream Vintage   #C99E89
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 69, view2.scss */
+  /* line 71, view2.scss */
   .side-content {
     max-width: 100%;
     width: auto;
@@ -111,13 +111,13 @@ Cream Vintage   #C99E89
     margin: 0 40px 0 40px;
   }
 
-  /* line 78, view2.scss */
+  /* line 80, view2.scss */
   .left-side h1 {
     text-align: left;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 85, view2.scss */
+  /* line 87, view2.scss */
   .side-content {
     padding: 40px;
     margin: 0;
@@ -125,7 +125,7 @@ Cream Vintage   #C99E89
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 93, view2.scss */
+  /* line 95, view2.scss */
   #about-content {
     width: 300px;
     margin: 80px auto 40px auto;
@@ -136,7 +136,7 @@ Cream Vintage   #C99E89
   }*/
 }
 /*************** Animations *************/
-/* line 103, view2.scss */
+/* line 105, view2.scss */
 .flip-it {
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
