@@ -89,6 +89,9 @@ ol li.ng-leave.ng-leave-active {
 
 
 
+.view-container{
+    transition: all 120mx ease-in-out;
+}
 .fade 
 {  /*opacity: 0;*/
   transition: all 120ms ease-in;
@@ -122,7 +125,69 @@ ol li.ng-leave.ng-leave-active {
 .view-container.ng-enter-active .third-fade,
 .view-container.ng-enter-active .fourth-fade,
 .view-container.ng-enter-active .pseudo-fade:before, 
-.view-container.ng-enter-active .pseudo-fade::after{
+.view-container.ng-enter-active .pseudo-fade::after {
   opacity: 1;
 }
 
+/*.view-container.ng-leave {
+    -webkit-animation:slideOutLeft 0.5s both ease-in;
+    -moz-animation:slideOutLeft 0.5s both ease-in;
+    animation:slideOutLeft 0.5s both ease-in;  
+}
+.view-container.ng-enter {
+    -webkit-animation:slideInUp 0.5s both ease-in;
+    -moz-animation:slideInUp 0.5s both ease-in;
+    animation:slideInUp 0.5s both ease-in;  
+    z-index: 9999;
+}
+
+
+
+/* slide in from the bottom */
+/*    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+@-moz-keyframes slideInUp {
+    from    { -moz-transform:translateY(100%); }
+    to      { -moz-transform: translateY(0); }
+}
+@-webkit-keyframes slideInUp {
+    from    { -webkit-transform:translateY(100%); }
+    to      { -webkit-transform: translateY(0); }
+}*/
+body {
+  overflow: hidden;
+}
+.view-container.ng-leave{
+  top: 0;
+  background-color: white;
+  overflow: hidden;
+  -webkit-animation-duration: .75s;
+          animation-duration: .75s;
+  /*-webkit-animation-fill-mode: both;
+          animation-fill-mode: both;*/
+  -webkit-animation-name: downfromtop;
+          animation-name: downfromtop;
+}
+
+@-webkit-keyframes downfromtop {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes downfromtop {
+  0%{
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}

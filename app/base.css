@@ -1215,35 +1215,40 @@ ol li.ng-leave.ng-leave-active {
 }
 
 /* line 92, animations.scss */
+.view-container {
+  transition: all 120mx ease-in-out;
+}
+
+/* line 95, animations.scss */
 .fade {
   /*opacity: 0;*/
   transition: all 120ms ease-in;
 }
 
-/* line 96, animations.scss */
+/* line 99, animations.scss */
 .second-fade,
 .pseudo-fade:before,
 .pseudo-fade:after {
   transition: all 240ms ease-in;
 }
 
-/* line 101, animations.scss */
+/* line 104, animations.scss */
 .third-fade {
   transition: all 360ms ease-in;
 }
 
-/* line 104, animations.scss */
+/* line 107, animations.scss */
 .fourth-fade {
   transition: all 580ms ease-in;
 }
 
-/* line 107, animations.scss */
+/* line 110, animations.scss */
 .slow-fade.pseudo-fade:before,
 .slow-fade.pseudo-fade:after {
   transition: all 1000ms ease-in;
 }
 
-/* line 112, animations.scss */
+/* line 115, animations.scss */
 .view-container.ng-enter .fade,
 .view-container.ng-enter .second-fade,
 .view-container.ng-enter .third-fade,
@@ -1253,7 +1258,7 @@ ol li.ng-leave.ng-leave-active {
   opacity: 0;
 }
 
-/* line 120, animations.scss */
+/* line 123, animations.scss */
 .view-container.ng-enter-active .fade,
 .view-container.ng-enter-active .second-fade,
 .view-container.ng-enter-active .third-fade,
@@ -1263,6 +1268,70 @@ ol li.ng-leave.ng-leave-active {
   opacity: 1;
 }
 
+/*.view-container.ng-leave {
+    -webkit-animation:slideOutLeft 0.5s both ease-in;
+    -moz-animation:slideOutLeft 0.5s both ease-in;
+    animation:slideOutLeft 0.5s both ease-in;  
+}
+.view-container.ng-enter {
+    -webkit-animation:slideInUp 0.5s both ease-in;
+    -moz-animation:slideInUp 0.5s both ease-in;
+    animation:slideInUp 0.5s both ease-in;  
+    z-index: 9999;
+}
+
+
+
+/* slide in from the bottom */
+/*    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+@-moz-keyframes slideInUp {
+    from    { -moz-transform:translateY(100%); }
+    to      { -moz-transform: translateY(0); }
+}
+@-webkit-keyframes slideInUp {
+    from    { -webkit-transform:translateY(100%); }
+    to      { -webkit-transform: translateY(0); }
+}*/
+/* line 158, animations.scss */
+body {
+  overflow: hidden;
+}
+
+/* line 161, animations.scss */
+.view-container.ng-leave {
+  top: 0;
+  background-color: white;
+  overflow: hidden;
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+  /*-webkit-animation-fill-mode: both;
+          animation-fill-mode: both;*/
+  -webkit-animation-name: downfromtop;
+  animation-name: downfromtop;
+}
+
+@-webkit-keyframes downfromtop {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+@keyframes downfromtop {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
 /* line 15, base.scss */
 body {
   font-family: 'Open Sans', sans-serif;
