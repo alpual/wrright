@@ -230,7 +230,7 @@ h3 {
     left: 0;
     right: 0;
     right: -40px;
-    background: url(img/pencil_vertical_repeat_small2.jpg) right;
+    background: url(img/pencil_vertical_repeat_small2.jpg) right no-repeat repeat;
     background-repeat-x: no-repeat;
   }
 }
@@ -243,7 +243,7 @@ h3 {
   right: 80px;
   height: 80px;
   z-index: -10;
-  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom;
+  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom repeat no-repeat;
   background-repeat-y: no-repeat;
   transiton: all 1s slide;
 }

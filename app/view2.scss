@@ -28,8 +28,10 @@
 	max-width: 400px;
 	position: absolute;
 	
-	background:  url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right;
+	
+	background:  url("img/pencil_top_angle_small2.jpg") top right no-repeat, url("img/pencil_bottom_angle_small2.jpg") bottom right no-repeat, url("img/pencil_vertical_repeat_small2.jpg") center right no-repeat repeat;
 	background-repeat-x: no-repeat;
+	
 
 	@include setAllTransitions(180ms);
 

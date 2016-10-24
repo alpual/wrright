@@ -19,8 +19,8 @@
     </div>
 
     <div class="left-column pseudo-fade">
-      <div tilehex cardinality="free" hex-size="large" hex-class="clearfix fourth-fade">
-        <img src="img/largeHexWorksHover.png" ></img>
+      <div tilehex cardinality="free" hex-size="large" hex-class="clearfix ">
+        <img src="img/LargeHexWorksHover.png" ></img>
       </div>
 
     </div>
@@ -28,9 +28,7 @@
         <p>I built websites as well as poster art, robotics with Arduinos, and custom tools with Google Apps Scripts.</p>
         <p>Like what you see?<br>  Have a project in mind?</p> 
         <p>For a free quotation, or just to say hi, <a href="mailto:alpual@gmail.com">get in touch</a>.</p>
-        <p>I built a hex grid system in AngularJS for this website which you can see <a href="#">on GitHub</a>.</p>
-        <h2>Show me: </h2>
-        <h3><a href="#">Websites</a>, <a href="#">Graphic Design</a>, <a href="#">Artwork</a>, <a href="#">I Want It All</a></h2>   
+        
     </section>
 
 
@@ -47,12 +45,12 @@
     </div>
 
     <div class="left-column">
-      <div tilehex cardinality="free" hex-size="large" hex-class="clearfix second-fade">
+      <div tilehex cardinality="free" hex-size="large" hex-class="clearfix fade">
         <img src="img/LargeHexAlchemy.jpg"></img>
       </div>
       
       <div class="highlights ">
-        <h2>Responsive, mobile first,<br>WordPress,  newsletter, <br> PHP, HTML5, CSS3</h2>
+        <h2>Responsive, mobile first,<br>WordPress,  newsletter, <br> PHP, HTML5, CSS3<br>Accessibility</h2>
       </div>
     </div>
 
@@ -62,11 +60,63 @@
       <p>Since Chrysta has experience managing a WordPress website, we chose the ubiquitous content management system(CMS) upon which to build the site. Another priority was a call to action for newsletter subscriptions. We decided on a two - column design, with a large header to feature artwork to complement her alchemical aesthetic. </p> 
       <p>Initial wireframing was done with ultra - high - tech pencil and graph paper.</p><img src="img/alchemyLayout1.jpg"></img><p>In my process, an eraser (and Ctrl + Z) is essential.  I also like how it presents the wireframe as a sketch that can be easily edited.</p> 
       <p>Once the design was approved, I took the twenty - sixteen starter theme and massaged it into shape. In my opinion, we might as well have the folks at WordPress.org performing security updates for us, so Chrysta's site is a child-theme of the current default WordPress theme.  It might be a bit more work than using pre-built themes more similar to our goal, but, since WordPress is the most commonly-used CMS on the web it gets targeted by all sorts of nefarious actors.</p> 
-      <p>The mandala background image and logo was created by <a href="katvlwright.com" target = "_blank">Kat V.L.Wright</a>, who is an incredible designer and illustrator, and also happens to be my wife. <img src="img/mandala-colored.jpg"></img> </p>
-      <p class="testimonial">What an amazing job Paul did!  - Presumably what Chrysta will say when she writes me a testimonial.</p>
+      <p>The mandala background image and logo was created by <a href="katvlwright.com" target = "_blank">Kat V.L.Wright</a>, who is an incredible designer and illustrator, and also happens to be my wife. <img src="img/Mandala-Colored.jpg"></img> </p>
       <a class="site-link" href="http://alpual.fatcow.com/alchemyaz" target="_blank">AlchemyAZ.net</a>
     </section>
 
+  </div>  <!-- END: entry -->
+
+  <div class="works-entry" ng-controller="tilehexCtrl">
+
+    <div class="entry-header">
+      <h1>Caitlin Sabo Photography</h1>
+    </div>
+
+    <div class="left-column">
+      <div tilehex cardinality="free" hex-size="large" hex-class="clearfix fade">
+        <img src="img/LargeHexCaitlin.png"></img>
+      </div>
+      
+      <div class="highlights ">
+        <h2><br>WordPress,  Multilingual, <br> PHP, HTML, CSS</h2>
+      </div>
+    </div>
+
+    <section class="entry-content">
+      <img src="img/Caitlin-Sabo.jpg"></img>
+      <p>Caitlin Sabo is an American fine art photographer based in Mexico City.  She wanted an elegant website to present
+      her internationally recognized photography.</p>   
+      <p>Caitlin, being a visual artist, had a very specific idea of what she wanted.  She wanted a black background, a minimalistic gallery, and a spacious layout.  Because her intentions were clearly conveyed, visually, we skipped the traditional wireframing step, movin on to some mockups I made in PhotoShop, which mostly played with typographic elements.</p>
+      <p>Once the design was approved and built to match the mockup (starting from the skeletal Bartheleme theme), I started working on some modifications to the backend so that Caitlin would have an easy time managing her webiste.  I modified the theme's structure so that the traditional WordPress post system would instead add a new image gallery to her portfolios page.</p> 
+      <p>Finally, since Caitlin is multilingual herself and exhibits in Spain, the USA, Mexico and Italy, we created both Spanish and Italian versions of the site.  This required a smarter gallery plugin.  To get the right feel, I added additional functionality to the gallery for the new languages </p>
+      <a class="site-link" href="http://caitlinsabo.com" target="_blank">CaitlinSabo.com</a>
+    </section>
+  </div>  <!-- END: entry -->
+
+  <div class="works-entry" ng-controller="tilehexCtrl">
+
+    <div class="entry-header">
+      <h1>The Missing Parts</h1>
+    </div>
+
+    <div class="left-column">
+      <div tilehex cardinality="free" hex-size="large" hex-class="clearfix fade">
+        <img src="img/LargeHexTMP.png"></img>
+      </div>
+      
+      <div class="highlights ">
+        <h2><br>Vanilla JS, Flash,<br>HTML, CSS,<br>Graphic Design,<br>Sculpture, Guitar<br>Blood, Sweat and Tears</h2>
+      </div>
+    </div>
+
+    <section class="entry-content">
+      <a class="entry-img" href="http://themissingparts.net" target="_blank"><img src="img/TheMissingParts.jpg"></img></a>
+      <p>Among many other passions, I also play music with The Missing Parts.  The best description to date for the music is "Folk Music from an Undiscovered Country, and so I took a plaster casting of a friend's face and painted it to look like a map.  Photos of the sculpture are featured heavily in the site.</p>   
+      <p>I chose a single-page site using JavaScript and a lot of absolute positioning.  A one-page site made sense because I wanted listeners to be able to browse while playing music in the site.  I built a custom Flash player with a skin featuring a second photo of the map/mask sculpture.</p>
+      <p>I built the site from a photoshop mockup.  Every pixel had to line up for it to work.</p> 
+      <p>A bit of JavaScript handles tour dates though at the moment we aren't playing shows. </p>
+      <a class="site-link" href="http://themissingparts.net" target="_blank">themissingparts.net</a>
+    </section>
   </div>  <!-- END: entry -->
 
 </section> <!-- lower-container -->
