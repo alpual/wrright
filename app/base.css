@@ -658,7 +658,7 @@ header, section {
   }
 }
 
-/* line 61, hex.scss */
+/* line 62, hex.scss */
 .hex {
   pointer-events: all;
   -webkit-transition: background-image 100ms ease-in-out;
@@ -666,11 +666,11 @@ header, section {
   transition: background-image 100ms ease-in-out;
   display: inline-block;
 }
-/* line 66, hex.scss */
+/* line 67, hex.scss */
 .hex.bgcolor, .hex.bgcolor:before, .hex.bgcolor:after {
   background-color: #9e9e9e;
 }
-/* line 70, hex.scss */
+/* line 71, hex.scss */
 .hex:before, .hex:after {
   position: absolute;
   width: inherit;
@@ -679,17 +679,17 @@ header, section {
   background: inherit;
   content: '';
 }
-/* line 78, hex.scss */
+/* line 79, hex.scss */
 .hex:before {
   transform: rotate(60deg);
 }
-/* line 81, hex.scss */
+/* line 82, hex.scss */
 .hex:after {
   transform: rotate(-60deg);
   left: 0;
   top: 0;
 }
-/* line 88, hex.scss */
+/* line 89, hex.scss */
 .hex.small {
   height: 41.76864px;
   width: 72.34329px;
@@ -701,12 +701,12 @@ header, section {
   margin-left: 0px;
   z-index: 0;
 }
-/* line 97, hex.scss */
+/* line 98, hex.scss */
 .hex.small:hover {
   background: #F8baba;
   cursor: pointer;
 }
-/* line 102, hex.scss */
+/* line 103, hex.scss */
 .hex.small div {
   width: 72.34329px;
   height: 200%;
@@ -721,7 +721,7 @@ header, section {
   -moz-transition: background-image 500ms ease-in-out;
   transition: background-image 500ms ease-in-out;
 }
-/* line 116, hex.scss */
+/* line 117, hex.scss */
 .hex.medium {
   height: 86.21682px;
   width: 149.32753px;
@@ -731,7 +731,7 @@ header, section {
   transform: translate(-50%, 0);
   z-index: 1;
 }
-/* line 27, hex.scss */
+/* line 28, hex.scss */
 .hex.medium img {
   width: 149.32753px;
   position: relative;
@@ -741,26 +741,26 @@ header, section {
   -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-/* line 34, hex.scss */
+/* line 35, hex.scss */
 .hex.medium.northHex {
   top: 43.10841px;
 }
-/* line 37, hex.scss */
+/* line 38, hex.scss */
 .hex.medium.southHex {
   top: 51.14702px;
   transform: translate(-50%, 303%);
 }
-/* line 41, hex.scss */
+/* line 42, hex.scss */
 .hex.medium.westHex {
   top: 47.12772px;
   transform: translate(-102.8%, 150%);
 }
-/* line 45, hex.scss */
+/* line 46, hex.scss */
 .hex.medium.eastHex {
   top: 47.12772px;
   transform: translate(2.5%, 150%);
 }
-/* line 49, hex.scss */
+/* line 50, hex.scss */
 .hex.medium.freeHex {
   position: static;
   left: auto;
@@ -768,11 +768,11 @@ header, section {
   float: none;
   display: block;
 }
-/* line 55, hex.scss */
+/* line 56, hex.scss */
 .hex.medium.freeHex img {
   top: -68.97346px;
 }
-/* line 120, hex.scss */
+/* line 121, hex.scss */
 .hex.medium-large {
   height: 107.77102px;
   width: 186.65942px;
@@ -782,7 +782,7 @@ header, section {
   transform: translate(-50%, 0);
   z-index: 1;
 }
-/* line 27, hex.scss */
+/* line 28, hex.scss */
 .hex.medium-large img {
   width: 186.65942px;
   position: relative;
@@ -792,26 +792,26 @@ header, section {
   -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-/* line 34, hex.scss */
+/* line 35, hex.scss */
 .hex.medium-large.northHex {
   top: 53.88551px;
 }
-/* line 37, hex.scss */
+/* line 38, hex.scss */
 .hex.medium-large.southHex {
   top: 61.92413px;
   transform: translate(-50%, 303%);
 }
-/* line 41, hex.scss */
+/* line 42, hex.scss */
 .hex.medium-large.westHex {
   top: 57.90482px;
   transform: translate(-102.8%, 150%);
 }
-/* line 45, hex.scss */
+/* line 46, hex.scss */
 .hex.medium-large.eastHex {
   top: 57.90482px;
   transform: translate(2.5%, 150%);
 }
-/* line 49, hex.scss */
+/* line 50, hex.scss */
 .hex.medium-large.freeHex {
   position: static;
   left: auto;
@@ -819,16 +819,16 @@ header, section {
   float: none;
   display: block;
 }
-/* line 55, hex.scss */
+/* line 56, hex.scss */
 .hex.medium-large.freeHex img {
   top: -86.21682px;
 }
-/* line 124, hex.scss */
+/* line 125, hex.scss */
 .hex.large {
   /* these shrink for smaller screens so that the homepage looks good on mobile */
 }
 @media screen and (max-width: 379px) {
-  /* line 124, hex.scss */
+  /* line 125, hex.scss */
   .hex.large {
     height: 86.21682px;
     width: 149.32753px;
@@ -838,7 +838,7 @@ header, section {
     transform: translate(-50%, 0);
     z-index: 1;
   }
-  /* line 27, hex.scss */
+  /* line 28, hex.scss */
   .hex.large img {
     width: 149.32753px;
     position: relative;
@@ -848,26 +848,26 @@ header, section {
     -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
     transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-  /* line 34, hex.scss */
+  /* line 35, hex.scss */
   .hex.large.northHex {
     top: 43.10841px;
   }
-  /* line 37, hex.scss */
+  /* line 38, hex.scss */
   .hex.large.southHex {
     top: 51.14702px;
     transform: translate(-50%, 303%);
   }
-  /* line 41, hex.scss */
+  /* line 42, hex.scss */
   .hex.large.westHex {
     top: 47.12772px;
     transform: translate(-102.8%, 150%);
   }
-  /* line 45, hex.scss */
+  /* line 46, hex.scss */
   .hex.large.eastHex {
     top: 47.12772px;
     transform: translate(2.5%, 150%);
   }
-  /* line 49, hex.scss */
+  /* line 50, hex.scss */
   .hex.large.freeHex {
     position: static;
     left: auto;
@@ -875,13 +875,13 @@ header, section {
     float: none;
     display: block;
   }
-  /* line 55, hex.scss */
+  /* line 56, hex.scss */
   .hex.large.freeHex img {
     top: -68.97346px;
   }
 }
 @media screen and (max-width: 479px) and (min-width: 380px) {
-  /* line 124, hex.scss */
+  /* line 125, hex.scss */
   .hex.large {
     height: 107.77102px;
     width: 186.65942px;
@@ -891,7 +891,7 @@ header, section {
     transform: translate(-50%, 0);
     z-index: 1;
   }
-  /* line 27, hex.scss */
+  /* line 28, hex.scss */
   .hex.large img {
     width: 186.65942px;
     position: relative;
@@ -901,26 +901,26 @@ header, section {
     -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
     transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-  /* line 34, hex.scss */
+  /* line 35, hex.scss */
   .hex.large.northHex {
     top: 53.88551px;
   }
-  /* line 37, hex.scss */
+  /* line 38, hex.scss */
   .hex.large.southHex {
     top: 61.92413px;
     transform: translate(-50%, 303%);
   }
-  /* line 41, hex.scss */
+  /* line 42, hex.scss */
   .hex.large.westHex {
     top: 57.90482px;
     transform: translate(-102.8%, 150%);
   }
-  /* line 45, hex.scss */
+  /* line 46, hex.scss */
   .hex.large.eastHex {
     top: 57.90482px;
     transform: translate(2.5%, 150%);
   }
-  /* line 49, hex.scss */
+  /* line 50, hex.scss */
   .hex.large.freeHex {
     position: static;
     left: auto;
@@ -928,13 +928,13 @@ header, section {
     float: none;
     display: block;
   }
-  /* line 55, hex.scss */
+  /* line 56, hex.scss */
   .hex.large.freeHex img {
     top: -86.21682px;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 124, hex.scss */
+  /* line 125, hex.scss */
   .hex.large {
     height: 129.32523px;
     width: 223.9913px;
@@ -944,7 +944,7 @@ header, section {
     transform: translate(-50%, 0);
     z-index: 1;
   }
-  /* line 27, hex.scss */
+  /* line 28, hex.scss */
   .hex.large img {
     width: 223.9913px;
     position: relative;
@@ -954,26 +954,26 @@ header, section {
     -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
     transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
   }
-  /* line 34, hex.scss */
+  /* line 35, hex.scss */
   .hex.large.northHex {
     top: 64.66261px;
   }
-  /* line 37, hex.scss */
+  /* line 38, hex.scss */
   .hex.large.southHex {
     top: 72.70123px;
     transform: translate(-50%, 303%);
   }
-  /* line 41, hex.scss */
+  /* line 42, hex.scss */
   .hex.large.westHex {
     top: 68.68192px;
     transform: translate(-102.8%, 150%);
   }
-  /* line 45, hex.scss */
+  /* line 46, hex.scss */
   .hex.large.eastHex {
     top: 68.68192px;
     transform: translate(2.5%, 150%);
   }
-  /* line 49, hex.scss */
+  /* line 50, hex.scss */
   .hex.large.freeHex {
     position: static;
     left: auto;
@@ -981,13 +981,13 @@ header, section {
     float: none;
     display: block;
   }
-  /* line 55, hex.scss */
+  /* line 56, hex.scss */
   .hex.large.freeHex img {
     top: -103.46018px;
   }
 }
 
-/* line 140, hex.scss */
+/* line 141, hex.scss */
 .container {
   maxwidth: 1024px;
   line-height: 1.0;
@@ -997,7 +997,7 @@ header, section {
   margin-right: auto;
 }
 
-/* line 149, hex.scss */
+/* line 150, hex.scss */
 .hexGrid {
   position: absolute;
   left: 50%;
@@ -1008,51 +1008,51 @@ header, section {
   padding-top: 22.89397px;
 }
 
-/* line 159, hex.scss */
+/* line 160, hex.scss */
 .over480 {
   display: none;
 }
 
 @media screen and (min-width: 480px) {
-  /* line 163, hex.scss */
+  /* line 164, hex.scss */
   .over480 {
     display: inherit;
   }
 }
-/* line 168, hex.scss */
+/* line 169, hex.scss */
 .visible {
   display: inherit;
   opacity: 1;
 }
 
-/* line 173, hex.scss */
+/* line 174, hex.scss */
 .invisible {
   display: hidden;
   height: 0px;
 }
 
-/* line 177, hex.scss */
+/* line 178, hex.scss */
 .opacityZ {
   opacity: 0;
   position: absolute;
   top: 0;
 }
 
-/* line 182, hex.scss */
+/* line 183, hex.scss */
 .opacityA {
   opacity: 1;
   position: absolute;
   top: 0;
 }
 
-/* line 187, hex.scss */
+/* line 188, hex.scss */
 .gone {
   opacity: 0 !important;
   height: 0 !important;
   /*width: 0!important;*/
 }
 
-/* line 193, hex.scss */
+/* line 194, hex.scss */
 ol {
   pointer-events: none;
   -webkit-margin-before: 0px;
@@ -1060,13 +1060,13 @@ ol {
   -webkit-margin-after: 0px;
 }
 
-/* line 200, hex.scss */
+/* line 201, hex.scss */
 ol.even {
   position: relative;
   left: 39.65236px;
 }
 
-/* line 205, hex.scss */
+/* line 206, hex.scss */
 ol.odd {
   position: relative;
   left: 0px;
@@ -1074,12 +1074,12 @@ ol.odd {
   margin-bottom: 22.89397px;
 }
 
-/* line 212, hex.scss */
+/* line 213, hex.scss */
 ol {
   white-space: nowrap;
 }
 
-/* line 216, hex.scss */
+/* line 217, hex.scss */
 #frontPageMenu {
   margin: 109.44091px auto 0 auto;
   max-width: 480px;
@@ -1088,33 +1088,33 @@ ol {
   pointer-events: none;
 }
 @media screen and (min-width: 960px) {
-  /* line 216, hex.scss */
+  /* line 217, hex.scss */
   #frontPageMenu {
     left: -2px;
   }
 }
 
 @media screen and (min-width: 480px) {
-  /* line 228, hex.scss */
+  /* line 229, hex.scss */
   #hex-float {
     min-height: 387.97569px;
     margin-bottom: 80px;
   }
 }
-/* line 237, hex.scss */
+/* line 238, hex.scss */
 .hex.small.ng-enter-stagger {
   -webkit-transition-delay: .08s;
   transition-delay: .08s;
 }
 
-/* line 242, hex.scss */
+/* line 243, hex.scss */
 .hex.small.ng-enter {
   -webkit-transition: 0.08s ease-in all;
   transition: 0.08s ease-in all;
   opacity: 0;
 }
 
-/* line 248, hex.scss */
+/* line 249, hex.scss */
 .hex.small.ng-enter-active {
   opacity: 1;
 }
