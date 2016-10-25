@@ -10,56 +10,6 @@ Cream Vintage   #C99E89
 /*($container-width / 13) * (6 / 10.2) * (14/15); //41px;*/
 /*$small-hex-margin: ($hex-size * (1.732)) / (1.732 * 2) + ($hex-gutter);*/
 /*1 * ($hex-size / 2 * 1.732) + ($hex-gutter / 4 * 1.732) - 1px;*/
-/* line 85, _base.scss */
-body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
-  font-size: 16px;
-  font-weight: 100;
-}
-
-/* line 91, _base.scss */
-h1 {
-  font-family: 'Josefin Slab', serif;
-  font-family: 'Josefin Sans', sans-serif;
-  /**/
-  font-size: 30pt;
-  font-weight: bold;
-  color: #4b5b6e;
-  /*lighten(#400A19, 5%); /*darken(#8A6A6A, 10%);/* #4B5B6E;/**/
-}
-
-/* line 98, _base.scss */
-h2, h3 {
-  font-weight: 100;
-  font-size: 18pt;
-  font-family: 'Quicksand', sans-serif;
-  color: #4B5B6E;
-}
-
-/* line 104, _base.scss */
-h3 {
-  font-size: 16pt;
-}
-
-/* line 108, _base.scss */
-.centered-content {
-  margin: 0 auto;
-  height: auto;
-  /*margin-top: 80px;*/
-  margin-bottom: 80px;
-  /*overflow: hidden;*/
-}
-
-@media screen and (min-width: 480px) {
-  /* line 117, _base.scss */
-  .centered-content {
-    max-width: 1180px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin: 80px auto;
-  }
-}
 /* line 2, entries.scss */
 .freeHex {
   margin: 40px auto 80px auto;
@@ -230,7 +180,7 @@ h3 {
     left: 0;
     right: 0;
     right: -40px;
-    background: url(img/pencil_vertical_repeat_small2.jpg) right;
+    background: url(img/pencil_vertical_repeat_small2.jpg) right no-repeat repeat;
     background-repeat-x: no-repeat;
   }
 }
@@ -243,7 +193,7 @@ h3 {
   right: 80px;
   height: 80px;
   z-index: -10;
-  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom;
+  background: url(img/pencil_horizontal_repeat_small2.jpg) bottom repeat no-repeat;
   background-repeat-y: no-repeat;
   transiton: all 1s slide;
 }
@@ -349,7 +299,7 @@ h3 {
     -moz-box-shadow: 3px 0 8px -6px rgba(0, 0, 0, 0.8);
     box-shadow: 3px 0 8px -6px rgba(0, 0, 0, 0.8);
   }
-  /* line 63, _base.scss */
+  /* line 62, mixins.scss */
   .works-entry .left-column:after {
     z-index: -1;
     position: absolute;

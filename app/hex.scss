@@ -1,12 +1,4 @@
-@import 'base';
-@import 'menu';
-@import 'ref';
-@import 'view2';
-@import 'page';
-
-
-@import 'entries';
-@import 'animations';
+@import 'mixins';
 
 @function getWidth($h){
   @return $h * (1.732);
@@ -66,7 +58,6 @@
       }
     }
 }
-
 
 .hex {
   pointer-events: all;
