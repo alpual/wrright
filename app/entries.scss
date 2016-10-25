@@ -236,3 +236,23 @@
 
 	}
 }
+.works-entry .ng-image-gallery .galleria .galleria-images img{
+	width: auto ;
+}
+.works-entry .ng-image-gallery.inline .ng-image-gallery-modal{
+	height: 550px;
+}
+
+.works-entry .ng-image-gallery .ng-image-gallery-modal .ng-image-gallery-content .galleria {
+	left: 0;
+	right: 0;
+}
+.works-entry .ng-image-gallery-content .prev, .works-entry .ng-image-gallery-content .next {
+	z-index: 999;
+	background-color: white;
+    border: 10px solid white;
+    opacity: .5;
+    &:hover{
+    	opacity: .9;
+    }
+}

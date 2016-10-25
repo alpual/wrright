@@ -1,472 +1,60 @@
-/* 
-white:        #FFFFFF
-all cs:       #CCCCCC
-cool easy gray:   #4B5B6E
-Old Wrench Steel: #343444
-Cure:       #F1F2DF
-Perfection:     #8A6A6A
-Cream Vintage   #C99E89
+/*
+Error: File to import not found or unreadable: mixins.
+       Load paths:
+         Compass::SpriteImporter
+         E:/Documents/Code/wrright/app
+         C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets
+        on line 1 of E:/Documents/Code/wrright/app/hex.scss
+
+1: @import 'mixins';
+2: 
+3: @function getWidth($h){
+4:   @return $h * (1.732);
+5: }
+6: 
+
+Backtrace:
+E:/Documents/Code/wrright/app/hex.scss:1
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
-/*($container-width / 13) * (6 / 10.2) * (14/15); //41px;*/
-/*$small-hex-margin: ($hex-size * (1.732)) / (1.732 * 2) + ($hex-gutter);*/
-/*1 * ($hex-size / 2 * 1.732) + ($hex-gutter / 4 * 1.732) - 1px;*/
-/* line 62, hex.scss */
-.hex {
-  pointer-events: all;
-  -webkit-transition: background-image 100ms ease-in-out;
-  -moz-transition: background-image 100ms ease-in-out;
-  transition: background-image 100ms ease-in-out;
-  display: inline-block;
-}
-/* line 67, hex.scss */
-.hex.bgcolor, .hex.bgcolor:before, .hex.bgcolor:after {
-  background-color: #9e9e9e;
-}
-/* line 71, hex.scss */
-.hex:before, .hex:after {
-  position: absolute;
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-  background: inherit;
-  content: '';
-}
-/* line 79, hex.scss */
-.hex:before {
-  transform: rotate(60deg);
-}
-/* line 82, hex.scss */
-.hex:after {
-  transform: rotate(-60deg);
-  left: 0;
-  top: 0;
-}
-/* line 89, hex.scss */
-.hex.small {
-  height: 41.76864px;
-  width: 72.34329px;
-  border-radius: 2.08843px;
-  position: relative;
-  background: #fff;
-  margin: 0;
-  margin-right: 6.96144px;
-  margin-left: 0px;
-  z-index: 0;
-}
-/* line 98, hex.scss */
-.hex.small:hover {
-  background: #F8baba;
-  cursor: pointer;
-}
-/* line 103, hex.scss */
-.hex.small div {
-  width: 72.34329px;
-  height: 200%;
-  position: relative;
-  top: -19.99563px;
-  pointer-events: none;
-  z-index: 1;
-  border: none;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  -webkit-transition: background-image 500ms ease-in-out;
-  -moz-transition: background-image 500ms ease-in-out;
-  transition: background-image 500ms ease-in-out;
-}
-/* line 117, hex.scss */
-.hex.medium {
-  height: 86.21682px;
-  width: 149.32753px;
-  border-radius: 4.31084px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 1;
-}
-/* line 28, hex.scss */
-.hex.medium img {
-  width: 149.32753px;
-  position: relative;
-  top: -43.10841px;
-  pointer-events: none;
-  -webkit-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-/* line 35, hex.scss */
-.hex.medium.northHex {
-  top: 43.10841px;
-}
-/* line 38, hex.scss */
-.hex.medium.southHex {
-  top: 51.14702px;
-  transform: translate(-50%, 303%);
-}
-/* line 42, hex.scss */
-.hex.medium.westHex {
-  top: 47.12772px;
-  transform: translate(-102.8%, 150%);
-}
-/* line 46, hex.scss */
-.hex.medium.eastHex {
-  top: 47.12772px;
-  transform: translate(2.5%, 150%);
-}
-/* line 50, hex.scss */
-.hex.medium.freeHex {
-  position: static;
-  left: auto;
-  transform: none;
-  float: none;
-  display: block;
-}
-/* line 56, hex.scss */
-.hex.medium.freeHex img {
-  top: -68.97346px;
-}
-/* line 121, hex.scss */
-.hex.medium-large {
-  height: 107.77102px;
-  width: 186.65942px;
-  border-radius: 5.38855px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  z-index: 1;
-}
-/* line 28, hex.scss */
-.hex.medium-large img {
-  width: 186.65942px;
-  position: relative;
-  top: -53.88551px;
-  pointer-events: none;
-  -webkit-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-/* line 35, hex.scss */
-.hex.medium-large.northHex {
-  top: 53.88551px;
-}
-/* line 38, hex.scss */
-.hex.medium-large.southHex {
-  top: 61.92413px;
-  transform: translate(-50%, 303%);
-}
-/* line 42, hex.scss */
-.hex.medium-large.westHex {
-  top: 57.90482px;
-  transform: translate(-102.8%, 150%);
-}
-/* line 46, hex.scss */
-.hex.medium-large.eastHex {
-  top: 57.90482px;
-  transform: translate(2.5%, 150%);
-}
-/* line 50, hex.scss */
-.hex.medium-large.freeHex {
-  position: static;
-  left: auto;
-  transform: none;
-  float: none;
-  display: block;
-}
-/* line 56, hex.scss */
-.hex.medium-large.freeHex img {
-  top: -86.21682px;
-}
-/* line 125, hex.scss */
-.hex.large {
-  /* these shrink for smaller screens so that the homepage looks good on mobile */
-}
-@media screen and (max-width: 379px) {
-  /* line 125, hex.scss */
-  .hex.large {
-    height: 86.21682px;
-    width: 149.32753px;
-    border-radius: 4.31084px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 1;
-  }
-  /* line 28, hex.scss */
-  .hex.large img {
-    width: 149.32753px;
-    position: relative;
-    top: -43.10841px;
-    pointer-events: none;
-    -webkit-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-    -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  /* line 35, hex.scss */
-  .hex.large.northHex {
-    top: 43.10841px;
-  }
-  /* line 38, hex.scss */
-  .hex.large.southHex {
-    top: 51.14702px;
-    transform: translate(-50%, 303%);
-  }
-  /* line 42, hex.scss */
-  .hex.large.westHex {
-    top: 47.12772px;
-    transform: translate(-102.8%, 150%);
-  }
-  /* line 46, hex.scss */
-  .hex.large.eastHex {
-    top: 47.12772px;
-    transform: translate(2.5%, 150%);
-  }
-  /* line 50, hex.scss */
-  .hex.large.freeHex {
-    position: static;
-    left: auto;
-    transform: none;
-    float: none;
-    display: block;
-  }
-  /* line 56, hex.scss */
-  .hex.large.freeHex img {
-    top: -68.97346px;
-  }
-}
-@media screen and (max-width: 479px) and (min-width: 380px) {
-  /* line 125, hex.scss */
-  .hex.large {
-    height: 107.77102px;
-    width: 186.65942px;
-    border-radius: 5.38855px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 1;
-  }
-  /* line 28, hex.scss */
-  .hex.large img {
-    width: 186.65942px;
-    position: relative;
-    top: -53.88551px;
-    pointer-events: none;
-    -webkit-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-    -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  /* line 35, hex.scss */
-  .hex.large.northHex {
-    top: 53.88551px;
-  }
-  /* line 38, hex.scss */
-  .hex.large.southHex {
-    top: 61.92413px;
-    transform: translate(-50%, 303%);
-  }
-  /* line 42, hex.scss */
-  .hex.large.westHex {
-    top: 57.90482px;
-    transform: translate(-102.8%, 150%);
-  }
-  /* line 46, hex.scss */
-  .hex.large.eastHex {
-    top: 57.90482px;
-    transform: translate(2.5%, 150%);
-  }
-  /* line 50, hex.scss */
-  .hex.large.freeHex {
-    position: static;
-    left: auto;
-    transform: none;
-    float: none;
-    display: block;
-  }
-  /* line 56, hex.scss */
-  .hex.large.freeHex img {
-    top: -86.21682px;
-  }
-}
-@media screen and (min-width: 480px) {
-  /* line 125, hex.scss */
-  .hex.large {
-    height: 129.32523px;
-    width: 223.9913px;
-    border-radius: 6.46626px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    z-index: 1;
-  }
-  /* line 28, hex.scss */
-  .hex.large img {
-    width: 223.9913px;
-    position: relative;
-    top: -64.66261px;
-    pointer-events: none;
-    -webkit-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-    -moz-transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition: all 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  /* line 35, hex.scss */
-  .hex.large.northHex {
-    top: 64.66261px;
-  }
-  /* line 38, hex.scss */
-  .hex.large.southHex {
-    top: 72.70123px;
-    transform: translate(-50%, 303%);
-  }
-  /* line 42, hex.scss */
-  .hex.large.westHex {
-    top: 68.68192px;
-    transform: translate(-102.8%, 150%);
-  }
-  /* line 46, hex.scss */
-  .hex.large.eastHex {
-    top: 68.68192px;
-    transform: translate(2.5%, 150%);
-  }
-  /* line 50, hex.scss */
-  .hex.large.freeHex {
-    position: static;
-    left: auto;
-    transform: none;
-    float: none;
-    display: block;
-  }
-  /* line 56, hex.scss */
-  .hex.large.freeHex img {
-    top: -103.46018px;
-  }
-}
-
-/* line 141, hex.scss */
-.container {
-  maxwidth: 1024px;
-  line-height: 1.0;
-  overflow: hidden;
-  padding-left: 0px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 150, hex.scss */
-.hexGrid {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 0px;
-  width: inherit;
-  background: #FFFFFF;
-  padding-top: 22.89397px;
-}
-
-/* line 160, hex.scss */
-.over480 {
-  display: none;
-}
-
-@media screen and (min-width: 480px) {
-  /* line 164, hex.scss */
-  .over480 {
-    display: inherit;
-  }
-}
-/* line 169, hex.scss */
-.visible {
-  display: inherit;
-  opacity: 1;
-}
-
-/* line 174, hex.scss */
-.invisible {
-  display: hidden;
-  height: 0px;
-}
-
-/* line 178, hex.scss */
-.opacityZ {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-}
-
-/* line 183, hex.scss */
-.opacityA {
-  opacity: 1;
-  position: absolute;
-  top: 0;
-}
-
-/* line 188, hex.scss */
-.gone {
-  opacity: 0 !important;
-  height: 0 !important;
-  /*width: 0!important;*/
-}
-
-/* line 194, hex.scss */
-ol {
-  pointer-events: none;
-  -webkit-margin-before: 0px;
-  -webkit-padding-start: 0px;
-  -webkit-margin-after: 0px;
-}
-
-/* line 201, hex.scss */
-ol.even {
-  position: relative;
-  left: 39.65236px;
-}
-
-/* line 206, hex.scss */
-ol.odd {
-  position: relative;
-  left: 0px;
-  margin-top: 22.89397px;
-  margin-bottom: 22.89397px;
-}
-
-/* line 213, hex.scss */
-ol {
-  white-space: nowrap;
-}
-
-/* line 217, hex.scss */
-#frontPageMenu {
-  margin: 109.44091px auto 0 auto;
-  max-width: 480px;
-  height: 100%;
-  position: relative;
-  pointer-events: none;
-}
-@media screen and (min-width: 960px) {
-  /* line 217, hex.scss */
-  #frontPageMenu {
-    left: -2px;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  /* line 229, hex.scss */
-  #hex-float {
-    min-height: 387.97569px;
-    margin-bottom: 80px;
-  }
-}
-/* line 238, hex.scss */
-.hex.small.ng-enter-stagger {
-  -webkit-transition-delay: .08s;
-  transition-delay: .08s;
-}
-
-/* line 243, hex.scss */
-.hex.small.ng-enter {
-  -webkit-transition: 0.08s ease-in all;
-  transition: 0.08s ease-in all;
-  opacity: 0;
-}
-
-/* line 249, hex.scss */
-.hex.small.ng-enter-active {
-  opacity: 1;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: mixins.\A        Load paths:\A          Compass::SpriteImporter\A          E:/Documents/Code/wrright/app\A          C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets\A         on line 1 of E:/Documents/Code/wrright/app/hex.scss\A \A 1: @import 'mixins';\A 2: \A 3: @function getWidth($h){\A 4:   @return $h * (1.732);\A 5: }\A 6: "; }
