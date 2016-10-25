@@ -158,10 +158,13 @@ ol li.ng-leave.ng-leave-active {
 body {
   overflow: hidden;
 }
+.view-container {
+  overflow-x: hidden;
+}
 .view-container.ng-leave{
   top: 0;
   background-color: white;
-  overflow: hidden;
+  overflow-x: hidden;
   -webkit-animation-duration: .75s;
           animation-duration: .75s;
   /*-webkit-animation-fill-mode: both;

@@ -179,10 +179,15 @@ body {
 }
 
 /* line 161, animations.scss */
+.view-container {
+  overflow-x: hidden;
+}
+
+/* line 164, animations.scss */
 .view-container.ng-leave {
   top: 0;
   background-color: white;
-  overflow: hidden;
+  overflow-x: hidden;
   -webkit-animation-duration: .75s;
   animation-duration: .75s;
   /*-webkit-animation-fill-mode: both;
