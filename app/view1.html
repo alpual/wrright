@@ -1,0 +1,49 @@
+<div ng-controller="preloadController" ng-switch="isLoading" class="fade-out-on-click">
+  <!-- BEGIN: Loading View. -->
+  <p ng-switch-when="true">
+    Your images are being loaded... {{ percentLoaded }}%
+  </p>
+  <!-- END: Loading View. -->
+
+  <!-- BEGIN: Results View. -->
+  <div class="container" ng-switch-when="false">
+    <!-- BEGIN: Background hexGrid -->
+    <div class="hexGrid">
+      <div ng-repeat="row in hexRow">
+        <ol class="{{row.rowClass}}">
+          <grid-hex ng-repeat="x in row.hexes" ></grid-hex>
+        </ol>
+      </div>  
+    </div>
+    <!-- END: Background hexGrid -->
+   
+    <!-- BEGIN: Large Hex Menu -->
+
+    <section id="frontPageMenu" class="clearfix" ng-controller="tilehexCtrl">
+
+        <a tilehex cardinality="north" hex-size="large" hex-class="fade" screen-size="max-width: 0" image-flash="80" hover-src="img/LargeHexLogoHover.png" >
+          <img src="img/LargeHexLogo.png"></img>
+          <img src="img/LargeHexLogoHover.png"></img>
+        </a>    
+
+        <a tilehex cardinality="west" hex-size="large" hex-class="second-fade" screen-size="max-width: 0" hover-src="img/LargeHexAboutHover7.png" href="index.html#/view2" >
+          <img src="img/largeHexAbout.png"></img>
+          <img src="img/largeHexAboutHover7.png"></img>
+        </a>
+
+        <a tilehex cardinality="east" hex-size="large" hex-class="third-fade" screen-size="max-width: 0" hover-src="img/LargeHexWorksHover.png" href="index.html#/works" >
+          <img src="img/largeHexWorks.png"></img>
+          <img src="img/largeHexWorksHover.png"></img>
+        </a>
+
+        <a tilehex cardinality="south" hex-size="large" hex-class="fourth-fade" screen-size="max-width: 00" hover-src="img/LargeHexContactHover2.png" href="index.html#/contact" >
+          <img src="img/LargeHexContact.png"></img>
+          <img src="img/LargeHexContactHover.png"></img>
+        </a>
+
+    </section>
+
+
+    <!-- END: Large Hex Menu -->
+  </div> <!-- END: container - Results View -->
+</div> <!-- END: ng-switch isLoading -->
