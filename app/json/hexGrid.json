@@ -8,79 +8,92 @@
 				"column": 0,
 				"color": "#ccc",
 				"img": "",
-				"imgHover": "img/SmallHexLogo.png"
+				"imgHover": "img/SmallHex/SmallHexLogo.jpg"
 			},
 			{
 				"row": 0,
 				"column": 1,
 				"color": "#666666",
-				"imgHover": "img/pencilHex2.png"
+				"imgHover": "img/SmallHex/SmallHexVictrola.jpg"
 			},
 			{
 				"row": 0,
 				"column": 2,
-				"color": "#336666"
+				"color": "#336666",
+				"imgHover": "img/SmallHex/SmallHexMandala.jpg"
 			},
 			{
 				"row": 0,
 				"column": 3,
-				"color": "#006666"
+				"color": "#006666",
+				"imgHover": "img/SmallHex/SmallHexBooks.jpg"
 			},
 			{
 				"row": 0,
 				"column": 4,
-				"color": "#999966"
+				"color": "#999966",
+				"imgHover": "img/SmallHex/SmallHexCrossHatch.jpg"
 			},
 			{
 				"row": 0,
 				"column": 5,
-				"color": "#99cc66"
+				"color": "#99cc66",
+				"imgHover": "img/SmallHex/SmallHexRks.jpg"
 			},
 			{
 				"row": 0,
 				"column": 6,
-				"color": "#99ff66"
+				"color": "#99ff66",
+				"imgHover": "img/SmallHex/SmallHexWireframe.jpg"
 			},
 			{
 				"row": 0,
 				"column": 7,
-				"color": "#996600"
+				"color": "#996600",
+				"imgHover": "img/SmallHex/SmallHexPaperCello.jpg"
 			},
 			{
 				"row": 0,
 				"column": 8,
-				"color": "#996633"
+				"color": "#996633",
+				"imgHover": "img/SmallHex/SmallHexEye.jpg"
 			},
 			{
 				"row": 0,
 				"column": 9,
-				"color": "#996633"
+				"color": "#996633",
+				"imgHover": "img/SmallHex/SmallHexBand.jpg"
 			},
 			{
 				"row": 0,
 				"column": 10,
-				"color": "#996633"
+				"color": "#996633",
+				"imgHover": "img/SmallHex/SmallHexNautilus.jpg"
 			},
 			{
 				"row": 0,
 				"column": 11,
-				"color": "#996633"
+				"color": "#996633",
+				"imgHover": "img/SmallHex/SmallHexFace.jpg"
 			},
 			{
 				"row": 0,
 				"column": 12,
-				"color": "#996633"
+				"color": "#996633",
+				"imgHover": "img/SmallHex/SmallHexCatInTheHat.jpg"
 			}
 		], [
 			{
 				"row": 1,
 				"column": 0,
-				"color": "#996666"
+				"color": "#996666",
+				"imgHover": "img/SmallHex/SmallHexAlchemy.jpg"
 			},
 			{
 				"row": 1,
 				"column": 1,
-				"color": "#996666"
+				"color": "#996666",
+				"imgHover": "img/SmallHex/SmallHexKVLW.jpg"
 			},
 			{
 				"row": 1,

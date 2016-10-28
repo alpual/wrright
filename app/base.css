@@ -153,8 +153,13 @@ header button {
   z-index: 9999;
   overflow: auto;
 }
+/* line 38, ref.scss */
+.refbody img {
+  max-width: 100%;
+  height: auto;
+}
 
-/* line 40, ref.scss */
+/* line 44, ref.scss */
 .refcenter {
   position: fixed;
   display: table;

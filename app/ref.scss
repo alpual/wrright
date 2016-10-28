@@ -35,6 +35,10 @@
     word-wrap: break-word;
     z-index: 9999;
     overflow: auto;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .refcenter {
