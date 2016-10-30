@@ -1,76 +1,10 @@
 /* animations SCSS */
 
-/*ol li.ng-enter-stagger,
-ol li.ng-leave-stagger {
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    -ms-transition-delay: 0.2s;
-    -o-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-
-    -webkit-transition-duration: 0;
-    -moz-transition-duration: 0;
-    -ms-transition-duration: 0;
-    -o-transition-duration: 0;
-    transition-duration: 0;
-}
-
-ol li.ng-enter {
-    -webkit-transition:0.2s linear all;
-    -moz-transition:0.2s linear all;
-    -ms-transition:0.2s linear all;
-    -o-transition:0.2s linear all;
-    transition:0.2s linear all;
-
-    -ms-opacity: 0;
-    opacity: 0;
-}
-
-
-ol li.ng-enter.ng-enter-active {
-    -ms-opacity: 1;
-    opacity: 1;
-}
-
-ol li.ng-leave {
-    -webkit-transition:0.2s linear all;
-    -moz-transition:0.2s linear all;
-    -ms-transition:0.2s linear all;
-    -o-transition:0.2s linear all;
-    transition:0.2s linear all;
-
-    -ms-opacity: 1;
-    opacity: 1;
-}
-
-ol li.ng-leave.ng-leave-active {
-    -ms-opacity: 0;
-    opacity: 0;
-}*/
-
-/* BASE STYLES
-============================================================================= */
-
-
 /* ANIMATIONS
 ============================================================================= */
 
 .page.ng-leave  { z-index:9999; }
 .page.ng-enter  { z-index:8888; }
-
-/* page specific animations ------------------------ */
-
-/* home -------------------------- */
-
-/*.page-home,  {
-    transition: all .5s ease-in-out;
-}
-.page-home.ng-enter,        {
-    opacity: 0;
-}
-.page-home.ng-enter-active, {  
-    opacity: 1;
-}*/
 
 .hex-fade-in {
     transition: all 700ms ease-in ;//!important;
@@ -129,32 +63,6 @@ ol li.ng-leave.ng-leave-active {
   opacity: 1;
 }
 
-/*.view-container.ng-leave {
-    -webkit-animation:slideOutLeft 0.5s both ease-in;
-    -moz-animation:slideOutLeft 0.5s both ease-in;
-    animation:slideOutLeft 0.5s both ease-in;  
-}
-.view-container.ng-enter {
-    -webkit-animation:slideInUp 0.5s both ease-in;
-    -moz-animation:slideInUp 0.5s both ease-in;
-    animation:slideInUp 0.5s both ease-in;  
-    z-index: 9999;
-}
-
-
-
-/* slide in from the bottom */
-/*    from    { transform:translateY(100%); }
-    to      { transform: translateY(0); }
-}
-@-moz-keyframes slideInUp {
-    from    { -moz-transform:translateY(100%); }
-    to      { -moz-transform: translateY(0); }
-}
-@-webkit-keyframes slideInUp {
-    from    { -webkit-transform:translateY(100%); }
-    to      { -webkit-transform: translateY(0); }
-}*/
 body {
   overflow: hidden;
 }
@@ -171,6 +79,18 @@ body {
           animation-fill-mode: both;*/
   -webkit-animation-name: downfromtop;
           animation-name: downfromtop;
+}
+
+.highlight-hex:hover {
+    animation-duration: .5s;
+    animation-name: hexfloat;
+    /*transition: all  500ms ease-in-out;
+    transform: translate(0, -7%);*/
+    
+}
+.highlight-hex.hex:hover:before, .highlight-hex.hex:hover:after{
+
+
 }
 
 @-webkit-keyframes downfromtop {
@@ -192,5 +112,22 @@ body {
   100% {
     top: 100%;
     opacity: 0;
+  }
+}
+
+@keyframes hexfloat {
+  0%{
+    transform: translate(0, 0);
+    box-shadow: none;
+  }
+  33% {
+    transform: translate(-3%, -12%);
+  }
+  75% {
+    transform: translate(1%, 5%);
+  }
+  100% {
+    transform: translate(0, 0);
+    box-shadow: none;
   }
 }

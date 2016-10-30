@@ -172,6 +172,38 @@ header button {
    reference HTML to in order to allow us to place HTML from an inner stacking
    context into the root-stacking context (on top of everything)
  */
+/* line 56, ref.scss */
+#refBox {
+  /* create a stacking context: */
+  position: fixed;
+  z-index: 4;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.5;
+  background-color: white;
+  border: 1px solid #999;
+  padding: 40px;
+}
+/* line 69, ref.scss */
+#refBox img {
+  margin-bottom: 20px;
+}
+
+/* line 74, ref.scss */
+#refBoxBackground {
+  background-color: #000;
+  opacity: .5;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
 /* line 3, view2.scss */
 #about-content {
   text-align: center;
@@ -741,9 +773,13 @@ header, section {
 /* line 98, hex.scss */
 .hex.small:hover {
   background: #F8baba;
+  cursor: default;
+}
+/* line 102, hex.scss */
+.hex.small.highlight-hex:hover {
   cursor: pointer;
 }
-/* line 103, hex.scss */
+/* line 106, hex.scss */
 .hex.small div {
   width: 72.34329px;
   height: 200%;
@@ -758,7 +794,7 @@ header, section {
   -moz-transition: background-image 500ms ease-in-out;
   transition: background-image 500ms ease-in-out;
 }
-/* line 117, hex.scss */
+/* line 120, hex.scss */
 .hex.medium {
   height: 86.21682px;
   width: 149.32753px;
@@ -809,7 +845,7 @@ header, section {
 .hex.medium.freeHex img {
   top: -68.97346px;
 }
-/* line 121, hex.scss */
+/* line 124, hex.scss */
 .hex.medium-large {
   height: 107.77102px;
   width: 186.65942px;
@@ -860,12 +896,12 @@ header, section {
 .hex.medium-large.freeHex img {
   top: -86.21682px;
 }
-/* line 125, hex.scss */
+/* line 128, hex.scss */
 .hex.large {
   /* these shrink for smaller screens so that the homepage looks good on mobile */
 }
 @media screen and (max-width: 379px) {
-  /* line 125, hex.scss */
+  /* line 128, hex.scss */
   .hex.large {
     height: 86.21682px;
     width: 149.32753px;
@@ -918,7 +954,7 @@ header, section {
   }
 }
 @media screen and (max-width: 479px) and (min-width: 380px) {
-  /* line 125, hex.scss */
+  /* line 128, hex.scss */
   .hex.large {
     height: 107.77102px;
     width: 186.65942px;
@@ -971,7 +1007,7 @@ header, section {
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 125, hex.scss */
+  /* line 128, hex.scss */
   .hex.large {
     height: 129.32523px;
     width: 223.9913px;
@@ -1024,7 +1060,7 @@ header, section {
   }
 }
 
-/* line 141, hex.scss */
+/* line 144, hex.scss */
 .container {
   maxwidth: 1024px;
   line-height: 1.0;
@@ -1034,7 +1070,7 @@ header, section {
   margin-right: auto;
 }
 
-/* line 150, hex.scss */
+/* line 153, hex.scss */
 .hexGrid {
   position: absolute;
   left: 50%;
@@ -1045,51 +1081,51 @@ header, section {
   padding-top: 22.89397px;
 }
 
-/* line 160, hex.scss */
+/* line 163, hex.scss */
 .over480 {
   display: none;
 }
 
 @media screen and (min-width: 480px) {
-  /* line 164, hex.scss */
+  /* line 167, hex.scss */
   .over480 {
     display: inherit;
   }
 }
-/* line 169, hex.scss */
+/* line 172, hex.scss */
 .visible {
   display: inherit;
   opacity: 1;
 }
 
-/* line 174, hex.scss */
+/* line 177, hex.scss */
 .invisible {
   display: hidden;
   height: 0px;
 }
 
-/* line 178, hex.scss */
+/* line 181, hex.scss */
 .opacityZ {
   opacity: 0;
   position: absolute;
   top: 0;
 }
 
-/* line 183, hex.scss */
+/* line 186, hex.scss */
 .opacityA {
   opacity: 1;
   position: absolute;
   top: 0;
 }
 
-/* line 188, hex.scss */
+/* line 191, hex.scss */
 .gone {
   opacity: 0 !important;
   height: 0 !important;
   /*width: 0!important;*/
 }
 
-/* line 194, hex.scss */
+/* line 197, hex.scss */
 ol {
   pointer-events: none;
   -webkit-margin-before: 0px;
@@ -1097,13 +1133,13 @@ ol {
   -webkit-margin-after: 0px;
 }
 
-/* line 201, hex.scss */
+/* line 204, hex.scss */
 ol.even {
   position: relative;
   left: 39.65236px;
 }
 
-/* line 206, hex.scss */
+/* line 209, hex.scss */
 ol.odd {
   position: relative;
   left: 0px;
@@ -1111,12 +1147,12 @@ ol.odd {
   margin-bottom: 22.89397px;
 }
 
-/* line 213, hex.scss */
+/* line 216, hex.scss */
 ol {
   white-space: nowrap;
 }
 
-/* line 217, hex.scss */
+/* line 220, hex.scss */
 #frontPageMenu {
   margin: 109.44091px auto 0 auto;
   max-width: 480px;
@@ -1125,167 +1161,107 @@ ol {
   pointer-events: none;
 }
 @media screen and (min-width: 960px) {
-  /* line 217, hex.scss */
+  /* line 220, hex.scss */
   #frontPageMenu {
     left: -2px;
   }
 }
 
 @media screen and (min-width: 480px) {
-  /* line 229, hex.scss */
+  /* line 232, hex.scss */
   #hex-float {
     min-height: 387.97569px;
     margin-bottom: 80px;
   }
 }
-/* line 238, hex.scss */
+/* line 241, hex.scss */
 .hex.small.ng-enter-stagger {
   -webkit-transition-delay: .08s;
   transition-delay: .08s;
 }
 
-/* line 243, hex.scss */
+/* line 246, hex.scss */
 .hex.small.ng-enter {
   -webkit-transition: 0.08s ease-in all;
   transition: 0.08s ease-in all;
   opacity: 0;
 }
 
-/* line 249, hex.scss */
+/* line 252, hex.scss */
 .hex.small.ng-enter-active {
   opacity: 1;
 }
 
 /* animations SCSS */
-/*ol li.ng-enter-stagger,
-ol li.ng-leave-stagger {
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    -ms-transition-delay: 0.2s;
-    -o-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-
-    -webkit-transition-duration: 0;
-    -moz-transition-duration: 0;
-    -ms-transition-duration: 0;
-    -o-transition-duration: 0;
-    transition-duration: 0;
-}
-
-ol li.ng-enter {
-    -webkit-transition:0.2s linear all;
-    -moz-transition:0.2s linear all;
-    -ms-transition:0.2s linear all;
-    -o-transition:0.2s linear all;
-    transition:0.2s linear all;
-
-    -ms-opacity: 0;
-    opacity: 0;
-}
-
-
-ol li.ng-enter.ng-enter-active {
-    -ms-opacity: 1;
-    opacity: 1;
-}
-
-ol li.ng-leave {
-    -webkit-transition:0.2s linear all;
-    -moz-transition:0.2s linear all;
-    -ms-transition:0.2s linear all;
-    -o-transition:0.2s linear all;
-    transition:0.2s linear all;
-
-    -ms-opacity: 1;
-    opacity: 1;
-}
-
-ol li.ng-leave.ng-leave-active {
-    -ms-opacity: 0;
-    opacity: 0;
-}*/
-/* BASE STYLES
-============================================================================= */
 /* ANIMATIONS
 ============================================================================= */
-/* line 58, animations.scss */
+/* line 6, animations.scss */
 .page.ng-leave {
   z-index: 9999;
 }
 
-/* line 59, animations.scss */
+/* line 7, animations.scss */
 .page.ng-enter {
   z-index: 8888;
 }
 
-/* page specific animations ------------------------ */
-/* home -------------------------- */
-/*.page-home,  {
-    transition: all .5s ease-in-out;
-}
-.page-home.ng-enter,        {
-    opacity: 0;
-}
-.page-home.ng-enter-active, {  
-    opacity: 1;
-}*/
-/* line 75, animations.scss */
+/* line 9, animations.scss */
 .hex-fade-in {
   transition: all 700ms ease-in;
 }
 
-/* line 78, animations.scss */
+/* line 12, animations.scss */
 .hex-fade-in-enter {
   opacity: 0;
 }
 
-/* line 81, animations.scss */
+/* line 15, animations.scss */
 .hex-fade-in-enter-active {
   opacity: 1;
 }
 
-/* line 84, animations.scss */
+/* line 18, animations.scss */
 .hex img.inPlace {
   position: relative;
   top: 0;
   left: 0;
 }
 
-/* line 92, animations.scss */
+/* line 26, animations.scss */
 .view-container {
   transition: all 120mx ease-in-out;
 }
 
-/* line 95, animations.scss */
+/* line 29, animations.scss */
 .fade {
   /*opacity: 0;*/
   transition: all 120ms ease-in;
 }
 
-/* line 99, animations.scss */
+/* line 33, animations.scss */
 .second-fade,
 .pseudo-fade:before,
 .pseudo-fade:after {
   transition: all 240ms ease-in;
 }
 
-/* line 104, animations.scss */
+/* line 38, animations.scss */
 .third-fade {
   transition: all 360ms ease-in;
 }
 
-/* line 107, animations.scss */
+/* line 41, animations.scss */
 .fourth-fade {
   transition: all 580ms ease-in;
 }
 
-/* line 110, animations.scss */
+/* line 44, animations.scss */
 .slow-fade.pseudo-fade:before,
 .slow-fade.pseudo-fade:after {
   transition: all 1000ms ease-in;
 }
 
-/* line 115, animations.scss */
+/* line 49, animations.scss */
 .view-container.ng-enter .fade,
 .view-container.ng-enter .second-fade,
 .view-container.ng-enter .third-fade,
@@ -1295,7 +1271,7 @@ ol li.ng-leave.ng-leave-active {
   opacity: 0;
 }
 
-/* line 123, animations.scss */
+/* line 57, animations.scss */
 .view-container.ng-enter-active .fade,
 .view-container.ng-enter-active .second-fade,
 .view-container.ng-enter-active .third-fade,
@@ -1305,43 +1281,17 @@ ol li.ng-leave.ng-leave-active {
   opacity: 1;
 }
 
-/*.view-container.ng-leave {
-    -webkit-animation:slideOutLeft 0.5s both ease-in;
-    -moz-animation:slideOutLeft 0.5s both ease-in;
-    animation:slideOutLeft 0.5s both ease-in;  
-}
-.view-container.ng-enter {
-    -webkit-animation:slideInUp 0.5s both ease-in;
-    -moz-animation:slideInUp 0.5s both ease-in;
-    animation:slideInUp 0.5s both ease-in;  
-    z-index: 9999;
-}
-
-
-
-/* slide in from the bottom */
-/*    from    { transform:translateY(100%); }
-    to      { transform: translateY(0); }
-}
-@-moz-keyframes slideInUp {
-    from    { -moz-transform:translateY(100%); }
-    to      { -moz-transform: translateY(0); }
-}
-@-webkit-keyframes slideInUp {
-    from    { -webkit-transform:translateY(100%); }
-    to      { -webkit-transform: translateY(0); }
-}*/
-/* line 158, animations.scss */
+/* line 66, animations.scss */
 body {
   overflow: hidden;
 }
 
-/* line 161, animations.scss */
+/* line 69, animations.scss */
 .view-container {
   overflow-x: hidden;
 }
 
-/* line 164, animations.scss */
+/* line 72, animations.scss */
 .view-container.ng-leave {
   top: 0;
   background-color: white;
@@ -1352,6 +1302,14 @@ body {
           animation-fill-mode: both;*/
   -webkit-animation-name: downfromtop;
   animation-name: downfromtop;
+}
+
+/* line 84, animations.scss */
+.highlight-hex:hover {
+  animation-duration: .5s;
+  animation-name: hexfloat;
+  /*transition: all  500ms ease-in-out;
+  transform: translate(0, -7%);*/
 }
 
 @-webkit-keyframes downfromtop {
@@ -1372,6 +1330,22 @@ body {
   100% {
     top: 100%;
     opacity: 0;
+  }
+}
+@keyframes hexfloat {
+  0% {
+    transform: translate(0, 0);
+    box-shadow: none;
+  }
+  33% {
+    transform: translate(-3%, -12%);
+  }
+  75% {
+    transform: translate(1%, 5%);
+  }
+  100% {
+    transform: translate(0, 0);
+    box-shadow: none;
   }
 }
 /* line 15, base.scss */

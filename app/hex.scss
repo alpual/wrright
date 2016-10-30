@@ -97,6 +97,9 @@
 
     &:hover{
       background: #F8baba;
+      cursor: default;
+    }
+    &.highlight-hex:hover{
       cursor: pointer;
     }
 

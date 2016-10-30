@@ -87,14 +87,15 @@
 				"row": 1,
 				"column": 0,
 				"color": "#996666",
-				"imgHover": "img/SmallHex/SmallHexAlchemy.jpg"
+				"imgHover": "img/SmallHex/SmallHexAlchemy.jpg",
+				"details": "<img src=\"img/alchemy-header2.JPG\"></img><p>Design and website for Alchemy Integrative Wellness, in Tucson, AZ. <a href=\"#/works\">Learn more...</a></p>"
 			},
 			{
 				"row": 1,
 				"column": 1,
 				"color": "#996666",
 				"imgHover": "img/SmallHex/SmallHexKVLW.jpg",
-				"details": "<p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.  You can check out her website at <a href=\"katvlwright.com\" target=\"_blank\">katvlwright.com</a>."
+				"details": "<img src=\"img/Kat-Header.jpg\"></img><p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.  You can check out her website at <a href=\"katvlwright.com\" target=\"_blank\">katvlwright.com</a>.</p>"
 			},
 			{
 				"row": 1,

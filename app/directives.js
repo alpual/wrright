@@ -19,19 +19,49 @@
                 element.addClass('hex');
                 element.addClass('small');   
 
-
-                element.bind('mouseover', function(){
+                /* this function shows the hex image, used on hover and to show the hex when the 
+                   details are being displayed
+                */ 
+                function alpualSmallHexImg(){
+                    //console.log("smallHexImg");
                     element.css('background-color', scope.x.color);
                     if(scope.x.imgHover != null)
                         element.children().first().css('background-image', 'url("' + scope.x.imgHover + '")');
-                });
-                element.bind('mouseout', function(){
-                    element.css('background-color', '#fff');
-                    element.children().first().css('background-image', 'none');
-                });
+                    if(scope.x.details != null) {
+                        element.addClass('highlight-hex');
+                    }
+                }
+                function alpualHideSmallHex(){
+                     //console.log (scope.x);
+                    if (!element.hasClass('popped')){
+                        element.css('background-color', '#fff');
+                        element.children().first().css('background-image', 'none');
+                    }
+                    element.removeClass('highlight-hex');
+                }
+
+                element.bind('mouseover', alpualSmallHexImg);
+                element.bind('mouseout', alpualHideSmallHex);
                 if (scope.x.details != null){
-                    var popup = angular.element('<div class="ref"><span class="refbody refcenter hidden">' + scope.x.details + '</span></div>')
-                    element.append(popup);
+                    var popup = angular.element( scope.x.details)
+                    scope.x.popup = popup;
+                    element.bind('click', function(){
+                        //console.log ("Element: " + element);
+                        element.toggleClass('popped');
+                        $('#refBox').html(scope.x.popup);
+                        $('#refBox').toggleClass('hidden popped');
+                        $('#refBoxBackground').toggleClass('hidden');
+                        $('#refBoxBackground').bind("click", function($event){
+                            $('#refBox').addClass('hidden');
+                            $('#refBoxBackground').addClass('hidden');
+
+                            //console.log ("Element: " + element);
+                            element.removeClass('popped');
+                            element.css('background-color', '#fff');
+                            element.children().first().css('background-image', 'none');
+                            element.removeClass('highlight-hex');
+                        }); 
+                    });
                 }
 
             }
