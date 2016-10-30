@@ -48,3 +48,12 @@
     left:50%;
     transform: translate(-50%, -50%);
 }
+
+/* The box that sits in front of everything else that we can add our 
+   reference HTML to in order to allow us to place HTML from an inner stacking
+   context into the root-stacking context (on top of everything)
+ */
+.refBox {
+
+
+}

@@ -16,10 +16,9 @@
 	        replace: true,
 	        //controller: controllerFunction, //Embed a custom controller in the directive
 	        link: function (scope, element, attrs) {
-	        	//element.attr()
-                //console.log(scope.x);
                 element.addClass('hex');
-                element.addClass('small');                 
+                element.addClass('small');   
+
 
                 element.bind('mouseover', function(){
                     element.css('background-color', scope.x.color);
@@ -30,6 +29,10 @@
                     element.css('background-color', '#fff');
                     element.children().first().css('background-image', 'none');
                 });
+                if (scope.x.details != null){
+                    var popup = angular.element('<div class="ref"><span class="refbody refcenter hidden">' + scope.x.details + '</span></div>')
+                    element.append(popup);
+                }
 
             }
         };
@@ -52,7 +55,7 @@
      */
     var referenceDirective = function ($document) {
         return {
-            restrict: 'E', // usage <alpual-ref></alpual-ref>
+            restrict: 'EA', // usage <alpual-ref></alpual-ref>
             link: function (scope, element, attrs) {
                 // This is here to avoid cluttering up the HTML
                 element.addClass('ref');

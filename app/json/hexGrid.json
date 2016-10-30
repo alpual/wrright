@@ -93,7 +93,8 @@
 				"row": 1,
 				"column": 1,
 				"color": "#996666",
-				"imgHover": "img/SmallHex/SmallHexKVLW.jpg"
+				"imgHover": "img/SmallHex/SmallHexKVLW.jpg",
+				"details": "<p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.  You can check out her website at <a href=\"katvlwright.com\" target=\"_blank\">katvlwright.com</a>."
 			},
 			{
 				"row": 1,
