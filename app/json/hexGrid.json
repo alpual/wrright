@@ -14,13 +14,15 @@
 				"row": 0,
 				"column": 1,
 				"color": "#666666",
-				"imgHover": "img/SmallHex/SmallHexVictrola.jpg"
+				"imgHover": "img/SmallHex/SmallHexVictrola.jpg",
+				"details": "<img src=\"img/Band-Automata-Flyer-at-Sister-with-Le-Chat.jpg\"></img>Pen and ink, digitally colored. <a href=\"#/works#TheMissingParts\">Learn more...</a></p>"
 			},
 			{
 				"row": 0,
 				"column": 2,
 				"color": "#336666",
-				"imgHover": "img/SmallHex/SmallHexMandala.jpg"
+				"imgHover": "img/SmallHex/SmallHexMandala.jpg",
+				"details": "<img src=\"img/Mandala-Colored.jpg\"></img>A mandala drawn by <a href=\"http://www.katvlwright.com\" target=\"_blank\">Kat V. L. Wright</a>, which I edited in Photoshop, adding color and texture, for the background hero-image on <a href=\"http://www.alchemyaz.net\" target=\"_blank\">alchemyaz.net</a>. <a href=\"#/works#Alchemy\">Learn more...</a></p>"
 			},
 			{
 				"row": 0,
@@ -56,7 +58,8 @@
 				"row": 0,
 				"column": 8,
 				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexEye.jpg"
+				"imgHover": "img/SmallHex/SmallHexEye.jpg",
+				"details": "<img src=\"img/CD-Release-Flyer.jpg\"></img>A digitally edited illustration I made for The Missing Parts.  The illustration of the eye was done with colored pencil and paper, and the flyer was put together using Adobe Photoshop and Illustrator.</p>"
 			},
 			{
 				"row": 0,
@@ -68,13 +71,15 @@
 				"row": 0,
 				"column": 10,
 				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexNautilus.jpg"
+				"imgHover": "img/SmallHex/SmallHexNautilus.jpg",
+				"details": "<img src=\"img/Nautilus.jpg\"></img>An origami lamp I built using paper, resin, an LED bulb, wire, and carved ash wood from a bookcase my dad started building before I was born but never finished. I love origami (and highly recommend the documentary Between the Folds), and my art degree was largely focused on sculpture.  This was a fun project combining the two to create something functional and beautiful.</p>"
 			},
 			{
 				"row": 0,
 				"column": 11,
 				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexFace.jpg"
+				"imgHover": "img/SmallHex/SmallHexFace.jpg",
+				"details": "<img src=\"img/TheMissingParts.jpg\"></img>I play music for a trio (violin, cello, guitar).  I also make the art, the website, and do most of the booking.  You can check out the band at <a href=\"http://themissingparts.net\" target=\"_blank\">themissingparts.net</a>.</p>"
 			},
 			{
 				"row": 0,
@@ -88,7 +93,7 @@
 				"column": 0,
 				"color": "#996666",
 				"imgHover": "img/SmallHex/SmallHexAlchemy.jpg",
-				"details": "<img src=\"img/alchemy-header2.JPG\"></img><p>Design and website for Alchemy Integrative Wellness, in Tucson, AZ. <a href=\"#/works\">Learn more...</a></p>"
+				"details": "<img src=\"img/alchemy-header2.JPG\"></img><p>Design and website for Alchemy Integrative Wellness, in Tucson, AZ. <a href=\"#/works#Alchemy\">Learn more...</a></p>"
 			},
 			{
 				"row": 1,

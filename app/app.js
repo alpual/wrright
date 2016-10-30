@@ -10,7 +10,8 @@ var app = angular.module('myApp', [
   'myApp.pageslide',
   'myApp.tilehex',
   'myApp.version',
-  'ngAnimate', 'thatisuday.ng-image-gallery'
+  'ngAnimate', 
+  'thatisuday.ng-image-gallery',
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.
