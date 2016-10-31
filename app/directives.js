@@ -39,6 +39,17 @@
                     }
                     element.removeClass('highlight-hex');
                 }
+                function lightboxClose(){
+                    $('#refBox').addClass('hidden');
+                    $('#refBoxBackground').addClass('hidden');
+                    $('#close-icon').addClass('hidden');
+                    //console.log ("Element: " + element);
+                    element.removeClass('popped');
+                    element.css('background-color', '#fff');
+                    element.children().first().css('background-image', 'none');
+                    element.removeClass('highlight-hex');
+                }
+                scope.closeLightBoxWithEsc = lightboxClose;
 
                 element.bind('mouseover', alpualSmallHexImg);
                 element.bind('mouseout', alpualHideSmallHex);
@@ -50,23 +61,33 @@
                         element.toggleClass('popped');
                         $('#refBox').html(scope.x.popup);
                         $('#refBox').toggleClass('hidden popped');
+                        var refImgWidth = $('#refBox img').width();
+                        $('#refBox p').css('max-width', refImgWidth);
                         $('#refBoxBackground').toggleClass('hidden');
-                        $('#refBoxBackground').bind("click", function($event){
-                            $('#refBox').addClass('hidden');
-                            $('#refBoxBackground').addClass('hidden');
-
-                            //console.log ("Element: " + element);
-                            element.removeClass('popped');
-                            element.css('background-color', '#fff');
-                            element.children().first().css('background-image', 'none');
-                            element.removeClass('highlight-hex');
-                        }); 
+                        $('#refBoxBackground').bind("mousedown", lightboxClose);
+                        $('#refBoxBackground').bind("touchstart", lightboxClose);
+                        $('#close-icon').toggleClass('hidden'); 
+                        $('#close-icon').bind('click', lightboxClose);
                     });
                 }
 
             }
         };
     };
+
+    app.directive('ngEsc', function () {
+        return function (scope, element, attrs) {
+            element.bind("keydown keypress keyup", function (event) {
+                if(event.which === 27) {
+                    scope.$apply(function (){
+                        scope.$eval(attrs.ngEsc);
+                    });
+
+                    event.preventDefault();
+                }
+            });
+        };
+    });
     
     /* directive alpual-ref
      *

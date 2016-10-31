@@ -7,9 +7,12 @@
 
   <!-- BEGIN: Results View. -->
   <div class="container" ng-switch-when="false">
-    <div id="refBoxBackground" class="hidden"></div>
-    <div id="refBox" class="hidden" >
-
+    <div id="lightbox">
+      <a id='close-icon' ng-click="closeLightBoxWithEsc()" class="hidden"><img alt="close" src="img/close-x.png"></img></a>
+      <div id="refBoxBackground" class="hidden">
+      </div>
+      <div id="refBox" class="hidden" >
+      </div>
     </div>
 
     <!-- BEGIN: Background hexGrid -->

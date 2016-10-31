@@ -221,7 +221,8 @@ ol {
   margin: ( yPos(1) ) auto 0 auto;
   max-width: 480px;
   height: 100%;
-  position: relative;
+  position: absolute;
+  @include stretchAbsolute(0);
   pointer-events: none;
   @media screen and (min-width: 960px){
     left: -2px;

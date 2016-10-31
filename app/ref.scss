@@ -6,6 +6,7 @@
 .ref {
   position: relative;
   vertical-align: baseline;
+  max-width: 95%;
 }
 
 .refnum {
@@ -26,6 +27,7 @@
     line-height: 1.1;
     display: block;
     min-width: 20em;
+    max-width: 95%;
     position: absolute;
     left: 25px;
     bottom: 5px;
@@ -46,6 +48,7 @@
     display: table;
     top:50%;
     left:50%;
+    width: 100%;
     transform: translate(-50%, -50%);
 }
 
@@ -55,19 +58,26 @@
  */
 #refBox {
     /* create a stacking context: */
-    position: fixed;
+    position: absolute;
     z-index: 4;
-    max-width: 100%;
-    max-height: 100%;
+    
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: auto;
     line-height: 1.5;
     background-color: white;
     border: 1px solid #999;
     padding: 40px;
     img {
+        max-width: 100%;
+        width: auto;
+        display: block;
+        height: auto;
         margin-bottom: 20px;
+    }
+    p {
+        margin: inherit auto;
     }
 
 }
@@ -80,4 +90,25 @@
     top: 0;
     bottom: 0;
     z-index: 3;
+}
+#close-icon {
+    z-index: 6;
+    position: absolute;
+    right: 20%;
+    top: 40px;
+    cursor: pointer;
+    opacity: .9;
+}
+@media screen and (max-width: 760px){
+    #refBox {
+        top: 60px;
+        right: 0;
+        left: 0;
+        
+        transform: none;      
+    }
+    #close-icon {
+        right: 40px;
+    }
+
 }
