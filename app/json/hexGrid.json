@@ -86,7 +86,7 @@
 				"column": 12,
 				"color": "#996633",
 				"imgHover": "img/SmallHex/SmallHexCatInTheHat.jpg",
-				"details": "<img src=\"img/TheMissingParts.jpg\"> "
+				"details": "<img src=\"img/theArtist.jpg\"><p>My Halloween Costume from last fall: Grumpy Cat in the Hat.</p>"
 			}
 		], [
 			{
@@ -106,22 +106,29 @@
 			{
 				"row": 1,
 				"column": 2,
-				"color": "#66ff66"
+				"color": "#66ff66",
+				"imgHover": "img/SmallHex/SmallHexEgg.jpg",
+				"details": "<img src=\"img/egg-walker.jpg\"></img><p>Bronze Casting</p>"
 			},
 			{
 				"row": 1,
 				"column": 3,
-				"color": "#ff6666"
+				"color": "#ff6666",
+				"imgHover": "img/SmallHex/SmallHexPartsUnknown.jpg",
+				"details": "<img src=\"img/PartsUnknown.jpg\"></img><p>Album Cover for The Missing Parts' third album, Parts Unknown.</p>"
 			},
 			{
 				"row": 1,
 				"column": 4,
-				"color": "#996666"
+				"color": "#996666",
+				"imgHover": "img/SmallHex/SmallHexGlobe.jpg",
+				"details": "<img src=\"img/Globe.jpg\"></img><p>Poster collaboration with <a href=\"katvlwright.com\" target=\"_blank\">Kat V. L. Wright</a>.  Kat drew the globe in pen, and I added color and texture in Photoshop.</p>"
 			},
 			{
 				"row": 1,
 				"column": 5,
-				"color": "#996666"
+				"color": "#996666",
+				"imgHover": "img/SmallHex/SmallHexSketch.jpg"
 			},
 			{
 				"row": 1,
@@ -131,12 +138,16 @@
 			{
 				"row": 1,
 				"column": 7,
-				"color": "#996666"
+				"color": "#996666",
+				"imgHover": "img/SmallHex/SmallHexHands.jpg",
+				"details": "<img src=\"img/hand-sculpture.jpg\"></img><p>Cast Aluminum Fractal</p>"
 			},
 			{
 				"row": 1,
 				"column": 8,
-				"color": "#996666"
+				"color": "#996666",
+				"imgHover": "img/SmallHex/SmallHexGuitarStand.jpg",
+				"details": "<img src=\"img/GuitarStand.jpg\"></img><p>Guitar Stand - Pine, Black Walnut and Cork</p><p>The black walnut wood is from my grandpa's woodshop, the cork stained with wine I drank while sanding the wood to a polish.</p>"
 			},
 			{
 				"row": 1,
