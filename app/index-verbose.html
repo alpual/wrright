@@ -16,6 +16,8 @@
 </head><body><!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]--><div ng-view class="view-container page {{pageClass}} clearfix"></div>
+
+  
   
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -24,11 +26,21 @@
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
-  
-  <script src="pww.min.js"></script>
-  
-  <script src="bower_components/hammerjs/hammer.min.js" asynch></script>
+  <script src="bower_components/hammerjs/hammer.min.js"></script>
+
+  <script src="angular-pageslide-directive.js"></script>
+  <script src="angular-tilehex-directive.js"></script>
+  <script src="pageslideCtrl.js" asynch></script>
+  <script src="tilehexCtrl.js"></script>
+  <script src="app.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js" asynch></script>
+  <script src="works/works.js" asynch></script>
   <script src="bower_components/ng-image-gallery/dist/ng-image-gallery.min.js" asynch></script>
+  <script src="contact/contact.js" asynch></script>
+  
+  <script src="directives.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Open+Sans" rel="stylesheet">
 
