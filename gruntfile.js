@@ -27,6 +27,10 @@ module.exports = function(grunt) {
             'app/contact/contact.annotated.js',
             'app/directives.annotated.js'        
           ];
+  var cssFiles = [
+            'app/base.css',
+            'app/bower_components/ng-image-gallery/dist/ng-image-gallery.min.css'
+  ];
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -77,11 +81,28 @@ module.exports = function(grunt) {
           ext: '.annotated.js', // Dest filepaths will have this extension.
           extDot: 'last'       // Extensions in filenames begin after the last dot
         }]
+    },
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          '<%= pkg.name %>.css': cssFiles
+        }
+      },
+      header: {
+        files: {
+          '<%= pkg.name %>-header.css': ['app/bower_components/html5-boilerplate/dist/css/normalize.css', 'app/bower_components/html5-boilerplate/dist/css/normalize.css']
+        }
+      }
     }
 }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
@@ -89,6 +110,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('test', ['jshint']);
 
-  grunt.registerTask('default', ['jshint', 'ngAnnotate', 'concat', 'uglify']);
+  grunt.registerTask('default', ['jshint', 'ngAnnotate', 'concat', 'uglify', 'cssmin']);
 
 };
