@@ -30,10 +30,24 @@ module.exports = function(grunt) {
   var cssFiles = [
             'app/base.css',
             'app/bower_components/ng-image-gallery/dist/ng-image-gallery.min.css'
-  ];
+          ];
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    cssmin: {
+      options: {
+         banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n',
+      },
+      target: {
+        files: {
+          'app/base.min.css': [
+            'app/base.css', 
+            'app/bower_components/html5-boilerplate/dist/css/normalize.css', 
+            'app/bower_components/html5-boilerplate/dist/css/main.css', 
+            'app/bower_components/ng-image-gallery/dist/ng-image-gallery.min.css']
+        }
+      }
+    },
     concat: {
       options: {
         separator: ';'
@@ -81,22 +95,6 @@ module.exports = function(grunt) {
           ext: '.annotated.js', // Dest filepaths will have this extension.
           extDot: 'last'       // Extensions in filenames begin after the last dot
         }]
-    },
-    cssmin: {
-      options: {
-        shorthandCompacting: false,
-        roundingPrecision: -1
-      },
-      target: {
-        files: {
-          '<%= pkg.name %>.css': cssFiles
-        }
-      },
-      header: {
-        files: {
-          '<%= pkg.name %>-header.css': ['app/bower_components/html5-boilerplate/dist/css/normalize.css', 'app/bower_components/html5-boilerplate/dist/css/normalize.css']
-        }
-      }
     }
 }
   });
