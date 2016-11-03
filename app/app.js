@@ -9,7 +9,6 @@ var app = angular.module('myApp', [
   'myApp.contact',
   'myApp.pageslide',
   'myApp.tilehex',
-  'myApp.version',
   'ngAnimate', 
   'thatisuday.ng-image-gallery',
 ]).

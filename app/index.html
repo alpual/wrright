@@ -19,34 +19,36 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]--><div ng-view class="view-container page {{pageClass}} clearfix"></div>
 
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/jQuery/dist/jquery.js"></script>
-  <script type="text/javascript" src="js/hex.js"></script>
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-animate/angular-animate.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="bower_components/ng-image-gallery/dist/ng-image-gallery.min.js"></script>
+  
+  
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
   <script src="bower_components/hammerjs/hammer.min.js"></script>
+
   <script src="angular-pageslide-directive.js"></script>
   <script src="angular-tilehex-directive.js"></script>
-  <script src="pageslideCtrl.js"></script>
+  <script src="pageslideCtrl.js" asynch></script>
   <script src="tilehexCtrl.js"></script>
   <script src="app.js"></script>
   <script src="js/preloader.js"></script>
   <script src="view1/view1.js"></script>
-  <script src="view2/view2.js"></script>
-  <script src="works/works.js"></script>
-  <script src="contact/contact.js"></script>
-  <script src="components/version/version.js"></script>
-  <script src="components/version/version-directive.js"></script>
-  <script src="components/version/interpolate-filter.js"></script>
+  <script src="view2/view2.js" asynch></script>
+  <script src="works/works.js" asynch></script>
+  <script src="bower_components/ng-image-gallery/dist/ng-image-gallery.min.js" asynch></script>
+  <script src="contact/contact.js" asynch></script>
+  
   <script src="directives.js"></script>
-  <script src="js/works.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Open+Sans" rel="stylesheet">
+
+  <!--
   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  -->
 
 </body>
 </html>

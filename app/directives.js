@@ -40,9 +40,19 @@
                     element.removeClass('highlight-hex');
                 }
                 function lightboxClose(){
+                    /*var refBox = angular.element(document.getElementById('#refBox'));
+                    var refBoxBackground = angular.element(document.getElementById('#refBoxBackground'));
+                    var closeIcon = angular.element(document.getElementById('#close-icon'));
+
+                    refBox.addClass('hidden');
+                    refBoxBackground.addClass('hidden');
+                    closeIcon.addClass('hidden');*/
+                    
+                    
                     $('#refBox').addClass('hidden');
                     $('#refBoxBackground').addClass('hidden');
                     $('#close-icon').addClass('hidden');
+
                     //console.log ("Element: " + element);
                     element.removeClass('popped');
                     element.css('background-color', '#fff');

@@ -15,6 +15,35 @@
       </div>
     </div>
 
+        <!-- BEGIN: Large Hex Menu -->
+
+    <section id="frontPageMenu" class="clearfix" ng-controller="tilehexCtrl">
+
+        <a tilehex cardinality="north" hex-size="large" hex-class="fade" screen-size="max-width: 0" image-flash="80" hover-src="img/LargeHex/LargeHexLogoHover.png" >
+          <img src="img/LargeHex/LargeHexLogo.png"></img>
+          <img src="img/LargeHex/LargeHexLogoHover.png"></img>
+        </a>    
+
+        <a tilehex cardinality="west" hex-size="large" hex-class="second-fade" screen-size="max-width: 0" hover-src="img/LargeHex/LargeHexAboutHover7.png" href="index.html#/view2" >
+          <img src="img/LargeHex/LargeHexAbout.png"></img>
+          <img src="img/LargeHex/LargeHexAboutHover7.png"></img>
+        </a>
+
+        <a tilehex cardinality="east" hex-size="large" hex-class="third-fade" screen-size="max-width: 0" hover-src="img/LargeHex/LargeHexWorksHover.png" href="index.html#/works" >
+          <img src="img/LargeHex/LargeHexWorks.png"></img>
+          <img src="img/LargeHex/LargeHexWorksHover.png"></img>
+        </a>
+
+        <a tilehex cardinality="south" hex-size="large" hex-class="fourth-fade" screen-size="max-width: 00" hover-src="img/LargeHex/LargeHexContactHover2.png" href="index.html#/contact" >
+          <img src="img/LargeHex/LargeHexContact.png"></img>
+          <img src="img/LargeHex/LargeHexContactHover2.png"></img>
+        </a>
+
+    </section>
+
+
+    <!-- END: Large Hex Menu -->
+
     <!-- BEGIN: Background hexGrid -->
     <div class="hexGrid">
       <div ng-repeat="row in hexRow">
@@ -25,33 +54,5 @@
     </div>
     <!-- END: Background hexGrid -->
    
-    <!-- BEGIN: Large Hex Menu -->
-
-    <section id="frontPageMenu" class="clearfix" ng-controller="tilehexCtrl">
-
-        <a tilehex cardinality="north" hex-size="large" hex-class="fade" screen-size="max-width: 0" image-flash="80" hover-src="img/LargeHexLogoHover.png" >
-          <img src="img/LargeHexLogo.png"></img>
-          <img src="img/LargeHexLogoHover.png"></img>
-        </a>    
-
-        <a tilehex cardinality="west" hex-size="large" hex-class="second-fade" screen-size="max-width: 0" hover-src="img/LargeHexAboutHover7.png" href="index.html#/view2" >
-          <img src="img/LargeHexAbout.png"></img>
-          <img src="img/LargeHexAboutHover7.png"></img>
-        </a>
-
-        <a tilehex cardinality="east" hex-size="large" hex-class="third-fade" screen-size="max-width: 0" hover-src="img/LargeHexWorksHover.png" href="index.html#/works" >
-          <img src="img/LargeHexWorks.png"></img>
-          <img src="img/LargeHexWorksHover.png"></img>
-        </a>
-
-        <a tilehex cardinality="south" hex-size="large" hex-class="fourth-fade" screen-size="max-width: 00" hover-src="img/LargeHexContactHover2.png" href="index.html#/contact" >
-          <img src="img/LargeHexContact.png"></img>
-          <img src="img/LargeHexContactHover.png"></img>
-        </a>
-
-    </section>
-
-
-    <!-- END: Large Hex Menu -->
   </div> <!-- END: container - Results View -->
 </div> <!-- END: ng-switch isLoading -->

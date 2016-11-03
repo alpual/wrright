@@ -40,16 +40,15 @@ angular.module('myApp.view1', ['ngRoute'])
 
 app.controller('preloadController', function($scope, preloader) {
      $scope.imageLocations = [
-                    "img/LargeHexLogo.png",
-                    "img/LargeHexAbout.png",
-                    "img/LargeHexWorks.png",
-                    "img/LargeHexContact.png",  
+                    "img/LargeHex/LargeHexLogo.png",
+                    "img/LargeHex/LargeHexAbout.png",
+                    "img/LargeHex/LargeHexWorks.png",
+                    "img/LargeHex/LargeHexContact.png",  
                     "img/SmallHexLogo.png",
-                    "img/pencilHex2.png", 
-                    "img/LargeHexAboutHover7.png",
-                    "img/LargeHexLogoHover.png", 
-                    "img/LargeHexWorksHover.png",   
-                    "img/LargeHexContactHover2.png"
+                    "img/LargeHex/LargeHexAboutHover7.png",
+                    "img/LargeHex/LargeHexLogoHover.png", 
+                    "img/LargeHex/LargeHexWorksHover.png",   
+                    "img/LargeHex/LargeHexContactHover2.png"
 
       ];
       // Preload the images; then, update display when returned.
