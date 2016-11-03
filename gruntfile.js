@@ -42,9 +42,18 @@ module.exports = function(grunt) {
         files: {
           'app/base.min.css': [
             'app/base.css', 
-            'app/bower_components/html5-boilerplate/dist/css/normalize.css', 
+            /*'app/bower_components/html5-boilerplate/dist/css/normalize.css', 
             'app/bower_components/html5-boilerplate/dist/css/main.css', 
-            'app/bower_components/ng-image-gallery/dist/ng-image-gallery.min.css']
+            'app/bower_components/ng-image-gallery/dist/ng-image-gallery.min.css'*/
+          ]
+        }
+      },
+      inline: {
+        files: {
+          'app/inline.min.css': [
+            'app/bower_components/html5-boilerplate/dist/css/normalize.css', 
+            'app/bower_components/html5-boilerplate/dist/css/main.css'
+          ]
         }
       }
     },
@@ -81,6 +90,15 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+      options: {
+        livereload: {
+        host: 'localhost',
+        port: 8000,
+        key: grunt.file.read('path/to/ssl.key'),
+        cert: grunt.file.read('path/to/ssl.crt')
+        // you can pass in any other options you'd like to the https server, as listed here: http://nodejs.org/api/tls.html#tls_tls_createserver_options_secureconnectionlistener
+      }
+      },
       files: ['<%= jshint.files %>'],
       tasks: ['jshint']
     },
@@ -95,8 +113,18 @@ module.exports = function(grunt) {
           ext: '.annotated.js', // Dest filepaths will have this extension.
           extDot: 'last'       // Extensions in filenames begin after the last dot
         }]
+      }
+    },
+    imagemin: {                          // Task
+      dynamic: {                         // Another target
+        files: [{
+          expand: true,                  // Enable dynamic expansion
+          cwd: 'app/img/',                   // Src matches are relative to this path
+          src: ['**/*.{png,jpg}'],   // Actual patterns to match
+          dest: 'app/distImg/'                  // Destination path prefix
+        }]
+      }
     }
-}
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -105,8 +133,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-ng-annotate'); 
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('test', ['jshint']);
+  grunt.registerTask('images', ['imagemin']);
 
   grunt.registerTask('default', ['jshint', 'ngAnnotate', 'concat', 'uglify', 'cssmin']);
 
