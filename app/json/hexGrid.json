@@ -13,697 +13,851 @@
 			{
 				"row": 0,
 				"column": 1,
-				"color": "#666666",
-				"imgHover": "img/SmallHex/SmallHexVictrola.jpg",
-				"details": "<img src=\"img/Band-Automata-Flyer-at-Sister-with-Le-Chat.jpg\"></img><p>Pen and ink, digitally colored.</p> <a href=\"#/works#TheMissingParts\">Learn more...</a>"
+				"color": "#D6B390"
 			},
 			{
 				"row": 0,
 				"column": 2,
-				"color": "#336666",
-				"imgHover": "img/SmallHex/SmallHexMandala.jpg",
-				"details": "<img src=\"img/Mandala-Colored.jpg\"></img><p>A mandala drawn by <a href=\"http://www.katvlwright.com\" target=\"_blank\">Kat V. L. Wright</a>, which I edited in Photoshop, adding color and texture, for the background hero-image on <a href=\"http://www.alchemyaz.net\" target=\"_blank\">alchemyaz.net</a>.</p> <a href=\"#/works#Alchemy\">Learn more...</a>"
+				"color": "#FFC891"
 			},
 			{
 				"row": 0,
 				"column": 3,
-				"color": "#006666",
-				"imgHover": "img/SmallHex/SmallHexBooks.jpg"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 0,
 				"column": 4,
-				"color": "#999966",
-				"imgHover": "img/SmallHex/SmallHexCrossHatch.jpg"
+				"color": "#D6B390"
 			},
 			{
 				"row": 0,
 				"column": 5,
-				"color": "#99cc66",
-				"imgHover": "img/SmallHex/SmallHexRks.jpg"
+				"color": "#96B7A6"
 			},
 			{
 				"row": 0,
 				"column": 6,
-				"color": "#99ff66",
-				"imgHover": "img/SmallHex/SmallHexWireframe.jpg"
+				"color": "#A2BDCE"
 			},
 			{
 				"row": 0,
 				"column": 7,
-				"color": "#996600",
-				"imgHover": "img/SmallHex/SmallHexPaperCello.jpg"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 0,
 				"column": 8,
-				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexEye.jpg",
-				"details": "<img src=\"img/CD-Release-Flyer.jpg\"></img><p>A digitally edited illustration I made for The Missing Parts.  The illustration of the eye was done with colored pencil and paper, and the flyer was put together using Adobe Photoshop and Illustrator.</p>"
+				"color": "#96B7A6"
 			},
 			{
 				"row": 0,
 				"column": 9,
-				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexBand.jpg"
+				"color": "#996633"
 			},
 			{
 				"row": 0,
 				"column": 10,
-				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexNautilus.jpg",
-				"details": "<img src=\"img/Nautilus.jpg\"></img><p>An origami lamp I built using paper, resin, an LED bulb, wire, and carved ash wood from a bookcase my dad started building before I was born but never finished. I love origami (and highly recommend the documentary Between the Folds), and my art degree was largely focused on sculpture, though I also studied design, painting, and printmaking.  This was a fun project combining origami and woodcarving to create something functional and beautiful. </p>"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 0,
 				"column": 11,
-				"color": "#996633",
-				"imgHover": "img/SmallHex/SmallHexFace.jpg",
-				"details": "<img src=\"img/TheMissingParts.jpg\"></img><p>I play music for a trio (violin, cello, guitar).  I also make the art, the website, and do most of the booking.  You can check out the band at <a href=\"http://themissingparts.net\" target=\"_blank\">themissingparts.net</a>.</p>"
-			},
-			{
-				"row": 0,
-				"column": 12,
-				"color": "#996633",
+				"color": "#BAAA79",
 				"imgHover": "img/SmallHex/SmallHexCatInTheHat.jpg",
 				"details": "<img src=\"img/theArtist.jpg\"><p>My Halloween Costume from last fall: Grumpy Cat in the Hat.</p>"
-			}
+			}			
 		], [
 			{
 				"row": 1,
 				"column": 0,
-				"color": "#996666",
-				"imgHover": "img/SmallHex/SmallHexAlchemy.jpg",
-				"details": "<img src=\"img/alchemy-header2.JPG\"></img><p>Design and website for Alchemy Integrative Wellness, in Tucson, AZ.</p> <a href=\"#/works#Alchemy\">Learn more...</a>"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 1,
 				"column": 1,
-				"color": "#996666",
-				"imgHover": "img/SmallHex/SmallHexKVLW.jpg",
-				"details": "<img src=\"img/Kat-Header.jpg\"></img><p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.</p>  You can check out her website at <a href=\"katvlwright.com\" target=\"_blank\">katvlwright.com</a>."
-			},
+				"color": "#BAAA79"},
 			{
 				"row": 1,
 				"column": 2,
-				"color": "#66ff66",
-				"imgHover": "img/SmallHex/SmallHexEgg.jpg",
-				"details": "<img src=\"img/egg-walker.jpg\"></img><p>Bronze Casting</p>"
+				"color": "#F3F4E5"
 			},
 			{
 				"row": 1,
 				"column": 3,
-				"color": "#ff6666",
-				"imgHover": "img/SmallHex/SmallHexPartsUnknown.jpg",
-				"details": "<img src=\"img/PartsUnknown.jpg\"></img><p>Album Cover for The Missing Parts' third album, Parts Unknown.</p>"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 1,
 				"column": 4,
-				"color": "#996666",
-				"imgHover": "img/SmallHex/SmallHexGlobe.jpg",
-				"details": "<img src=\"img/Globe.jpg\"></img><p>Poster collaboration with <a href=\"katvlwright.com\" target=\"_blank\">Kat V. L. Wright</a>.  Kat drew the globe in pen, and I added color and texture in Photoshop.</p>"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 1,
 				"column": 5,
-				"color": "#996666",
+				"color": "#BAAA79",
 				"imgHover": "img/SmallHex/SmallHexSketch.jpg"
 			},
 			{
 				"row": 1,
 				"column": 6,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 1,
 				"column": 7,
-				"color": "#996666",
-				"imgHover": "img/SmallHex/SmallHexHands.jpg",
-				"details": "<img src=\"img/hand-sculpture.jpg\"></img><p>Cast Aluminum Fractal</p>"
+				"color": "#E8A980"
 			},
 			{
 				"row": 1,
 				"column": 8,
-				"color": "#996666",
+				"color": "#D9E8ED",
 				"imgHover": "img/SmallHex/SmallHexGuitarStand.jpg",
 				"details": "<img src=\"img/GuitarStand.jpg\"></img><p>Guitar Stand - Pine, Black Walnut and Cork</p><p>The black walnut wood is from my grandpa's woodshop, the cork stained with wine I drank while sanding the wood to a polish.</p>"
 			},
 			{
 				"row": 1,
 				"column": 9,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 1,
 				"column": 10,
-				"color": "#996633"
+				"color": "#94999C"
 			},
 			{
 				"row": 1,
 				"column": 11,
-				"color": "#996633"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 1,
 				"column": 12,
+				"color": "#EBE0C0"
+			}
+		], [
+			{
+				"row": 2,
+				"column": 0,
+				"color": "#E8A980"
+			},
+			{
+				"row": 2,
+				"column": 1,
+				"color": "#A39992"
+			},
+			{
+				"row": 2,
+				"column": 2,
+				"color": "#D9E8ED"
+			},
+			{
+				"row": 2,
+				"column": 3,
+				"color": "#BFAFA4"
+			},
+			{
+				"row": 2,
+				"column": 4,
+				"color": "#D6D9AC"
+			},
+			{
+				"row": 2,
+				"column": 5,
+				"color": "#C9C2B7"
+			},
+			{
+				"row": 2,
+				"column": 6,
 				"color": "#996633"
-			}
-		], [
-			{
-				"row": 2,
-				"column": 0,
-				"color": "#996666"
-			},
-			{
-				"row": 2,
-				"column": 1,
-				"color": "#996666"
-			},
-			{
-				"row": 2,
-				"column": 2,
-				"color": "#996666"
-			},
-			{
-				"row": 2,
-				"column": 3,
-				"color": "#996666"
-			},
-			{
-				"row": 2,
-				"column": 4,
-				"color": "#996666"
-			},
-			{
-				"row": 2,
-				"column": 5,
-				"color": "#996666"
-			},
-			{
-				"row": 2,
-				"column": 6,
-				"color": "#996666"
 			},
 			{
 				"row": 2,
 				"column": 7,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 2,
 				"column": 8,
-				"color": "#996666"
+				"color": "#D6D9AC"
+			},
+			{
+				"row": 2,
+				"column": 9,
+				"color": "#AFA08C"
+			},
+			{
+				"row": 2,
+				"column": 10,
+				"color": "#94999C",
+				"imgHover": "img/SmallHex/SmallHexFace.jpg",
+				"details": "<img src=\"img/TheMissingParts.jpg\"></img><p>I play music for a trio (violin, cello, guitar).  I also make the art, the website, and do most of the booking.  You can check out the band at <a href=\"http://themissingparts.net\" target=\"_blank\">themissingparts.net</a>.</p>"
+			},
+			{
+				"row": 2,
+				"column": 11,
+				"color": "#D9E8ED"
 			}
 		], [
 			{
 				"row": 3,
 				"column": 0,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 3,
 				"column": 1,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 3,
 				"column": 2,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 3,
 				"column": 3,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 3,
 				"column": 4,
-				"color": "#996666"
+				"color": "#BAAA79",
+				"imgHover": "img/SmallHex/SmallHexEye.jpg",
+				"details": "<img src=\"img/CD-Release-Flyer.jpg\"></img><p>A digitally edited illustration I made for The Missing Parts.  The illustration of the eye was done with colored pencil and paper, and the flyer was put together using Adobe Photoshop and Illustrator.</p>"
 			},
 			{
 				"row": 3,
 				"column": 5,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 3,
 				"column": 6,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 3,
 				"column": 7,
-				"color": "#996666"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 3,
 				"column": 8,
-				"color": "#996666"
+				"color": "#A2BDCE"
+			},
+			{
+				"row": 3,
+				"column": 9,
+				"color": "#A39992"
+			},
+			{
+				"row": 3,
+				"column": 10,
+				"color": "#94999C"
+			},
+			{
+				"row": 3,
+				"column": 11,
+				"color": "#BAAA79"
+			},
+			{
+				"row": 3,
+				"column": 12,
+				"color": "#E8A980"
 			}
 		], [
 			{
 				"row": 4,
 				"column": 0,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 4,
 				"column": 1,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 4,
 				"column": 2,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 4,
 				"column": 3,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 4,
 				"column": 4,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 4,
 				"column": 5,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 4,
 				"column": 6,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 4,
 				"column": 7,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 4,
 				"column": 8,
-				"color": "#996666"
+				"color": "#B2A38E"
+			},
+			{
+				"row": 4,
+				"column": 9,
+				"color": "#D9E8ED"
+			},
+			{
+				"row": 4,
+				"column": 10,
+				"color": "#D6D9AC",
+				"imgHover": "img/SmallHex/SmallHexPaperCello.jpg"
+			},
+			{
+				"row": 4,
+				"column": 11,
+				"color": "#B2A38E"
 			}
 		], [
 			{
 				"row": 5,
 				"column": 0,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 5,
 				"column": 1,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 5,
 				"column": 2,
-				"color": "#996666"
+				"color": "#D6D9AC",
+				"imgHover": "img/SmallHex/SmallHexHands.jpg",
+				"details": "<img src=\"img/hand-sculpture.jpg\"></img><p>Cast Aluminum Fractal</p>"
 			},
 			{
 				"row": 5,
 				"column": 3,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 5,
 				"column": 4,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 5,
 				"column": 5,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 5,
 				"column": 6,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 5,
 				"column": 7,
-				"color": "#996666"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 5,
 				"column": 8,
-				"color": "#996666"
+				"color": "#E8A980"
 			},
 			{
 				"row": 5,
 				"column": 9,
-				"color": "#996666"
+				"color": "#BFAFA4"
+			},
+			{
+				"row": 5,
+				"column": 10,
+				"color": "#BAAA79"
+			},
+			{
+				"row": 5,
+				"column": 11,
+				"color": "#E8A980"
+			},
+			{
+				"row": 5,
+				"column": 12,
+				"color": "#BFAFA4"
 			}
 		], [
 			{
 				"row": 6,
 				"column": 0,
-				"color": "#996666"
+				"color": "#E8A980"
 			},
 			{
 				"row": 6,
 				"column": 1,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 6,
 				"column": 2,
-				"color": "#996666"
+				"color": "#D6D9AC",
+				"imgHover": "img/SmallHex/SmallHexEgg.jpg",
+				"details": "<img src=\"img/egg-walker.jpg\"></img><p>Bronze Casting</p>"
 			},
 			{
 				"row": 6,
 				"column": 3,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 6,
 				"column": 4,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 6,
 				"column": 5,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 6,
 				"column": 6,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 6,
 				"column": 7,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 6,
 				"column": 8,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 6,
 				"column": 9,
-				"color": "#996666"
+				"color": "#A39992"
+			},
+			{
+				"row": 6,
+				"column": 10,
+				"color": "#BFAFA4"
+			},
+			{
+				"row": 6,
+				"column": 11,
+				"color": "#A39992"
 			}
 		], [
 			{
 				"row": 7,
 				"column": 0,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 7,
 				"column": 1,
-				"color": "#996666"
+				"color": "#D6D9AC",
+				"imgHover": "img/SmallHex/SmallHexWireframe.jpg"
 			},
 			{
 				"row": 7,
 				"column": 2,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 7,
 				"column": 3,
-				"color": "#996666"
+				"color": "#B2A38E"
 			},
 			{
 				"row": 7,
 				"column": 4,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 7,
 				"column": 5,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 7,
 				"column": 6,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 7,
 				"column": 7,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 7,
 				"column": 8,
-				"color": "#996666"
+				"color": "#E8A980"
 			},
 			{
 				"row": 7,
 				"column": 9,
-				"color": "#996666"
+				"color": "#AFA08C"
+			},
+			{
+				"row": 7,
+				"column": 10,
+				"color": "#D9E8ED"
+			},
+			{
+				"row": 7,
+				"column": 11,
+				"color": "#E8A980",
+				"imgHover": "img/SmallHex/SmallHexNautilus.jpg",
+				"details": "<img src=\"img/Nautilus.jpg\"></img><p>An origami lamp I built using paper, resin, an LED bulb, wire, and carved ash wood from a bookcase my dad started building before I was born but never finished. I love origami (and highly recommend the documentary Between the Folds), and my art degree was largely focused on sculpture, though I also studied design, painting, and printmaking.  This was a fun project combining origami and woodcarving to create something functional and beautiful. </p>"
+			
+			},
+			{
+				"row": 7,
+				"column": 12,
+				"color": "#AFA08C"
 			}
 		], [
 			{
 				"row": 8,
 				"column": 0,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 8,
 				"column": 1,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 8,
 				"column": 2,
-				"color": "#996666"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 8,
 				"column": 3,
-				"color": "#996666"
+				"color": "#EBE0C0",
+				"imgHover": "img/SmallHex/SmallHexVictrola.jpg",
+				"details": "<img src=\"img/Band-Automata-Flyer-at-Sister-with-Le-Chat.jpg\"></img><p>Pen and ink, digitally colored.</p> <a href=\"#/works#TheMissingParts\">Learn more...</a>"
 			},
 			{
 				"row": 8,
 				"column": 4,
-				"color": "#996666"
+				"color": "#B2A38E"
 			},
 			{
 				"row": 8,
 				"column": 5,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 8,
 				"column": 6,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 8,
 				"column": 7,
-				"color": "#996666"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 8,
 				"column": 8,
-				"color": "#996666"
+				"color": "#BFAFA4"
+			},
+			{
+				"row": 8,
+				"column": 9,
+				"color": "#AFA08C"
+			},
+			{
+				"row": 8,
+				"column": 10,
+				"color": "#BAAA79"
+			},
+			{
+				"row": 8,
+				"column": 11,
+				"color": "#BFAFA4"
 			}
 		], [
 			{
 				"row": 9,
 				"column": 0,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 9,
 				"column": 1,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 9,
 				"column": 2,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 9,
 				"column": 3,
-				"color": "#996666"
+				"color": "#BAAA79",
+				"imgHover": "img/SmallHex/SmallHexRks.jpg"
 			},
 			{
 				"row": 9,
 				"column": 4,
-				"color": "#996666"
+				"color": "#E8A980"
 			},
 			{
 				"row": 9,
 				"column": 5,
-				"color": "#996666"
+				"color": "#BFAFA4"
 			},
 			{
 				"row": 9,
 				"column": 6,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 9,
 				"column": 7,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 9,
 				"column": 8,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 9,
 				"column": 9,
-				"color": "#996666"
+				"color": "#C9C2B7"
+			},
+			{
+				"row": 9,
+				"column": 10,
+				"color": "#AFA08C"
+			},
+			{
+				"row": 9,
+				"column": 11,
+				"color": "#D6D9AC"
+			},
+			{
+				"row": 9,
+				"column": 12,
+				"color": "#C9C2B7",
+				"imgHover": "img/SmallHex/SmallHexCrossHatch.jpg"
 			}
 		], [
 			{
 				"row": 10,
 				"column": 0,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 10,
 				"column": 1,
-				"color": "#996666"
+				"color": "#BAAA79",
+				"imgHover": "img/SmallHex/SmallHexAlchemy.jpg",
+				"details": "<img src=\"img/alchemy-header2.JPG\"></img><p>Design and website for Alchemy Integrative Wellness, in Tucson, AZ.</p> <a href=\"#/works#Alchemy\">Learn more...</a>"
 			},
 			{
 				"row": 10,
 				"column": 2,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 10,
 				"column": 3,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 10,
 				"column": 4,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 10,
 				"column": 5,
-				"color": "#996666"
+				"color": "#B2A38E"
 			},
 			{
 				"row": 10,
 				"column": 6,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 10,
 				"column": 7,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 10,
 				"column": 8,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 10,
 				"column": 9,
-				"color": "#996666"
+				"color": "#D6D9AC",
+				"imgHover": "img/SmallHex/SmallHexPartsUnknown.jpg",
+				"details": "<img src=\"img/PartsUnknown.jpg\"></img><p>Album Cover for The Missing Parts' third album, Parts Unknown.</p>"
+			},
+			{
+				"row": 10,
+				"column": 10,
+				"color": "#D9E8ED"
+			},
+			{
+				"row": 10,
+				"column": 11,
+				"color": "#D6D9AC"
 			}
 		], [
 			{
 				"row": 11,
 				"column": 0,
-				"color": "#996666"
+				"color": "#94999C",
+				"imgHover": "img/SmallHex/SmallHexBand.jpg"
 			},
 			{
 				"row": 11,
 				"column": 1,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 11,
 				"column": 2,
-				"color": "#996666"
+				"color": "#EBE0C0"
 			},
 			{
 				"row": 11,
 				"column": 3,
-				"color": "#996666"
+				"color": "#B2A38E"
 			},
 			{
 				"row": 11,
 				"column": 4,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 11,
 				"column": 5,
-				"color": "#996666"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 11,
 				"column": 6,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 11,
 				"column": 7,
-				"color": "#996666"
+				"color": "#AFA08C"
 			},
 			{
 				"row": 11,
 				"column": 8,
-				"color": "#996666"
+				"color": "#D6D9AC"
+			},
+			{
+				"row": 11,
+				"column": 9,
+				"color": "#BAAA79"
+			},
+			{
+				"row": 11,
+				"column": 10,
+				"color": "#D6D9AC"
+			},
+			{
+				"row": 11,
+				"column": 11,
+				"color": "#AFA08C"
+			},
+			{
+				"row": 11,
+				"column": 12,
+				"color": "#D6D9AC"
 			}
 		], [
 			{
 				"row": 12,
 				"column": 0,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 12,
 				"column": 1,
-				"color": "#996666"
+				"color": "#D9E8ED",
+				"imgHover": "img/SmallHex/SmallHexKVLW.jpg",
+				"details": "<img src=\"img/Kat-Header.jpg\"></img><p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.</p>  You can check out her website at <a href=\"katvlwright.com\" target=\"_blank\">katvlwright.com</a>."
 			},
 			{
 				"row": 12,
 				"column": 2,
-				"color": "#996666"
+				"color": "#B2A38E"
 			},
 			{
 				"row": 12,
 				"column": 3,
-				"color": "#996666"
+				"color": "#C9C2B7"
 			},
 			{
 				"row": 12,
 				"column": 4,
-				"color": "#996666"
+				"color": "#A39992"
 			},
 			{
 				"row": 12,
 				"column": 5,
-				"color": "#996666"
+				"color": "#BAAA79",
+				"imgHover": "img/SmallHex/SmallHexMandala.jpg",
+				"details": "<img src=\"img/Mandala-Colored.jpg\"></img><p>A mandala drawn by <a href=\"http://www.katvlwright.com\" target=\"_blank\">Kat V. L. Wright</a>, which I edited in Photoshop, adding color and texture, for the background hero-image on <a href=\"http://www.alchemyaz.net\" target=\"_blank\">alchemyaz.net</a>.</p> <a href=\"#/works#Alchemy\">Learn more...</a>"
 			},
 			{
 				"row": 12,
 				"column": 6,
-				"color": "#996666"
+				"color": "#D6D9AC"
 			},
 			{
 				"row": 12,
 				"column": 7,
-				"color": "#996666"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 12,
 				"column": 8,
-				"color": "#996666"
+				"color": "#94999C"
 			},
 			{
 				"row": 12,
 				"column": 9,
-				"color": "#996666"
+				"color": "#E8A980"
+			},
+			{
+				"row": 12,
+				"column": 10,
+				"color": "#94999C"
+			},
+			{
+				"row": 12,
+				"column": 11,
+				"color": "#E8A980",
+				"imgHover": "img/SmallHex/SmallHexGlobe.jpg",
+				"details": "<img src=\"img/Globe.jpg\"></img><p>Poster collaboration with <a href=\"katvlwright.com\" target=\"_blank\">Kat V. L. Wright</a>.  Kat drew the globe in pen, and I added color and texture in Photoshop.</p>"
 			}
 		]
 	]

@@ -1,7 +1,15 @@
 <div ng-controller="preloadController" ng-switch="isLoading" class="fade-out-on-click">
   <!-- BEGIN: Loading View. -->
   <p ng-switch-when="true">
-    Your images are being loaded... {{ percentLoaded }}%
+    <div class="preloader loading">
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+      <span class="slice"></span>
+    </div>
+    <div id="preload-text">{{ percentLoaded }}%</div>  
   </p>
   <!-- END: Loading View. -->
 
