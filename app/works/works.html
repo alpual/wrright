@@ -18,18 +18,29 @@
       <h1>To Begin...</h1>
     </div>
 
-    <div class="left-column pseudo-fade">
+    <aside class="left-column pseudo-fade">
 
       <div tilehex cardinality="free" hex-size="large" hex-class="clearfix second-fade">
         <img src="img/LargeHex/LargeHexWorksHover.png" ></img>
       </div>
 
-    </div>
+    </aside>
      <section class="entry-content fade">
-        <p>I built websites as well as poster art, robotics with Arduinos, and custom tools with Google Apps Scripts.</p>
+        <p>I built websites as well as graphic art, sculptures, and custom tools with Google Apps Scripts.</p>
+        <p>I also offer services as a design/WordPress consultant, back-end developer, and translator (Spanish to English).</p>
+
+        <h2>Jump to:</h2>
+        <ul>
+          <li><a href="#InkaJungleTours">Inka Jungle Tours</a></li>
+          <li><a href="#Upohar">Upohar Ethnic Cuisines</a></li>
+          <li><a href="#Alchemy">Alchemy Integrative Wellness</a></li>
+          <li><a href="#CaitlinSabo">Caitlin Sabo - Fine Art Photography</a></li>
+          <li><a href="#TheMissingParts">The Missing Parts</a></li>
+          <li><a href="#Sculpture">My Sculpture</a></li>
+        </ul>
+
         <p>Like what you see?<br>  Have a project in mind?</p> 
         <p>For a free quotation, or just to say hi, <a href="mailto:alpual@gmail.com">get in touch</a>.</p>
-        
     </section>
 
 
@@ -39,13 +50,76 @@
 </section> <!-- END: hex-float -->
 
 <section id="lower-container" class="below-the-fold clearfix centered-content">
-  <div class="works-entry" ng-controller="tilehexCtrl">
+  <section class="works-entry" ng-controller="tilehexCtrl">
+
+    <div class="entry-header">
+      <h1>Inka Jungle Tours</h1>
+    </div>
+
+    <aside class="left-column">
+      <a id="InkaJungleTours" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" href="http://inkajungletours.com" target="_blank">
+        <img src="img/LargeHex/LargeHexInka.jpg"></img>
+      </a>
+      
+      <div class="highlights">
+        <h2>Full Stack, Google Apps,<br>WordPress, MySQL, <br> PHP, JavaScript, HTML, CSS,<br>Multilingual, Translation</h2>
+      </div>
+    </aside>
+
+    <section class="entry-content">
+      <img src="img/InkaJungleHomepage.jpg"></img>
+      <p>I met David while backpacking in Peru with my wife.  We volunteered for his tourism agency (using <a href="http://workaway.info" target="_blank">WorkAway</a>) in exchange for room and board while we were in Cusco.  Afterward, he hired me to develop a range of applications for his website.</p>
+
+      <img src="img/GoogleAppsScript.jpg"></img>
+
+      <p>The project has many facets, but it has one overarching goal: to create a total, automated system for client relations.  Elements of the system include a spreadsheet that pulls data from a MySQL database, which is populated with client reservations and contact information.  The system connects client information with a Google Calendar, automates emails and generates reports.  Plans are in the works for automated invoicing via the PayPal API.</p>
+
+      <p>Inka Jungle Tours serves travelers from all over the world, so I've provided translation, design consulting, and troubleshooting services as needed to ensure that the whole system runs smoothly.</p>
+
+      <p>One interesting and wonderful aspect of this project is the global nature of it.  David may be in Cusco or Poland at any given time.  I might be in Washington DC, Lima, Peru or Albuquerque, NM.  I get to speak Spanish on a daily basis.  We coordinate the whole thing using the incredible array of technology that the internet provides.  From Google Docs collaborative editing to Skype calls and remote server access, we are able to work in real time across the globe.</p>
+
+      <a class="site-link" href="http://inkajungletour.com" target="_blank">InkaJungleTour.com</a>
+    </section>
+
+  </section>  <!-- END: entry -->
+
+  <section class="works-entry" ng-controller="tilehexCtrl">
+
+    <div class="entry-header">
+      <h1>Upohar Ethnic Cuisines</h1>
+    </div>
+
+    <aside class="left-column">
+      <a id="Upohar" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" href="http://upoharethniccuisines.com" target="_blank">
+        <img src="img/LargeHex/LargeHexInka.jpg"></img>
+      </a>
+      
+      <div class="highlights">
+        <h2>WordPress, PHP, JavaScript<br>Design Consultation, UI, UX</h2>
+      </div>
+    </aside>
+
+    <section class="entry-content">
+
+      <img src="img/UpoharHomepage.jpg"></img>
+
+      <p>I met Sri at the Albuquerque Creative Startups Demo Day. Her business employs refugee women, paying them a living wage to cook food from their home cultures.  She is expanding the business beyond the restaurant to include a food truck, catering service, and market stand.</p>
+      <p>Sri already had an attractive WordPress site that she managed herself, and wanted to integrate two new sites under construction: Christina's Criollo (the market stand) and Global Flavors Catering.  I wrote up a report suggesting various ways she could integrate the new sites while still providing a comfortable, friendly user interface and sitemap.</p>
+      <p>Afer agreeing on the steps to take, I went about implementing the requested changes.  As well as changes to the navigaton, this included modifying a child-theme with a bit of PHP and JS to provide the exact user experience detailed in the report.</p> 
+
+
+      <a class="site-link" href="http://upoharethniccuisines.com" target="_blank">UpoharEthnicCuisines.com</a>
+    </section>
+
+  </section>  <!-- END: entry -->
+
+  <section class="works-entry" ng-controller="tilehexCtrl">
 
     <div class="entry-header">
       <h1>Alchemy Integrative Wellness</h1>
     </div>
 
-    <div class="left-column">
+    <aside class="left-column">
       <a id="Alchemy" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" href="http://alchemyaz.net" target="_blank">
         <img src="img/LargeHex/LargeHexAlchemy.png"></img>
       </a>
@@ -53,7 +127,7 @@
       <div class="highlights ">
         <h2>Responsive, mobile first,<br>WordPress,  newsletter, <br> PHP, HTML5, CSS3<br>Accessibility</h2>
       </div>
-    </div>
+    </aside>
 
     <section class="entry-content">
       <img src="img/alchemy-header2.jpg"></img>
@@ -65,15 +139,15 @@
       <a class="site-link" href="http://alpual.fatcow.com/alchemyaz" target="_blank">AlchemyAZ.net</a>
     </section>
 
-  </div>  <!-- END: entry -->
+  </section>  <!-- END: entry -->
 
-  <div  class="works-entry" ng-controller="tilehexCtrl">
+  <section class="works-entry" ng-controller="tilehexCtrl">
 
     <div class="entry-header">
       <h1>Caitlin Sabo Photography</h1>
     </div>
 
-    <div class="left-column">
+    <aside class="left-column">
       <a id="CaitlinSabo" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" href="http://caitlinsabo.com" target="_blank">
         <img src="img/LargeHex/LargeHexCaitlin.png"></img>
       </a>
@@ -81,7 +155,7 @@
       <div class="highlights ">
         <h2><br>WordPress,  Multilingual, <br> PHP, HTML, CSS</h2>
       </div>
-    </div>
+    </aside>
 
     <section class="entry-content">
       <img src="img/Caitlin-Sabo.jpg"></img>
@@ -92,15 +166,15 @@
       <p>Finally, since Caitlin is multilingual herself and exhibits in Spain, the USA, Mexico and Italy, we created both Spanish and Italian versions of the site.  This required a smarter gallery plugin.  To get the right feel, I added additional functionality to the gallery for the new languages </p>
       <a class="site-link" href="http://caitlinsabo.com" target="_blank">CaitlinSabo.com</a>
     </section>
-  </div>  <!-- END: entry -->
+  </section>  <!-- END: entry -->
 
-  <div  class="works-entry" ng-controller="tilehexCtrl">
+  <section  class="works-entry" ng-controller="tilehexCtrl">
 
     <div class="entry-header">
       <h1>The Missing Parts</h1>
     </div>
 
-    <div class="left-column">
+    <aside class="left-column">
       <a id="TheMissingParts" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" href="http://themissingparts.net" target="_blank">
         <img src="img/LargeHex/LargeHexTMP.png"></img>
       </a>
@@ -108,24 +182,59 @@
       <div class="highlights ">
         <h2><br>JavaScript, Flash,<br>HTML, CSS,<br>Graphic Design,<br>Sculpture, Guitar<br>Blood, Sweat and Tears</h2>
       </div>
-    </div>
+    </aside>
 
     <section class="entry-content">
       <a class="entry-img" href="http://themissingparts.net" target="_blank"><img src="img/TheMissingParts.jpg"></img></a>
-      <p>Among many other passions, I also play music with The Missing Parts.  The best description to date for the music is "Folk Music from an Undiscovered Country, and so I took a plaster casting of a friend's face and painted it to look like a map.  Photos of the sculpture are featured heavily in the site.</p>   
+      <p>Among many other passions, I also play music with The Missing Parts.  The best description to date for the music is "Folk Music from an Undiscovered Country", and so to express this I took a plaster casting of a friend's face and painted it to look like a map.  Photos of the sculpture are featured heavily in the site.</p>   
       <p>I chose a single-page site using JavaScript and a lot of absolute positioning.  A one-page site made sense because I wanted listeners to be able to browse while playing music in the site.  I built a custom Flash player with a skin featuring a second photo of the map/mask sculpture.</p>
       <p>I built the site from a photoshop mockup.  Every pixel had to line up for it to work.</p> 
-      <p>A bit of JavaScript handles tour dates though at the moment we aren't playing shows. </p>
+      <p>A bit of JavaScript handles tour dates though at the moment we aren't playing shows, since the cellist lives in Alaska and the violinist is in SoCal. </p>
       <p><br/></p>
       <h2>Poster Art</h2>
-      <ng-image-gallery images="images"></ng-image-gallery>
-      <p>As well as a website, I produced album and poster art for the band.</p>
+      <ng-image-gallery images="posters"></ng-image-gallery>
+      <p>As well as a website, I produced album and poster art for the band.  I tend to start working with physical materials (like pen, pencil, paper) and then take images from the physical creations into the computer, where I use Photoshop and Illustrator to create a digital image.  </p>
       <a class="site-link" href="http://themissingparts.net" target="_blank">themissingparts.net</a>
     </section>
 
 
     
-  </div>  <!-- END: entry -->
+  </section>  <!-- END: entry -->
+
+   <section  class="works-entry" ng-controller="tilehexCtrl">
+
+    <div class="entry-header">
+      <h1>Sculpture</h1>
+    </div>
+
+    <aside class="left-column">
+      <a id="Sculpture" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" >
+        <img src="img/LargeHex/LargeHexSculpture.jpg"></img>
+      </a>
+      
+      <div class="highlights ">
+        <h2><br>Bronze, Aluminum, Steel,<br> Wood, Origami, Paper</h2>
+      </div>
+    </aside>
+
+    <section class="entry-content">
+      <ng-image-gallery images="sculpture"></ng-image-gallery>
+      <p>During my last 3 semesters studying Art at the University of Arizona, I spent 18 to 20 hours a day in the university's extremely well equipped wood shop, metal shop and foundry.  The metal sculptures shown here are lost wax castings.</p>
+      
+      <p>I have also, more recently, developed a passion for origami.  I am currently working on a series of wood and paper lamps inspired by origami.  I highly recommend the documentary <a href="http://www.greenfusefilms.com/" target="_blank">Between the Folds</a>, which is one of those spectacular films that makes me, for one, proud to be human.</p>
+      
+      <p>Another of my fascinations is with fractals.  I love finding the self-similarity evident in nature, and even sometimes think I see it in human nature.  Due to the iterative nature of fractal creation, it takes a lot of time and effort to make a sculptural fractal, as the number of elements tends to increase exponentially as you iterate.  The hand fractal sculpture was one of the most time consuming pieces I've ever made.</p>
+
+      <p>I also occasionally make some furniture, like the guitar stand shown here, which was built in my grandfather's woodshop using some of his old black walnut wood I found.  He was an architect, and the A-frame design of the guitar stand was inspired by the house he designed and lived in next to the shop.</p>
+
+      <p><br/></p>
+      <p>For a commission, or to inquire about pricing, please <a href="index.html#/contact">send me an email</a>.</p>
+      <p><br/></p>
+    </section>
+
+
+    
+  </section>  <!-- END: entry -->
 
 
 </section> <!-- lower-container -->

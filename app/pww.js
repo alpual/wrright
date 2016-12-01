@@ -785,7 +785,6 @@ app.controller('preloadController', ['$scope', 'preloader', function($scope, pre
                     "img/LargeHex/LargeHexAbout.png",
                     "img/LargeHex/LargeHexWorks.png",
                     "img/LargeHex/LargeHexContact.png",  
-                    "img/SmallHexLogo.png",
                     "img/LargeHex/LargeHexAboutHover7.png",
                     "img/LargeHex/LargeHexLogoHover.png", 
                     "img/LargeHex/LargeHexWorksHover.png",   
@@ -799,6 +798,8 @@ app.controller('preloadController', ['$scope', 'preloader', function($scope, pre
           $scope.isLoading = false;
           $scope.isSuccessful = true;
           console.info( "Preload Successful" );
+          angular.element('#preload-text').addClass("hidden");
+          angular.element('.preloader').addClass("hidden");
       },
       function handleReject( imageLocation ) {
           // Loading failed on at least one image.
@@ -852,7 +853,7 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
     	$scope.entries = data.entries;
   	});
 
-	$scope.images = [
+	$scope.posters = [
 	    {
 	        title : 'Poster Image - The Missing Parts Present: Sueños',
 	        alt : 'Poster for The Missing Parts CD Release: Sueños',
@@ -872,6 +873,33 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
 	        title : 'Poster Image - The Missing Parts and Maedea',
 	        alt : 'Poster for The Missing Parts and Maedea at Solar Culture',
 	        url : '/img/Poster-with-Maedea.jpg',
+	    },
+	    {
+	        title : 'Poster Image - Globe',
+	        alt : 'Poster for The Missing Parts',
+	        url : '/img/Globe.jpg',
+	    },
+	];
+	$scope.sculpture = [
+	    {
+	        title : 'Sculpture - Fractal Hand',
+	        alt : 'Cast Aluminum Hand Fractal',
+	        url : '/img/hand-sculpture.jpg',
+	    },
+	    {
+	        title : 'Sculpture - Nautilus Origami Lamp',
+	        alt : 'Nautilus Origami Lamp',
+	        url : '/img/Nautilus.jpg',
+	    },
+	    {
+	        title : 'Guitar Stand',
+	        alt : 'Guitar Stand',
+	        url : '/img/GuitarStand.jpg',
+	    },
+	    {
+	        title : 'Sculpture - Egg Walker',
+	        alt : 'Bronze Mechanical Egg',
+	        url : '/img/egg-walker.jpg',
 	    },
 	];
 }]);

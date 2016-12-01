@@ -13,7 +13,7 @@
 			{
 				"row": 0,
 				"column": 1,
-				"color": "#D6B390"
+				"color": "#D9E8ED"
 			},
 			{
 				"row": 0,
@@ -95,8 +95,7 @@
 			{
 				"row": 1,
 				"column": 5,
-				"color": "#BAAA79",
-				"imgHover": "img/SmallHex/SmallHexSketch.jpg"
+				"color": "#BAAA79"
 			},
 			{
 				"row": 1,
@@ -270,7 +269,8 @@
 			{
 				"row": 4,
 				"column": 0,
-				"color": "#D6D9AC"
+				"color": "#D6D9AC",
+				"imgHover": "img/SmallHex/SmallHexSketch.jpg"
 			},
 			{
 				"row": 4,
@@ -803,7 +803,7 @@
 				"column": 1,
 				"color": "#D9E8ED",
 				"imgHover": "img/SmallHex/SmallHexKVLW.jpg",
-				"details": "<img src=\"img/Kat-Header.jpg\"></img><p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.</p>  You can check out her website at <a href=\"katvlwright.com\" target=\"_blank\">katvlwright.com</a>."
+				"details": "<img src=\"img/Kat-Header.jpg\"></img><p>Kat V. L. Wright is a talented graphic designer and illustrator.  She also happens to be my wife.</p>  You can check out her website at <a href=\"http://katvlwright.com\" target=\"_blank\">katvlwright.com</a>."
 			},
 			{
 				"row": 12,

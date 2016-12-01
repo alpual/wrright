@@ -44,7 +44,6 @@ app.controller('preloadController', function($scope, preloader) {
                     "img/LargeHex/LargeHexAbout.png",
                     "img/LargeHex/LargeHexWorks.png",
                     "img/LargeHex/LargeHexContact.png",  
-                    "img/SmallHexLogo.png",
                     "img/LargeHex/LargeHexAboutHover7.png",
                     "img/LargeHex/LargeHexLogoHover.png", 
                     "img/LargeHex/LargeHexWorksHover.png",   
@@ -58,6 +57,8 @@ app.controller('preloadController', function($scope, preloader) {
           $scope.isLoading = false;
           $scope.isSuccessful = true;
           console.info( "Preload Successful" );
+          angular.element('#preload-text').addClass("hidden");
+          angular.element('.preloader').addClass("hidden");
       },
       function handleReject( imageLocation ) {
           // Loading failed on at least one image.

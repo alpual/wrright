@@ -24,7 +24,7 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
     	$scope.entries = data.entries;
   	});
 
-	$scope.images = [
+	$scope.posters = [
 	    {
 	        title : 'Poster Image - The Missing Parts Present: Sueños',
 	        alt : 'Poster for The Missing Parts CD Release: Sueños',
@@ -44,6 +44,33 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
 	        title : 'Poster Image - The Missing Parts and Maedea',
 	        alt : 'Poster for The Missing Parts and Maedea at Solar Culture',
 	        url : '/img/Poster-with-Maedea.jpg',
+	    },
+	    {
+	        title : 'Poster Image - Globe',
+	        alt : 'Poster for The Missing Parts',
+	        url : '/img/Globe.jpg',
+	    },
+	];
+	$scope.sculpture = [
+	    {
+	        title : 'Sculpture - Fractal Hand',
+	        alt : 'Cast Aluminum Hand Fractal',
+	        url : '/img/hand-sculpture.jpg',
+	    },
+	    {
+	        title : 'Sculpture - Nautilus Origami Lamp',
+	        alt : 'Nautilus Origami Lamp',
+	        url : '/img/Nautilus.jpg',
+	    },
+	    {
+	        title : 'Guitar Stand',
+	        alt : 'Guitar Stand',
+	        url : '/img/GuitarStand.jpg',
+	    },
+	    {
+	        title : 'Sculpture - Egg Walker',
+	        alt : 'Bronze Mechanical Egg',
+	        url : '/img/egg-walker.jpg',
 	    },
 	];
 }]);
