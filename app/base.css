@@ -1267,7 +1267,7 @@ ol {
 
 /* line 26, animations.scss */
 .view-container {
-  transition: all 120mx ease-in-out;
+  transition: all 120ms ease-in-out;
 }
 
 /* line 29, animations.scss */

@@ -10,14 +10,15 @@ var app = angular.module('myApp', [
   'myApp.pageslide',
   'myApp.tilehex',
   'ngAnimate', 
-  'thatisuday.ng-image-gallery',
+  'thatisuday.ng-image-gallery'
 ]).
-config(['$routeProvider', function($routeProvider) {
+config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $routeProvider.
+
   otherwise({
   	redirectTo: '/view1'
   });
+  // use the HTML5 History API
 }]);
-
 
 

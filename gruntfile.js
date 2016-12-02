@@ -12,7 +12,7 @@ module.exports = function(grunt) {
             'app/view2/view2.js',
             'app/works/works.js',
             'app/contact/contact.js',
-            'app/directives.js'        
+            'app/directives.js'      
           ];
   var minSafeFiles = [
             'app/angular-pageslide-directive.annotated.js',

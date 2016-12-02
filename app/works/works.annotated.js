@@ -5,7 +5,8 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/works', {
     templateUrl: 'works/works.html',
-    controller: 'WorksCtrl'
+    controller: 'WorksCtrl',
+    reloadOnSearch: false
   });
 }])
 .config(['ngImageGalleryOptsProvider', function(ngImageGalleryOptsProvider){
@@ -19,11 +20,8 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
     });
 }])
 
-.controller('WorksCtrl', ['$scope', '$http', function($scope, $http) {
-	$http.get('json/works.json').success(function(data) {
-    	$scope.entries = data.entries;
-  	});
-
+.controller('WorksCtrl', ['$scope',  function($scope)
+ {
 	$scope.posters = [
 	    {
 	        title : 'Poster Image - The Missing Parts Present: Sueños',
@@ -71,7 +69,7 @@ angular.module('myApp.works', ['ngRoute', 'thatisuday.ng-image-gallery'])
 	        title : 'Sculpture - Egg Walker',
 	        alt : 'Bronze Mechanical Egg',
 	        url : '/img/egg-walker.jpg',
-	    },
+	    }
 	];
 }]);
 

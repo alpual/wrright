@@ -11,7 +11,7 @@
   
 </header> <!-- END: top-bar -->
   
-<section id="top-container" class="clearfix centered-content">
+<section id="top-container" du-scroll-container class="clearfix centered-content">
   <div  class="header-entry slow-fade pseudo-fade" ng-controller="tilehexCtrl">
 
     <div class="entry-header">
@@ -31,12 +31,12 @@
 
         <h2>Jump to:</h2>
         <ul>
-          <li><a href="#InkaJungleTours">Inka Jungle Tours</a></li>
-          <li><a href="#Upohar">Upohar Ethnic Cuisines</a></li>
-          <li><a href="#Alchemy">Alchemy Integrative Wellness</a></li>
-          <li><a href="#CaitlinSabo">Caitlin Sabo - Fine Art Photography</a></li>
-          <li><a href="#TheMissingParts">The Missing Parts</a></li>
-          <li><a href="#Sculpture">My Sculpture</a></li>
+          <li><a href="#/works#InkaJungleTours">Inka Jungle Tours</a></li>
+          <li><a href="#/works#Upohar" >Upohar Ethnic Cuisines</a></li>
+          <li><a href="#/works#Alchemy" target="_self">Alchemy Integrative Wellness</a></li>
+          <li><a href="#/works#CaitlinSabo">Caitlin Sabo - Fine Art Photography</a></li>
+          <li><a href="#/works#TheMissingParts">The Missing Parts</a></li>
+          <li><a href="#/works#Sculpture">My Sculpture</a></li>
         </ul>
 
         <p>Like what you see?<br>  Have a project in mind?</p> 
@@ -91,7 +91,7 @@
 
     <aside class="left-column">
       <a id="Upohar" tilehex cardinality="free" hex-size="large" hex-class="clearfix fade" href="http://upoharethniccuisines.com" target="_blank">
-        <img src="img/LargeHex/LargeHexInka.jpg"></img>
+        <img src="img/LargeHex/LargeHexUpohar.jpg"></img>
       </a>
       
       <div class="highlights">
@@ -219,6 +219,7 @@
 
     <section class="entry-content">
       <ng-image-gallery images="sculpture"></ng-image-gallery>
+      <p>sculpture: {{sculpture}}</p>
       <p>During my last 3 semesters studying Art at the University of Arizona, I spent 18 to 20 hours a day in the university's extremely well equipped wood shop, metal shop and foundry.  The metal sculptures shown here are lost wax castings.</p>
       
       <p>I have also, more recently, developed a passion for origami.  I am currently working on a series of wood and paper lamps inspired by origami.  I highly recommend the documentary <a href="http://www.greenfusefilms.com/" target="_blank">Between the Folds</a>, which is one of those spectacular films that makes me, for one, proud to be human.</p>
